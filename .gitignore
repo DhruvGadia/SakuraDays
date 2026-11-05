@@ -1,0 +1,24 @@
+# Unreal-generated files
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Plugins/**/Intermediate/
+
+# Generated IDE files
+/.vs/
+/.idea/
+/*.sln
+/*.suo
+/*.opensdf
+/*.sdf
+/*.VC.db
+/*.VC.opendb
+/*.xcodeproj/
+/*.xcworkspace/
+
+# Local tool output and Blender backups
+/.dream-loop/
+*.blend[0-9]*
+Thumbs.db
+.DS_Store
