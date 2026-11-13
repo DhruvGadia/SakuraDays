@@ -1,0 +1,220 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "tested_on": "2026-11-05",
+  "evidence_reviewed_on": "2026-11-14",
+  "method": "PIE Character.add_movement_input; no route teleportation",
+  "phase": "complete",
+  "distance_cm": 22595.199361821633,
+  "trunk_min_center_distance_cm": 54.92884994575187,
+  "results": [
+    {
+      "name": "cafe_approach",
+      "passed": true,
+      "position": [
+        325.8616405881078,
+        -413.1033258823163,
+        107.15000200271606
+      ],
+      "time": 0.6706207022070885,
+      "distance_to_goal": 25.104272723646346
+    },
+    {
+      "name": "left_sidewalk",
+      "passed": true,
+      "position": [
+        971.4142834992988,
+        -334.1445898295012,
+        107.15000200271606
+      ],
+      "time": 1.1968095004558563,
+      "distance_to_goal": 28.88461204020691
+    },
+    {
+      "name": "house01_front",
+      "passed": true,
+      "position": [
+        1870.5565385599532,
+        -475.020614994854,
+        96.62383794784546
+      ],
+      "time": 1.5970567986369133,
+      "distance_to_goal": 29.861542100182902
+    },
+    {
+      "name": "left_return",
+      "passed": true,
+      "position": [
+        2577.517253865732,
+        -334.9297954226968,
+        107.03726387023926
+      ],
+      "time": 1.3028649017214775,
+      "distance_to_goal": 23.0168798199839
+    },
+    {
+      "name": "far_left",
+      "passed": true,
+      "position": [
+        4573.2715517668685,
+        -329.9816291273191,
+        107.03726387023926
+      ],
+      "time": 3.428695000708103,
+      "distance_to_goal": 26.728454546422153
+    },
+    {
+      "name": "far_crossing",
+      "passed": true,
+      "position": [
+        4600.370293174594,
+        577.296469883736,
+        107.15000343251904
+      ],
+      "time": 1.7154240980744362,
+      "distance_to_goal": 22.70654964487686
+    },
+    {
+      "name": "house03_front",
+      "passed": true,
+      "position": [
+        3327.5516668552136,
+        761.67706912706,
+        105.14463806081494
+      ],
+      "time": 2.3229065015912056,
+      "distance_to_goal": 27.75132818599886
+    },
+    {
+      "name": "right_sidewalk",
+      "passed": true,
+      "position": [
+        2324.49762622091,
+        604.086220428638,
+        107.05571460653027
+      ],
+      "time": 1.8029612973332405,
+      "distance_to_goal": 24.83608036407608
+    },
+    {
+      "name": "house02_front",
+      "passed": true,
+      "position": [
+        1127.1438612150962,
+        761.2141900492314,
+        105.30481672216138
+      ],
+      "time": 2.133948903530836,
+      "distance_to_goal": 27.406596991376762
+    },
+    {
+      "name": "near_right",
+      "passed": true,
+      "position": [
+        -472.21740162708295,
+        602.8982290969619,
+        106.99632739949902
+      ],
+      "time": 2.793583996593952,
+      "distance_to_goal": 27.93335827016311
+    },
+    {
+      "name": "near_crossing",
+      "passed": true,
+      "position": [
+        -500.2136828257261,
+        -300.62135614843356,
+        107.15000106846878
+      ],
+      "time": 1.6869767010211945,
+      "distance_to_goal": 29.37942094233977
+    },
+    {
+      "name": "cafe_collision_start",
+      "passed": true,
+      "position": [
+        320.0470857273579,
+        -368.79098432828096,
+        107.15000106846878
+      ],
+      "time": 1.5481876991689205,
+      "distance_to_goal": 29.97730462064107
+    },
+    {
+      "name": "cafe_collision",
+      "passed": true,
+      "position": [
+        350.7379749464167,
+        -464.9066563718661,
+        103.81688255122799
+      ],
+      "time": 2.5056839026510715,
+      "distance_to_goal": 185.0948147908633
+    },
+    {
+      "name": "tree_collision_start",
+      "passed": true,
+      "position": [
+        1222.3793894831945,
+        -334.1436245587604,
+        107.15832275203365
+      ],
+      "time": 1.7271043993532658,
+      "distance_to_goal": 27.92969297727833
+    },
+    {
+      "name": "tree_collision",
+      "passed": true,
+      "position": [
+        1250.6691479947222,
+        -100.4281714296045,
+        92.150001114509
+      ],
+      "time": 2.509673699736595,
+      "distance_to_goal": 0.7944116136929534
+    },
+    {
+      "name": "tree_leave",
+      "passed": true,
+      "position": [
+        1109.0120271704684,
+        -303.02032524745164,
+        107.11229468076476
+      ],
+      "time": 0.6923018991947174,
+      "distance_to_goal": 28.44502563673579
+    },
+    {
+      "name": "far_barrier_start",
+      "passed": true,
+      "position": [
+        4671.044148238593,
+        -330.01999650108814,
+        107.11229468076476
+      ],
+      "time": 6.190659500658512,
+      "distance_to_goal": 28.955858666056233
+    },
+    {
+      "name": "far_barrier_collision",
+      "passed": true,
+      "position": [
+        4864.966918292507,
+        -329.9970464023376,
+        107.15000024851838
+      ],
+      "time": 2.502826899290085,
+      "distance_to_goal": 235.0330817260513
+    },
+    {
+      "name": "return_spawn",
+      "passed": true,
+      "position": [
+        26.072372307850856,
+        -320.0535762565615,
+        107.15000024851838
+      ],
+      "time": 8.324160698801279,
+      "distance_to_goal": 26.072427354860064
+    }
+  ]
+}

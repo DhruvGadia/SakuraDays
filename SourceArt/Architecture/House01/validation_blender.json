@@ -1,0 +1,158 @@
+{
+  "source_module_checks": {
+    "SM_Wall_Solid_2m_Cream": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Wall_Window_2m_Cream": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Wall_Solid_2m_Siding": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Wall_Window_2m_Siding": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Wall_Entry_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Wall_BalconyDoor_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Window_Slider_140x140": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Window_Balcony_140x220": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Door_Entry_110x220": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Foundation_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_StoryTrim_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_CornerTrim_280": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Roof_Slope_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Roof_Ridge_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Gable_End_6m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Roof_Bargeboard": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Balcony_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Entry_Canopy_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_AC_Outdoor_85": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Gutter_2m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Downpipe_280": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Entry_Step": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    },
+    "SM_Balcony_EndRail_1m": {
+      "uv_degenerate_triangles": 0,
+      "uv_overlapping_triangle_pairs": 0,
+      "material_indices_valid": true,
+      "uv_channels": 2
+    }
+  },
+  "fbx_version": 7400,
+  "fbx_global_settings": {
+    "UpAxis": 2,
+    "UpAxisSign": 1,
+    "FrontAxis": 1,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": -1,
+    "UnitScaleFactor": 100.0,
+    "OriginalUnitScaleFactor": 100.0
+  },
+  "roundtrip_objects": 141,
+  "assembled_uv1_overlapping_object_bounds": 0,
+  "max_world_bounds_error_m": 4.76837158203125e-07,
+  "errors": [],
+  "passed": true
+}

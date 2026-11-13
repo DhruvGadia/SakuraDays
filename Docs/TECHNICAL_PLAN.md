@@ -26,6 +26,16 @@ Create planned content folders in the Unreal Content Browser as assets are added
 4. Add sakura meshes and a Niagara emitter for drifting petals. Use a bounded effect around the playable route. Tune spawn rate, lifetime, and bounds from the player camera during Play In Editor.
 5. Run a fresh Play In Editor test. Spawn, reach the café, enter and leave interaction range, complete and repeat dialogue, and confirm the street and petals read clearly during play.
 
+## Prototype level
+
+Open `/Game/SakuraDays/Maps/L_SakuraStreet` in the Content Browser. The graybox contains a 60 m ground strip, a 6 m road, two 3 m sidewalks with 15 cm curbs, perimeter collision, a café mass, three house plots, seven tree markers, and a player start on the left sidewalk. It explicitly uses `BP_ThirdPersonGameMode` and its existing player controls. The project startup map remains `Lvl_ThirdPerson`. See [the graybox layout and validation report](GRAYBOX_VALIDATION.md) for dimensions, test coverage, and remaining issues.
+
+`CAM_SakuraStreet_Reference` is a separate camera actor for repeatable framing. Its location is X -480, Y -180, Z 210 cm, with pitch -4 degrees, yaw -7, roll 0, a 75 degree horizontal field of view, and a constrained 16:9 aspect ratio. The street runs along +X. Select this actor in the Outliner and use Pilot to preview its framing. Use a 1920 by 1080 viewport for target comparisons. The camera has no automatic player activation, so ordinary Play In Editor uses the Third Person camera. The reference framing places the café on the left and looks down the road; it remains a spatial approximation of the supplied target.
+
+Desktop/Scalable is retained. Hardware ray tracing and Lumen hardware ray tracing are disabled in the project configuration. Restart the editor after changing these settings.
+
+Validation on 5 November 2026 reopened this map after the graphics change and confirmed `r.RayTracing=0` in the renderer log. Play In Editor spawned the existing Third Person character. Brief W and D key inputs changed its forward and lateral position. Space produced a jump approximately 127 cm above its standing capsule position and the character returned to the same standing height. This was a basic input and collision smoke test, with no full-route playtest or performance benchmark.
+
 ## Source control
 
 Install Git LFS on each development machine and run `git lfs pull` after cloning from an LFS-capable remote. Verify asset rules with `git lfs track` and check the assets in a checkpoint with `git lfs fsck`. Coordinate edits to shared binary assets before making changes on separate branches.

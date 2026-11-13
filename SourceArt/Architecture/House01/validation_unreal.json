@@ -1,0 +1,100 @@
+{
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "isolated_project": "../../../../../../Users/HP/Documents/Unreal Projects/sakuradays/Saved/House01UEValidation/",
+  "force_front_x_axis": true,
+  "convert_scene": true,
+  "convert_scene_unit": true,
+  "uniform_scale": 1,
+  "results": {
+    "SM_SakuraHouse01_Assembled": {
+      "dimensions_cm": [
+        770.5,
+        894.0000610351562,
+        716.5
+      ],
+      "origin_cm": [
+        18.75,
+        3.0517578125e-05,
+        358.25
+      ],
+      "material_slots": 8,
+      "asset": "/Game/House01Validation/Check_08d64335/SM_SakuraHouse01_Assembled.SM_SakuraHouse01_Assembled",
+      "source_uv_channels_sampled": [
+        0,
+        1
+      ],
+      "source_uv_samples": [
+        [
+          0.40674203634262085,
+          0.8597148656845093
+        ],
+        [
+          0.7008727192878723,
+          0.07044386863708496
+        ]
+      ],
+      "source_vertex_instances": 28488
+    },
+    "SM_Wall_Entry_2m": {
+      "dimensions_cm": [
+        18.800019085407257,
+        200.00000157361012,
+        280.0
+      ],
+      "origin_cm": [
+        -8.6000095307827,
+        -99.99999921319494,
+        140.0
+      ],
+      "material_slots": 1,
+      "asset": "/Game/House01Validation/Check_08d64335/SM_Wall_Entry_2m.SM_Wall_Entry_2m",
+      "source_uv_channels_sampled": [
+        0,
+        1
+      ],
+      "source_uv_samples": [
+        [
+          0.10339972376823425,
+          0.31920069456100464
+        ],
+        [
+          0.10339972376823425,
+          0.31920069456100464
+        ]
+      ],
+      "source_vertex_instances": 936
+    },
+    "SM_Door_Entry_110x220": {
+      "dimensions_cm": [
+        21.000011920928955,
+        122.00000143051147,
+        226.0
+      ],
+      "origin_cm": [
+        -7.500005483627319,
+        -54.99999928474426,
+        113.0
+      ],
+      "material_slots": 2,
+      "asset": "/Game/House01Validation/Check_08d64335/SM_Door_Entry_110x220.SM_Door_Entry_110x220",
+      "source_uv_channels_sampled": [
+        0,
+        1
+      ],
+      "source_uv_samples": [
+        [
+          0.3926442563533783,
+          0.51282799243927
+        ],
+        [
+          0.3926442563533783,
+          0.51282799243927
+        ]
+      ],
+      "source_vertex_instances": 468
+    },
+    "front_direction_check": "Door width mapped to Unreal Y; depth to X; Z height retained"
+  },
+  "errors": [],
+  "passed": true
+}

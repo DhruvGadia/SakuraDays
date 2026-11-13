@@ -1,0 +1,889 @@
+{
+  "blender": "5.2.3 LTS",
+  "unit_system": "METRIC",
+  "meters_per_unit": 1,
+  "front_axis_blender": "-Y",
+  "up_axis": "Z",
+  "body_dimensions_m": [
+    8,
+    6,
+    5.9
+  ],
+  "assembled_bounds_m": {
+    "min": [
+      -4.470000267028809,
+      -4.039999961853027,
+      0.0
+    ],
+    "max": [
+      4.470000267028809,
+      3.6650002002716064,
+      7.164999961853027
+    ],
+    "dimensions": [
+      8.940000534057617,
+      7.705000162124634,
+      7.164999961853027
+    ]
+  },
+  "assembly_objects": 141,
+  "modules": {
+    "SM_Wall_Solid_2m_Cream": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Wall_Window_2m_Cream": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Wall_Solid_2m_Siding": {
+      "vertices": 112,
+      "triangles": 168,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.00800000037997961,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18800000753253698,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Wall_Window_2m_Siding": {
+      "vertices": 192,
+      "triangles": 288,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.00800000037997961,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18800000753253698,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Wall_Entry_2m": {
+      "vertices": 208,
+      "triangles": 312,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.00800000037997961,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18800000753253698,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Wall_BalconyDoor_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Window_Slider_140x140": {
+      "vertices": 72,
+      "triangles": 100,
+      "bounds_local_m": {
+        "min": [
+          -0.07999999821186066,
+          -0.07999999821186066,
+          -0.04500000178813934
+        ],
+        "max": [
+          1.4800000190734863,
+          0.20000000298023224,
+          1.399999976158142
+        ],
+        "dimensions": [
+          1.560000017285347,
+          0.2800000011920929,
+          1.4449999779462814
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Window_Balcony_140x220": {
+      "vertices": 72,
+      "triangles": 100,
+      "bounds_local_m": {
+        "min": [
+          -0.07999999821186066,
+          -0.07999999821186066,
+          -0.04500000178813934
+        ],
+        "max": [
+          1.4800000190734863,
+          0.20000000298023224,
+          2.200000047683716
+        ],
+        "dimensions": [
+          1.560000017285347,
+          0.2800000011920929,
+          2.245000049471855
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Door_Entry_110x220": {
+      "vertices": 104,
+      "triangles": 156,
+      "bounds_local_m": {
+        "min": [
+          -0.05999999865889549,
+          -0.029999999329447746,
+          0.0
+        ],
+        "max": [
+          1.159999966621399,
+          0.18000000715255737,
+          2.259999990463257
+        ],
+        "dimensions": [
+          1.2199999652802944,
+          0.21000000648200512,
+          2.259999990463257
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Foundation_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2199999988079071,
+          0.30000001192092896
+        ],
+        "dimensions": [
+          2.0,
+          0.2199999988079071,
+          0.30000001192092896
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_StoryTrim_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          0.10000000149011612
+        ],
+        "dimensions": [
+          2.0,
+          0.2500000037252903,
+          0.10000000149011612
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_CornerTrim_280": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_local_m": {
+        "min": [
+          -0.03999999910593033,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          0.09000000357627869,
+          0.08500000089406967,
+          2.799999952316284
+        ],
+        "dimensions": [
+          0.13000000268220901,
+          0.13000000268220901,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Roof_Slope_2m": {
+      "vertices": 64,
+      "triangles": 96,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          -0.18000000715255737
+        ],
+        "max": [
+          2.0,
+          3.640000104904175,
+          1.350000023841858
+        ],
+        "dimensions": [
+          2.0,
+          3.640000104904175,
+          1.5300000309944153
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Roof_Ridge_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.10499999672174454,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10499999672174454,
+          0.14000000059604645
+        ],
+        "dimensions": [
+          2.0,
+          0.20999999344348907,
+          0.14000000059604645
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Gable_End_6m": {
+      "vertices": 6,
+      "triangles": 8,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.18000000715255737,
+          6.0,
+          1.125
+        ],
+        "dimensions": [
+          0.18000000715255737,
+          6.0,
+          1.125
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Roof_Bargeboard": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_local_m": {
+        "min": [
+          -0.07000000029802322,
+          -0.6245786547660828,
+          -0.0655430406332016
+        ],
+        "max": [
+          0.07000000029802322,
+          6.624578475952148,
+          1.4155430793762207
+        ],
+        "dimensions": [
+          0.14000000059604645,
+          7.249157130718231,
+          1.4810861200094223
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Balcony_2m": {
+      "vertices": 112,
+      "triangles": 168,
+      "bounds_local_m": {
+        "min": [
+          -0.02500000037252903,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          2.0250000953674316,
+          1.0,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          2.0500000957399607,
+          1.0399999991059303,
+          1.1200000047683716
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Entry_Canopy_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.02500000037252903,
+          -0.6196011900901794
+        ],
+        "max": [
+          2.0,
+          0.8500000238418579,
+          0.10000000149011612
+        ],
+        "dimensions": [
+          2.0,
+          0.8750000242143869,
+          0.7196011915802956
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_AC_Outdoor_85": {
+      "vertices": 120,
+      "triangles": 180,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.026000000536441803,
+          -0.07999999821186066
+        ],
+        "max": [
+          0.8500000238418579,
+          0.4099999964237213,
+          0.6000000238418579
+        ],
+        "dimensions": [
+          0.8500000238418579,
+          0.4359999969601631,
+          0.6800000220537186
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Gutter_2m": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          -0.02500000037252903,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.15000000596046448,
+          0.11999999731779099
+        ],
+        "dimensions": [
+          2.0,
+          0.1750000063329935,
+          0.11999999731779099
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Downpipe_280": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.07500000298023224,
+          0.07500000298023224,
+          2.799999952316284
+        ],
+        "dimensions": [
+          0.07500000298023224,
+          0.07500000298023224,
+          2.799999952316284
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Entry_Step": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_local_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.7999999523162842,
+          0.8999999761581421,
+          0.30000001192092896
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.8999999761581421,
+          0.30000001192092896
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SM_Balcony_EndRail_1m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_local_m": {
+        "min": [
+          -0.03999999910593033,
+          0.0,
+          0.12999999523162842
+        ],
+        "max": [
+          0.03999999910593033,
+          1.0299999713897705,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.07999999821186066,
+          1.0299999713897705,
+          0.9900000095367432
+        ]
+      },
+      "uv_layers": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_in_unit_square": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pivot_local_m": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "material_slots": [
+    "M_Plaster_Cream",
+    "M_Siding_BlueGray",
+    "M_Trim_Plum",
+    "M_Roof_Slate",
+    "M_Timber_Warm",
+    "M_Glass_Blue",
+    "M_Glass_Reflection",
+    "M_Concrete"
+  ],
+  "export_settings": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "FACE",
+    "use_triangles": true,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "assembled_triangles": 9496,
+  "assembled_fbx_uv1": "Unique 12x12 per-object lightmap atlas; source modules retain local UVs"
+}
