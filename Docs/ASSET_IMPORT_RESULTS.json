@@ -1,0 +1,105 @@
+{
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "project": "C:\\Users\\HP\\Documents\\Unreal Projects\\sakuradays",
+  "recipe": "pilot_v2_import_normals_mikk_masked_040",
+  "mode": "import",
+  "results": {
+    "house": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "dimensions_cm": [
+        770.5,
+        894.0000610351562,
+        716.5
+      ],
+      "expected_dimensions_cm": [
+        770.5000162124634,
+        894.0000534057617,
+        716.4999961853027
+      ],
+      "max_dimension_error_cm": 1.621246337890625e-05,
+      "bounds_origin_cm": [
+        18.75,
+        3.0517578125e-05,
+        358.25
+      ],
+      "ground_pivot_bottom_cm": 0.0,
+      "triangles": 9496,
+      "normal_samples": 18998,
+      "invalid_normals": 0,
+      "normal_policy": "Import authored normals; compute Mikk tangents",
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Plaster_Cream",
+        "M_Siding_BlueGray",
+        "M_Trim_Plum",
+        "M_Roof_Slate",
+        "M_Timber_Warm",
+        "M_Glass_Blue",
+        "M_Glass_Reflection",
+        "M_Concrete"
+      ],
+      "materials": [
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Plaster_Cream.M_Plaster_Cream",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Siding_BlueGray.M_Siding_BlueGray",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Trim_Plum.M_Trim_Plum",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Roof_Slate.M_Roof_Slate",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Timber_Warm.M_Timber_Warm",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Glass_Blue.M_Glass_Blue",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Glass_Reflection.M_Glass_Reflection",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Concrete.M_Concrete"
+      ],
+      "convex_hulls": 0,
+      "simple_collision_shapes": 3,
+      "errors": [],
+      "source": "SourceArt\\Architecture\\House01\\Exports\\SM_SakuraHouse01_Assembled.fbx",
+      "source_sha256": "db694740cbea39d1f97a6222353c2f537026a7a65bdf575e7a42aaa16c028391",
+      "fingerprint": "65c36027274b06c3898ddc1efef9bc424f4c3ea32a9e4226007bba4f053d3c67",
+      "action": "reused without writing",
+      "collision_policy": "Three simple boxes: 600x800x590cm closed exterior body and two entry steps; roof/balcony are not walkable targets"
+    },
+    "tree": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "dimensions_cm": [
+        917.8829040527344,
+        961.2861938476562,
+        767.8777465820312
+      ],
+      "expected_dimensions_cm": [
+        917.8829193115234,
+        961.286211013794,
+        767.877721786499
+      ],
+      "max_dimension_error_cm": 2.47955322265625e-05,
+      "bounds_origin_cm": [
+        16.309402465820312,
+        10.153900146484375,
+        383.9388732910156
+      ],
+      "ground_pivot_bottom_cm": 0.0,
+      "triangles": 11964,
+      "normal_samples": 14400,
+      "invalid_normals": 0,
+      "normal_policy": "Import authored normals; compute Mikk tangents",
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "materials": [
+        "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/Materials/M_Sakura_Bark.M_Sakura_Bark",
+        "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/Materials/M_Sakura_Blossom.M_Sakura_Blossom"
+      ],
+      "convex_hulls": 3,
+      "simple_collision_shapes": 0,
+      "errors": [],
+      "source": "SourceArt\\Foliage\\SakuraTreeKit\\Exports\\SM_Sakura_Hero_LOD0.fbx",
+      "source_sha256": "580d1512a7db42b99e8d82f9520aab22b0696f752f9a71330cf479f3d9dd7bae",
+      "fingerprint": "356c82d91a4ca1fd62175187eaec6156d888358384246a830b0c9cb3489cf126",
+      "action": "reused without writing",
+      "collision_policy": "Three imported UCX trunk hulls; canopy is nonblocking"
+    }
+  },
+  "errors": [],
+  "remaining_assets": "NOT processed; pilot allowlist contains exactly one house and one tree",
+  "passed": true
+}

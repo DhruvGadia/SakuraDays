@@ -1,0 +1,307 @@
+{
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "isolated_project": "../../../../../../Users/HP/Documents/Unreal Projects/sakuradays/Saved/SakuraTreeUEValidation/",
+  "import_settings": {
+    "force_front_x_axis": true,
+    "convert_scene": true,
+    "convert_scene_unit": true,
+    "import_uniform_scale": 1,
+    "combine_meshes": true,
+    "auto_generate_collision": false,
+    "generate_lightmap_uvs": false,
+    "vertex_color_import_option": "REPLACE"
+  },
+  "scope": "Fresh isolated static mesh imports; materials/LOD transitions/gameplay/performance not tested",
+  "results": {
+    "SM_Sakura_Hero_LOD0": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Hero_LOD0.SM_Sakura_Hero_LOD0",
+      "dimensions_cm": [
+        917.8829040527344,
+        961.2861938476562,
+        767.8777465820312
+      ],
+      "bounds_center_cm": [
+        16.309402465820312,
+        10.153900146484375,
+        383.9388732910156
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 11964,
+      "source_vertex_instances": 35892,
+      "expected_dimensions_cm": [
+        917.8829193115234,
+        961.286211013794,
+        767.877721786499
+      ],
+      "max_dimensions_error_cm": 2.47955322265625e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Hero_LOD1.SM_Sakura_Hero_LOD1",
+      "dimensions_cm": [
+        934.82177734375,
+        964.8628845214844,
+        773.5746459960938
+      ],
+      "bounds_center_cm": [
+        16.055694580078125,
+        7.5927886962890625,
+        386.7873229980469
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 5604,
+      "source_vertex_instances": 16812,
+      "expected_dimensions_cm": [
+        934.8217487335205,
+        964.8629188537598,
+        773.5746383666992
+      ],
+      "max_dimensions_error_cm": 3.4332275390625e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Hero_LOD2.SM_Sakura_Hero_LOD2",
+      "dimensions_cm": [
+        935.5902099609375,
+        970.9743957519531,
+        783.242431640625
+      ],
+      "bounds_center_cm": [
+        3.125732421875,
+        4.0099029541015625,
+        391.6212158203125
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 1908,
+      "source_vertex_instances": 5724,
+      "expected_dimensions_cm": [
+        935.5902194976807,
+        970.9743976593018,
+        783.2424163818359
+      ],
+      "max_dimensions_error_cm": 1.52587890625e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Spread_LOD0.SM_Sakura_Spread_LOD0",
+      "dimensions_cm": [
+        590.5541839599609,
+        627.7802429199219,
+        595.1270751953125
+      ],
+      "bounds_center_cm": [
+        -40.717933654785156,
+        -32.94908142089844,
+        297.56353759765625
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 9572,
+      "source_vertex_instances": 28716,
+      "expected_dimensions_cm": [
+        590.5541896820068,
+        627.7802228927612,
+        595.1271057128906
+      ],
+      "max_dimensions_error_cm": 3.0517578125e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Spread_LOD1.SM_Sakura_Spread_LOD1",
+      "dimensions_cm": [
+        600.7686157226562,
+        642.1470947265625,
+        599.736328125
+      ],
+      "bounds_center_cm": [
+        -39.52862548828125,
+        -33.330413818359375,
+        299.8681640625
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 4484,
+      "source_vertex_instances": 13452,
+      "expected_dimensions_cm": [
+        600.7686376571655,
+        642.1471118927002,
+        599.7363090515137
+      ],
+      "max_dimensions_error_cm": 2.193450927734375e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Spread_LOD2.SM_Sakura_Spread_LOD2",
+      "dimensions_cm": [
+        621.2530212402344,
+        645.6543273925781,
+        611.2868041992188
+      ],
+      "bounds_center_cm": [
+        -36.34062194824219,
+        -27.488510131835938,
+        305.6434020996094
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 1556,
+      "source_vertex_instances": 4668,
+      "expected_dimensions_cm": [
+        621.2530136108398,
+        645.6543207168579,
+        611.2868309020996
+      ],
+      "max_dimensions_error_cm": 2.6702880859375e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Weeping_LOD0.SM_Sakura_Weeping_LOD0",
+      "dimensions_cm": [
+        882.3230285644531,
+        749.376953125,
+        738.8258666992188
+      ],
+      "bounds_center_cm": [
+        70.07707214355469,
+        -29.660369873046875,
+        369.4129333496094
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 19792,
+      "source_vertex_instances": 59376,
+      "expected_dimensions_cm": [
+        882.3230266571045,
+        749.3769645690918,
+        738.8258934020996
+      ],
+      "max_dimensions_error_cm": 2.6702880859375e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Weeping_LOD1.SM_Sakura_Weeping_LOD1",
+      "dimensions_cm": [
+        881.1803283691406,
+        757.9540100097656,
+        745.6378173828125
+      ],
+      "bounds_center_cm": [
+        67.56373596191406,
+        -32.30528259277344,
+        372.81890869140625
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 9588,
+      "source_vertex_instances": 28764,
+      "expected_dimensions_cm": [
+        881.1803340911865,
+        757.9540491104126,
+        745.6377983093262
+      ],
+      "max_dimensions_error_cm": 3.910064697265625e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "asset": "/Game/SakuraTreeValidation/Check_e9257df1/SM_Sakura_Weeping_LOD2.SM_Sakura_Weeping_LOD2",
+      "dimensions_cm": [
+        896.5220031738281,
+        777.9349060058594,
+        753.2388305664062
+      ],
+      "bounds_center_cm": [
+        65.71073913574219,
+        -33.48487854003906,
+        376.6194152832031
+      ],
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": 1,
+      "convex_collision_hulls": 3,
+      "lods_in_individual_file": 1,
+      "source_triangles": 3108,
+      "source_vertex_instances": 9324,
+      "expected_dimensions_cm": [
+        896.5220212936401,
+        777.9349327087402,
+        753.2388210296631
+      ],
+      "max_dimensions_error_cm": 2.6702880859375e-05,
+      "uv0_sample": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "errors": [],
+  "passed": true
+}

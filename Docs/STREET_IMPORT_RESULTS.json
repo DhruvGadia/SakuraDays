@@ -1,0 +1,529 @@
+{
+  "recipe": "street_v1_authored_normals_cafe_palette_local_collision",
+  "mode": "import",
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "assets": {
+    "house": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+    "tree_hero": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+    "cafe": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01",
+    "chair": "/Game/SakuraDays/Environment/Props/Cafe01/Chair/Revisions/r_8ba7a2355979/SM_Cafe_Chair.SM_Cafe_Chair",
+    "table": "/Game/SakuraDays/Environment/Props/Cafe01/Table/Revisions/r_84a736e826fc/SM_Cafe_Table.SM_Cafe_Table",
+    "bench": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+    "lamp": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+    "pot": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+    "planter": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+    "ac": "/Game/SakuraDays/Environment/Props/Cafe01/AC/Revisions/r_49cfe2519197/SM_Cafe_AC.SM_Cafe_AC",
+    "menu": "/Game/SakuraDays/Environment/Props/Cafe01/MenuBoard/Revisions/r_811ea06202d5/SM_Cafe_MenuBoard.SM_Cafe_MenuBoard",
+    "tree_spread": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+    "tree_weeping": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping"
+  },
+  "results": {
+    "house": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "dimensions_cm": [
+        770.5,
+        894.0000610351562,
+        716.5
+      ],
+      "expected_dimensions_cm": [
+        770.5000162124634,
+        894.0000534057617,
+        716.4999961853027
+      ],
+      "max_dimension_error_cm": 1.621246337890625e-05,
+      "bounds_origin_cm": [
+        18.75,
+        3.0517578125e-05,
+        358.25
+      ],
+      "ground_pivot_bottom_cm": 0.0,
+      "triangles": 9496,
+      "normal_samples": 18998,
+      "invalid_normals": 0,
+      "normal_policy": "Import authored normals; compute Mikk tangents",
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Plaster_Cream",
+        "M_Siding_BlueGray",
+        "M_Trim_Plum",
+        "M_Roof_Slate",
+        "M_Timber_Warm",
+        "M_Glass_Blue",
+        "M_Glass_Reflection",
+        "M_Concrete"
+      ],
+      "materials": [
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Plaster_Cream.M_Plaster_Cream",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Siding_BlueGray.M_Siding_BlueGray",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Trim_Plum.M_Trim_Plum",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Roof_Slate.M_Roof_Slate",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Timber_Warm.M_Timber_Warm",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Glass_Blue.M_Glass_Blue",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Glass_Reflection.M_Glass_Reflection",
+        "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/Materials/M_Concrete.M_Concrete"
+      ],
+      "convex_hulls": 0,
+      "simple_collision_shapes": 3,
+      "errors": [],
+      "source": "SourceArt\\Architecture\\House01\\Exports\\SM_SakuraHouse01_Assembled.fbx",
+      "source_sha256": "db694740cbea39d1f97a6222353c2f537026a7a65bdf575e7a42aaa16c028391",
+      "fingerprint": "65c36027274b06c3898ddc1efef9bc424f4c3ea32a9e4226007bba4f053d3c67",
+      "action": "reused reviewed pilot; no writes",
+      "collision_policy": "Three simple boxes: 600x800x590cm closed exterior body and two entry steps; roof/balcony are not walkable targets"
+    },
+    "tree_hero": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "dimensions_cm": [
+        917.8829040527344,
+        961.2861938476562,
+        767.8777465820312
+      ],
+      "expected_dimensions_cm": [
+        917.8829193115234,
+        961.286211013794,
+        767.877721786499
+      ],
+      "max_dimension_error_cm": 2.47955322265625e-05,
+      "bounds_origin_cm": [
+        16.309402465820312,
+        10.153900146484375,
+        383.9388732910156
+      ],
+      "ground_pivot_bottom_cm": 0.0,
+      "triangles": 11964,
+      "normal_samples": 14400,
+      "invalid_normals": 0,
+      "normal_policy": "Import authored normals; compute Mikk tangents",
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "materials": [
+        "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/Materials/M_Sakura_Bark.M_Sakura_Bark",
+        "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/Materials/M_Sakura_Blossom.M_Sakura_Blossom"
+      ],
+      "convex_hulls": 3,
+      "simple_collision_shapes": 0,
+      "errors": [],
+      "source": "SourceArt\\Foliage\\SakuraTreeKit\\Exports\\SM_Sakura_Hero_LOD0.fbx",
+      "source_sha256": "580d1512a7db42b99e8d82f9520aab22b0696f752f9a71330cf479f3d9dd7bae",
+      "fingerprint": "356c82d91a4ca1fd62175187eaec6156d888358384246a830b0c9cb3489cf126",
+      "action": "reused reviewed pilot; no writes",
+      "collision_policy": "Three imported UCX trunk hulls; canopy is nonblocking"
+    },
+    "cafe": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01",
+      "dimensions_cm": [
+        750.9999694824219,
+        794.3595275878906,
+        707.0
+      ],
+      "expected_dimensions_cm": [
+        750.9999752044678,
+        794.359540939331,
+        707.0000171661377
+      ],
+      "bounds_origin_cm": [
+        79.49995422363281,
+        -39.32023620605469,
+        353.5
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 10526,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Reflection",
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal",
+        "M_Cafe_Roof",
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf",
+        "M_Cafe_Chalk",
+        "M_Cafe_Lamp"
+      ],
+      "simple_collision_shapes": 11,
+      "convex_hulls": 0,
+      "normal_samples": 19670,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe01_Assembled.fbx",
+      "source_sha256": "fb245a995850164ba6085423fac5a42a2c293f8ae03f6e93e861dce9cfd32f5b",
+      "fingerprint": "92901622338476dd627cde179b1bbb076db4e245781ec932b73d28f2478dc0e1",
+      "collision_policy": "Closed 500x600cm cafe shell plus 10 local furnishing/container proxies; terrace gaps remain walkable"
+    },
+    "chair": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Chair/Revisions/r_8ba7a2355979/SM_Cafe_Chair.SM_Cafe_Chair",
+      "dimensions_cm": [
+        49.384225845336914,
+        48.0,
+        87.1951675415039
+      ],
+      "expected_dimensions_cm": [
+        49.38421994447708,
+        47.999998927116394,
+        87.19516396522522
+      ],
+      "bounds_origin_cm": [
+        -1.3978891372680664,
+        1.9073486328125e-06,
+        43.59758377075195
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 228,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 456,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_Chair.fbx",
+      "source_sha256": "67d43c5fdba7335281c11689ae08e1d2f8eebba70fefc3f942c3e7e9136ded02",
+      "fingerprint": "8ba7a2355979654f3116dd8de93a4dc8d43f2e7ad55931dde0a3637962a9bc01",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "table": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Table/Revisions/r_84a736e826fc/SM_Cafe_Table.SM_Cafe_Table",
+      "dimensions_cm": [
+        70.0,
+        70.0,
+        74.5
+      ],
+      "expected_dimensions_cm": [
+        69.9999988079071,
+        69.9999988079071,
+        74.50000047683716
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        37.25
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 532,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 615,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_Table.fbx",
+      "source_sha256": "3346a780bd51ffb20ed1a097c6fdb5e965a025526225844bac2dd68282063f88",
+      "fingerprint": "84a736e826fcc903e0ff33af6bbeefe38486b697fbc6fd5de30a7c64996db6b5",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "bench": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "dimensions_cm": [
+        55.34446907043457,
+        160.00000762939453,
+        92.62120819091797
+      ],
+      "expected_dimensions_cm": [
+        55.34445643424988,
+        160.0000023841858,
+        92.62120723724365
+      ],
+      "bounds_origin_cm": [
+        -4.5222272872924805,
+        3.814697265625e-06,
+        46.310604095458984
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 468,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 744,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_Bench.fbx",
+      "source_sha256": "08a48a951eda360b6808c751533e3490c0e18d8b91bd39f789a012bd79dc15f9",
+      "fingerprint": "13af946a7c9b7ba27a70c0c8f7af246c9aea68c4e176b06f6f9cd101d86d3a1d",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "lamp": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "dimensions_cm": [
+        45.899349212646484,
+        52.999996185302734,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        45.899346470832825,
+        52.99999713897705,
+        320.0000047683716
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        160.0
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 492,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Lamp"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 648,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_StreetLamp.fbx",
+      "source_sha256": "ec4535af3a6095e2403d65685201e974f75e96ae42c1015a3f0574ce6adc5356",
+      "fingerprint": "31eeb0756f69f58144a82d4568a5d8a9d8c2cc9e281d16bdee220919835713c6",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "pot": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "dimensions_cm": [
+        55.68430709838867,
+        55.70958137512207,
+        95.23899841308594
+      ],
+      "expected_dimensions_cm": [
+        55.68430721759796,
+        55.709582567214966,
+        95.23900151252747
+      ],
+      "bounds_origin_cm": [
+        -0.09877586364746094,
+        0.004792213439941406,
+        47.61949920654297
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 878,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Wood",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 1694,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_PottedPlant.fbx",
+      "source_sha256": "e8b97bec3abe8af82ff9841d9d8390da4da2b3c31b4d611ed6b1cf2d63377f4b",
+      "fingerprint": "d3383408a92058836a4f6125e4204bcecc16f8d4a25b40b93c7e29d95317ba81",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "planter": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "dimensions_cm": [
+        44.200008392333984,
+        123.22751998901367,
+        82.0
+      ],
+      "expected_dimensions_cm": [
+        44.200000166893005,
+        123.22751879692078,
+        81.99999928474426
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        -0.8637561798095703,
+        41.0
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 546,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Soil",
+        "M_Cafe_Metal",
+        "M_Cafe_Leaf",
+        "M_Cafe_Leaf_Light"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 1254,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_Planter.fbx",
+      "source_sha256": "500f30fed7b0fc63ef9100b0c4843a63a7502b2f2931f509ce5be734b17ddbcf",
+      "fingerprint": "34524348d95964c00b0e259ec52170e2513c90c1cdd6e0fb9e1ed89947e7a6ba",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "ac": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/AC/Revisions/r_49cfe2519197/SM_Cafe_AC.SM_Cafe_AC",
+      "dimensions_cm": [
+        41.2500057220459,
+        82.0,
+        64.5
+      ],
+      "expected_dimensions_cm": [
+        41.24999940395355,
+        81.99999928474426,
+        64.49999809265137
+      ],
+      "bounds_origin_cm": [
+        1.1250009536743164,
+        0.0,
+        32.25
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 340,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Stone",
+        "M_Cafe_Paper"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 568,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_AC.fbx",
+      "source_sha256": "79a03d97f6e1ffe17f6ca139bea8104b5bf9dce1ec50c468c4ac37dd275dd64e",
+      "fingerprint": "49cfe2519197aef27ad8de8ad6b11d0776e6ee50d7cedab89d7755503906483f",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "menu": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/MenuBoard/Revisions/r_811ea06202d5/SM_Cafe_MenuBoard.SM_Cafe_MenuBoard",
+      "dimensions_cm": [
+        60.35542297363281,
+        68.0,
+        108.60220336914062
+      ],
+      "expected_dimensions_cm": [
+        60.35541892051697,
+        68.00000071525574,
+        108.60220193862915
+      ],
+      "bounds_origin_cm": [
+        -1.9902076721191406,
+        0.0,
+        54.30110168457031
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 856,
+      "uv_channels": 2,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Chalk",
+        "M_Cafe_Metal",
+        "M_Cafe_Paper"
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "normal_samples": 1368,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Architecture\\Cafe01\\Exports\\SM_Cafe_MenuBoard.fbx",
+      "source_sha256": "b0a1a903dc677d2b5be9a34104e4de8c63dcf81c54740e267d1243a7ca17a307",
+      "fingerprint": "811ea06202d5f6200cac10f33b2ff8540f213fa30596c3187a6090500de85af7",
+      "collision_policy": "Simple local prop proxy; plants block containers only, lamp blocks pole/base"
+    },
+    "tree_spread": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "dimensions_cm": [
+        590.5541839599609,
+        627.7802429199219,
+        595.1270751953125
+      ],
+      "expected_dimensions_cm": [
+        590.5541896820068,
+        627.7802228927612,
+        595.1271057128906
+      ],
+      "bounds_origin_cm": [
+        -40.717933654785156,
+        -32.94908142089844,
+        297.56353759765625
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 9572,
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "simple_collision_shapes": 0,
+      "convex_hulls": 3,
+      "normal_samples": 11490,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Foliage\\SakuraTreeKit\\Exports\\SM_Sakura_Spread_LOD0.fbx",
+      "source_sha256": "aa9e79ec91202fcf0da444b9af7c5adcef56b9bb43f79dd06e1d57085719bc0c",
+      "fingerprint": "1a6249ad65344111af199d0a92874a30e6a9844d6970d4b7c33652dc42952dd2",
+      "collision_policy": "Three authored UCX trunk hulls; foliage nonblocking"
+    },
+    "tree_weeping": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "dimensions_cm": [
+        882.3230285644531,
+        749.376953125,
+        738.8258666992188
+      ],
+      "expected_dimensions_cm": [
+        882.3230266571045,
+        749.3769645690918,
+        738.8258934020996
+      ],
+      "bounds_origin_cm": [
+        70.07707214355469,
+        -29.660369873046875,
+        369.4129333496094
+      ],
+      "bottom_cm": 0.0,
+      "triangles": 19792,
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "simple_collision_shapes": 0,
+      "convex_hulls": 3,
+      "normal_samples": 25137,
+      "invalid_normals": 0,
+      "errors": [],
+      "action": "created new revision",
+      "source": "SourceArt\\Foliage\\SakuraTreeKit\\Exports\\SM_Sakura_Weeping_LOD0.fbx",
+      "source_sha256": "9d2c75e53c19891d5cda58e269ccfae062771ceaf77ca584f04c63e193a1bc1e",
+      "fingerprint": "5f3748a5eeaa2198ac3914ec45a3c99482dd00acbf3ea75c7cb2cf5dc737c38c",
+      "collision_policy": "Three authored UCX trunk hulls; foliage nonblocking"
+    }
+  },
+  "errors": [],
+  "passed": true
+}

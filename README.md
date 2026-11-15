@@ -1,19 +1,20 @@
 # SakuraDays 🌸
 
-**Status: early development — work in progress.** Much of the game remains to be built; the current project is a playable street graybox and an art prototype, not a finished game.
+**Status: early development — work in progress.** Much of the game remains to be built. The current project contains a playable art-pass street, but it is not a finished game.
 
 SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-inspired Japanese neighborhood in spring. The first milestone is a walkable sakura-lined street with a café, one NPC, a short conversation and falling petals.
 
-![Current playable street graybox](Docs/Images/SakuraStreet_Graybox_Reference.png)
-*Actual Unreal Editor playtest capture; the scene is a graybox, not final art.*
+![Current playable SakuraDays street](Docs/Images/SakuraStreet_Assembled_Reference.png)
+*Actual 1920×1080 Unreal Engine playtest capture from the fixed reference camera.*
 
 ## Current progress
 
-- Third Person template controls and a separate playable street graybox with road, sidewalks, café and house plots, and tree markers.
-- Navigation and collision smoke tests, a fixed reference camera, and documented art direction.
-- One modular Japanese residential house authored in Blender, ready for visual review; it has not yet been placed in the street.
+- Preserved Third Person template controls in a separate 60 m playable street map.
+- An original HANA café exterior, Japanese house kit, three sakura forms and a neighborhood prop set authored in Blender and imported through repeatable Unreal Python workflows.
+- A dressed street with roads, sidewalks, buildings, sakura trees, garden walls, lamps, utility poles and wires.
+- Fixed-reference and gameplay-camera captures, documented art direction, import validation and a full Play-in-Editor traversal test.
 
-The café interior, NPC and dialogue, final buildings and foliage, falling petals, audio, gameplay polish and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md) and [technical plan](Docs/TECHNICAL_PLAN.md).
+The anime player character, NPC and dialogue, café interior, falling petals, additional architectural variety, audio, gameplay polish, performance work and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md) and [current street report](Docs/STREET_ASSEMBLY.md).
 
 ## Getting started
 
@@ -27,7 +28,7 @@ The café interior, NPC and dialogue, final buildings and foliage, falling petal
    git lfs pull
    ```
 
-3. Open `sakuradays.uproject` in Unreal Editor. The original Third Person map is the default. Open `/Game/SakuraDays/Maps/L_SakuraStreet` in the Content Browser and press Play to explore the graybox.
+3. Open `sakuradays.uproject` in Unreal Editor. The original Third Person map remains the default. Open `/Game/SakuraDays/Maps/L_SakuraStreet` in the Content Browser and press Play to explore the street.
 
 The project targets desktop scalability, with hardware ray tracing initially disabled. No packaged release is available yet.
 
@@ -35,13 +36,16 @@ The project targets desktop scalability, with hardware ray tracing initially dis
 
 | Path | Contents |
 | --- | --- |
-| `Content/SakuraDays/` | Street graybox map and its prototype materials |
+| `Content/SakuraDays/` | Playable street, imported environment art, materials and validation maps |
 | `Content/ThirdPerson/`, `Content/Characters/`, `Content/Input/` | Existing template and shared gameplay assets |
 | `SourceArt/Architecture/House01/` | Editable Blender house, modular FBX exports, previews and validation notes |
-| `Docs/` | Roadmap, technical plan, art direction and graybox test report |
+| `SourceArt/Architecture/Cafe01/` | Editable café/prop source, Unreal-ready FBX exports and previews |
+| `SourceArt/Foliage/SakuraTreeKit/` | Hero, spread and weeping sakura sources, LOD exports, atlas and previews |
+| `Tools/Unreal/` | Repeatable asset import, street assembly and PIE validation scripts |
+| `Docs/` | Roadmap, technical plan, art direction, screenshots and validation evidence |
 | `References/` | Prepared visual target for future art review |
 
-Unreal `.uasset` and `.umap` files and Blender `.blend` files use Git LFS. Generated caches, local editor state and Dream Loop output are excluded from version control. The house [asset guide](SourceArt/Architecture/House01/README.md) describes dimensions, import settings and remaining work.
+Unreal `.uasset` and `.umap` files and Blender `.blend` files use Git LFS. Generated caches, logs, local editor state, local backups and Dream Loop output are excluded from version control. Asset and workflow details are in the [house guide](SourceArt/Architecture/House01/README.md), [café guide](SourceArt/Architecture/Cafe01/README.md), [tree guide](SourceArt/Foliage/SakuraTreeKit/README.md) and [street workflow](Tools/Unreal/STREET_SCENE.md).
 
 ## Development notes
 

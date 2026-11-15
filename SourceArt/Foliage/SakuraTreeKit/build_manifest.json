@@ -1,0 +1,274 @@
+{
+  "blender": "5.2.3 LTS",
+  "meters_per_unit": 1,
+  "up_axis": "Z",
+  "front_axis_blender": "-Y",
+  "trees": {
+    "SM_Sakura_Hero_LOD0": {
+      "triangles": 11964,
+      "vertices": 12912,
+      "bounds_m": {
+        "min": [
+          -4.907969951629639,
+          -4.752508640289307,
+          0.0
+        ],
+        "max": [
+          4.704892158508301,
+          4.426320552825928,
+          7.67877721786499
+        ],
+        "dimensions": [
+          9.61286211013794,
+          9.178829193115234,
+          7.67877721786499
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 2268,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "triangles": 5604,
+      "vertices": 6708,
+      "bounds_m": {
+        "min": [
+          -4.900242328643799,
+          -4.834665775299072,
+          0.0
+        ],
+        "max": [
+          4.748386859893799,
+          4.513551712036133,
+          7.735746383666992
+        ],
+        "dimensions": [
+          9.648629188537598,
+          9.348217487335205,
+          7.735746383666992
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 1260,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "triangles": 1908,
+      "vertices": 2880,
+      "bounds_m": {
+        "min": [
+          -4.894970893859863,
+          -4.7092084884643555,
+          0.0
+        ],
+        "max": [
+          4.814773082733154,
+          4.646693706512451,
+          7.832424163818359
+        ],
+        "dimensions": [
+          9.709743976593018,
+          9.355902194976807,
+          7.832424163818359
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 630,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "triangles": 9572,
+      "vertices": 10288,
+      "bounds_m": {
+        "min": [
+          -2.8094100952148438,
+          -2.5455915927886963,
+          0.0
+        ],
+        "max": [
+          3.4683921337127686,
+          3.359950304031372,
+          5.951271057128906
+        ],
+        "dimensions": [
+          6.277802228927612,
+          5.905541896820068,
+          5.951271057128906
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 1800,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "triangles": 4484,
+      "vertices": 5344,
+      "bounds_m": {
+        "min": [
+          -2.8774313926696777,
+          -2.6085569858551025,
+          0.0
+        ],
+        "max": [
+          3.544039726257324,
+          3.3991293907165527,
+          5.997363090515137
+        ],
+        "dimensions": [
+          6.421471118927002,
+          6.007686376571655,
+          5.997363090515137
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 1000,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "triangles": 1556,
+      "vertices": 2310,
+      "bounds_m": {
+        "min": [
+          -2.9533863067626953,
+          -2.74285888671875,
+          0.0
+        ],
+        "max": [
+          3.503156900405884,
+          3.4696712493896484,
+          6.112868309020996
+        ],
+        "dimensions": [
+          6.456543207168579,
+          6.212530136108398,
+          6.112868309020996
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 500,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "triangles": 19792,
+      "vertices": 22992,
+      "bounds_m": {
+        "min": [
+          -3.4502811431884766,
+          -5.1123857498168945,
+          0.0
+        ],
+        "max": [
+          4.043488502502441,
+          3.7108445167541504,
+          7.388258934020996
+        ],
+        "dimensions": [
+          7.493769645690918,
+          8.823230266571045,
+          7.388258934020996
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 4306,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "triangles": 9588,
+      "vertices": 12490,
+      "bounds_m": {
+        "min": [
+          -3.466717481613159,
+          -5.081539154052734,
+          0.0
+        ],
+        "max": [
+          4.112823009490967,
+          3.730264186859131,
+          7.456377983093262
+        ],
+        "dimensions": [
+          7.579540491104126,
+          8.811803340911865,
+          7.456377983093262
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 2506,
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "triangles": 3108,
+      "vertices": 5347,
+      "bounds_m": {
+        "min": [
+          -3.554825782775879,
+          -5.1397175788879395,
+          0.0
+        ],
+        "max": [
+          4.224523544311523,
+          3.825502634048462,
+          7.532388210296631
+        ],
+        "dimensions": [
+          7.779349327087402,
+          8.965220212936401,
+          7.532388210296631
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "foliage_cards": 1253,
+      "collision_hulls": 3
+    }
+  },
+  "atlas": "Textures/T_Sakura_Blossom_Atlas.png",
+  "atlas_size": [
+    1024,
+    1024
+  ],
+  "uv": "UV0_Surface: reusable atlas islands and cylindrical bark; overlap intentional; no UV1",
+  "material_slots": [
+    "M_Sakura_Bark",
+    "M_Sakura_Blossom"
+  ],
+  "export_settings": {
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "global_scale": 1,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "colors_type": "SRGB"
+  },
+  "suggested_lod_screen_sizes": [
+    1.0,
+    0.28,
+    0.1
+  ],
+  "lod_note": "Separate FBXs; import LOD1/2 into LOD0 static mesh. Thresholds require in-engine review."
+}

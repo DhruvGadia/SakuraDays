@@ -1,0 +1,3971 @@
+{
+  "blender": "5.2.3 LTS",
+  "source_file": "Cafe01.blend",
+  "source_module_checks": {
+    "SM_Cafe_Wall_Window_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Wall_Door_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Wall_Solid_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Upper_Window_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Upper_Solid_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Window_168x205": {
+      "vertices": 88,
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.04500000178813934,
+          -0.10000000149011612,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.725000023841858,
+          0.20000000298023224,
+          2.049999952316284
+        ],
+        "dimensions": [
+          1.7700000256299973,
+          0.30000000447034836,
+          2.084999952465296
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Window_120x135": {
+      "vertices": 88,
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.04500000178813934,
+          -0.10000000149011612,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.2450000047683716,
+          0.20000000298023224,
+          1.350000023841858
+        ],
+        "dimensions": [
+          1.290000006556511,
+          0.30000000447034836,
+          1.3850000239908695
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Door_130x260": {
+      "vertices": 96,
+      "triangles": 144,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.11600000411272049,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.14000000059604645,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.2999999523162842,
+          0.25600000470876694,
+          2.5999999046325684
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Wood",
+        "M_Cafe_Glass",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Awning_2m": {
+      "vertices": 176,
+      "triangles": 304,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -1.21750009059906,
+          -0.6119584441184998
+        ],
+        "max": [
+          2.0,
+          0.029999999329447746,
+          0.07999999821186066
+        ],
+        "dimensions": [
+          2.0,
+          1.2475000899285078,
+          0.6919584423303604
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_StoryTrim_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.05999999865889549,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2199999988079071,
+          0.1599999964237213
+        ],
+        "dimensions": [
+          2.0,
+          0.2799999974668026,
+          0.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Foundation_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.25999999046325684,
+          0.18000000715255737
+        ],
+        "dimensions": [
+          2.0,
+          0.25999999046325684,
+          0.18000000715255737
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Stone"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_CornerTrim_3m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000014901161,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          0.07500000298023224,
+          0.07000000029802322,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.11000000312924385,
+          0.10999999940395355,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_RoofSlope_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          -0.1599999964237213
+        ],
+        "max": [
+          2.0,
+          2.9600000381469727,
+          1.0
+        ],
+        "dimensions": [
+          2.0,
+          2.9600000381469727,
+          1.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Roof",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Ridge_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          0.12999999523162842
+        ],
+        "dimensions": [
+          2.0,
+          0.20000000298023224,
+          0.12999999523162842
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Gable_5m": {
+      "vertices": 6,
+      "triangles": 8,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.1599999964237213,
+          5.0,
+          0.8619999885559082
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          5.0,
+          0.8619999885559082
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Bargeboard_5m": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          -0.05999999865889549,
+          -2.9195594787597656,
+          -0.056722380220890045
+        ],
+        "max": [
+          0.05999999865889549,
+          2.9195594787597656,
+          1.0567224025726318
+        ],
+        "dimensions": [
+          0.11999999731779099,
+          5.839118957519531,
+          1.1134447827935219
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Gutter_2m": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.019999999552965164,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.14000000059604645,
+          0.11999999731779099
+        ],
+        "dimensions": [
+          2.0,
+          0.1600000001490116,
+          0.11999999731779099
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Downpipe_3m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000014901161,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.03500000014901161,
+          0.03500000014901161,
+          3.0
+        ],
+        "dimensions": [
+          0.07000000029802322,
+          0.07000000029802322,
+          3.0
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_FasciaSign": {
+      "vertices": 676,
+      "triangles": 644,
+      "bounds_m": {
+        "min": [
+          -1.5499999523162842,
+          -0.045600004494190216,
+          0.0
+        ],
+        "max": [
+          1.5499999523162842,
+          0.11999999731779099,
+          0.5799999833106995
+        ],
+        "dimensions": [
+          3.0999999046325684,
+          0.1656000018119812,
+          0.5799999833106995
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_RoundSign": {
+      "vertices": 408,
+      "triangles": 596,
+      "bounds_m": {
+        "min": [
+          -0.3199999928474426,
+          -0.800599992275238,
+          0.07999999821186066
+        ],
+        "max": [
+          0.3199999928474426,
+          0.0059262486174702644,
+          0.8700000047683716
+        ],
+        "dimensions": [
+          0.6399999856948853,
+          0.8065262408927083,
+          0.7900000065565109
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Rose"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_MenuBoard": {
+      "vertices": 876,
+      "triangles": 856,
+      "bounds_m": {
+        "min": [
+          -0.3400000035762787,
+          -0.28187501430511475,
+          0.0
+        ],
+        "max": [
+          0.3400000035762787,
+          0.32167917490005493,
+          1.0860220193862915
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6035541892051697,
+          1.0860220193862915
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Chalk",
+        "M_Cafe_Metal",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Chair": {
+      "vertices": 152,
+      "triangles": 228,
+      "bounds_m": {
+        "min": [
+          -0.23999999463558197,
+          -0.23294220864772797,
+          0.0
+        ],
+        "max": [
+          0.23999999463558197,
+          0.26089999079704285,
+          0.8719516396522522
+        ],
+        "dimensions": [
+          0.47999998927116394,
+          0.4938421994447708,
+          0.8719516396522522
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Table": {
+      "vertices": 288,
+      "triangles": 532,
+      "bounds_m": {
+        "min": [
+          -0.3499999940395355,
+          -0.3499999940395355,
+          0.0
+        ],
+        "max": [
+          0.3499999940395355,
+          0.3499999940395355,
+          0.7450000047683716
+        ],
+        "dimensions": [
+          0.699999988079071,
+          0.699999988079071,
+          0.7450000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Bench": {
+      "vertices": 280,
+      "triangles": 468,
+      "bounds_m": {
+        "min": [
+          -0.800000011920929,
+          -0.23149999976158142,
+          0.0
+        ],
+        "max": [
+          0.800000011920929,
+          0.32194456458091736,
+          0.9262120723724365
+        ],
+        "dimensions": [
+          1.600000023841858,
+          0.5534445643424988,
+          0.9262120723724365
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_StreetLamp": {
+      "vertices": 274,
+      "triangles": 492,
+      "bounds_m": {
+        "min": [
+          -0.26499998569488525,
+          -0.22949673235416412,
+          0.0
+        ],
+        "max": [
+          0.26499998569488525,
+          0.22949673235416412,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.5299999713897705,
+          0.45899346470832825,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Lamp"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_PottedPlant": {
+      "vertices": 513,
+      "triangles": 878,
+      "bounds_m": {
+        "min": [
+          -0.27859583497047424,
+          -0.2774337828159332,
+          0.0
+        ],
+        "max": [
+          0.2784999907016754,
+          0.2794092893600464,
+          0.9523900151252747
+        ],
+        "dimensions": [
+          0.5570958256721497,
+          0.5568430721759796,
+          0.9523900151252747
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Wood",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Planter": {
+      "vertices": 355,
+      "triangles": 546,
+      "bounds_m": {
+        "min": [
+          -0.6075000166893005,
+          -0.22100000083446503,
+          0.0
+        ],
+        "max": [
+          0.6247751712799072,
+          0.22100000083446503,
+          0.8199999928474426
+        ],
+        "dimensions": [
+          1.2322751879692078,
+          0.44200000166893005,
+          0.8199999928474426
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Soil",
+        "M_Cafe_Metal",
+        "M_Cafe_Leaf",
+        "M_Cafe_Leaf_Light"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_AC": {
+      "vertices": 208,
+      "triangles": 340,
+      "bounds_m": {
+        "min": [
+          -0.4099999964237213,
+          -0.2175000011920929,
+          0.0
+        ],
+        "max": [
+          0.4099999964237213,
+          0.19499999284744263,
+          0.6449999809265137
+        ],
+        "dimensions": [
+          0.8199999928474426,
+          0.4124999940395355,
+          0.6449999809265137
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Stone",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0
+    }
+  },
+  "fbx_roundtrips": {
+    "SM_Cafe_Wall_Window_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 56,
+        "triangles": 84,
+        "bounds_m": {
+          "min": [
+            -1.879589639486312e-08,
+            -0.04500000178813934,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.215000182390213,
+            3.200000047683716
+          ],
+          "dimensions": [
+            2.0000000187958964,
+            0.26000018417835236,
+            3.200000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster",
+          "M_Cafe_Wood",
+          "M_Cafe_Stone",
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Wall_Door_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 56,
+        "triangles": 84,
+        "bounds_m": {
+          "min": [
+            -1.879589639486312e-08,
+            -0.04500000178813934,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.215000182390213,
+            3.200000047683716
+          ],
+          "dimensions": [
+            2.0000000187958964,
+            0.26000018417835236,
+            3.200000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster",
+          "M_Cafe_Wood",
+          "M_Cafe_Stone",
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Wall_Solid_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 32,
+        "triangles": 48,
+        "bounds_m": {
+          "min": [
+            -1.879589639486312e-08,
+            -0.04500000178813934,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.215000182390213,
+            3.200000047683716
+          ],
+          "dimensions": [
+            2.0000000187958964,
+            0.26000018417835236,
+            3.200000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster",
+          "M_Cafe_Stone",
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Upper_Window_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 32,
+        "triangles": 48,
+        "bounds_m": {
+          "min": [
+            -1.5736100422714117e-08,
+            0.0,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.1800001859664917,
+            2.700000047683716
+          ],
+          "dimensions": [
+            2.0000000157361004,
+            0.1800001859664917,
+            2.700000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Upper_Solid_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -1.5736100422714117e-08,
+            0.0,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.1800001859664917,
+            2.700000047683716
+          ],
+          "dimensions": [
+            2.0000000157361004,
+            0.1800001859664917,
+            2.700000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Window_168x205": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 88,
+        "triangles": 124,
+        "bounds_m": {
+          "min": [
+            -0.045000020414590836,
+            -0.10000000894069672,
+            -0.03500000014901161
+          ],
+          "max": [
+            1.725000023841858,
+            0.20000015199184418,
+            2.049999952316284
+          ],
+          "dimensions": [
+            1.7700000442564487,
+            0.3000001609325409,
+            2.084999952465296
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim",
+          "M_Cafe_Glass",
+          "M_Cafe_Wood",
+          "M_Cafe_Reflection"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.4901161193847656e-07
+    },
+    "SM_Cafe_Window_120x135": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 88,
+        "triangles": 124,
+        "bounds_m": {
+          "min": [
+            -0.045000020414590836,
+            -0.10000000894069672,
+            -0.03500000014901161
+          ],
+          "max": [
+            1.2450000047683716,
+            0.2000001072883606,
+            1.350000023841858
+          ],
+          "dimensions": [
+            1.2900000251829624,
+            0.3000001162290573,
+            1.3850000239908695
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim",
+          "M_Cafe_Glass",
+          "M_Cafe_Wood",
+          "M_Cafe_Reflection"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.043081283569336e-07
+    },
+    "SM_Cafe_Door_130x260": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 96,
+        "triangles": 144,
+        "bounds_m": {
+          "min": [
+            -1.2239188329488115e-08,
+            -0.11600000411272049,
+            0.0
+          ],
+          "max": [
+            1.2999999523162842,
+            0.140000119805336,
+            2.5999999046325684
+          ],
+          "dimensions": [
+            1.2999999645554725,
+            0.2560001239180565,
+            2.5999999046325684
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim",
+          "M_Cafe_Wood",
+          "M_Cafe_Glass",
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.1920928955078125e-07
+    },
+    "SM_Cafe_Awning_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 176,
+        "triangles": 304,
+        "bounds_m": {
+          "min": [
+            -2.622683181741081e-09,
+            -1.21750009059906,
+            -0.6119584441184998
+          ],
+          "max": [
+            2.0,
+            0.030000174418091774,
+            0.07999999821186066
+          ],
+          "dimensions": [
+            2.0000000026226834,
+            1.2475002650171518,
+            0.6919584423303604
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Rose",
+          "M_Cafe_Paper",
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7508864402770996e-07
+    },
+    "SM_Cafe_StoryTrim_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -1.9233011627761698e-08,
+            -0.05999999865889549,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.22000017762184143,
+            0.1599999964237213
+          ],
+          "dimensions": [
+            2.0000000192330116,
+            0.2800001762807369,
+            0.1599999964237213
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Foundation_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -2.272992105645244e-08,
+            0.0,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.26000016927719116,
+            0.18000000715255737
+          ],
+          "dimensions": [
+            2.000000022729921,
+            0.26000016927719116,
+            0.18000000715255737
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Stone"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_CornerTrim_3m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -0.03500000759959221,
+            -0.04000000283122063,
+            0.0
+          ],
+          "max": [
+            0.07500000298023224,
+            0.07000000774860382,
+            3.200000047683716
+          ],
+          "dimensions": [
+            0.11000001057982445,
+            0.11000001057982445,
+            3.200000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 7.450580596923828e-09
+    },
+    "SM_Cafe_RoofSlope_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 56,
+        "triangles": 84,
+        "bounds_m": {
+          "min": [
+            -2.5877142206809367e-07,
+            0.0,
+            -0.1599999964237213
+          ],
+          "max": [
+            2.0,
+            2.9600002765655518,
+            1.0
+          ],
+          "dimensions": [
+            2.000000258771422,
+            2.9600002765655518,
+            1.1599999964237213
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Roof",
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.5877142206809367e-07
+    },
+    "SM_Cafe_Ridge_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -8.742278012618954e-09,
+            -0.10000000149011612,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.10000017285346985,
+            0.12999999523162842
+          ],
+          "dimensions": [
+            2.000000008742278,
+            0.20000017434358597,
+            0.12999999523162842
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7136335372924805e-07
+    },
+    "SM_Cafe_Gable_5m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 6,
+        "triangles": 8,
+        "bounds_m": {
+          "min": [
+            -4.37113897078234e-07,
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.1599999964237213,
+            5.0,
+            0.8619999885559082
+          ],
+          "dimensions": [
+            0.1600004335376184,
+            5.0,
+            0.8619999885559082
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 4.37113897078234e-07
+    },
+    "SM_Cafe_Bargeboard_5m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 16,
+        "triangles": 24,
+        "bounds_m": {
+          "min": [
+            -0.060000255703926086,
+            -2.9195594787597656,
+            -0.056722380220890045
+          ],
+          "max": [
+            0.060000255703926086,
+            2.9195594787597656,
+            1.0567224025726318
+          ],
+          "dimensions": [
+            0.12000051140785217,
+            5.839118957519531,
+            1.1134447827935219
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.5704503059387207e-07
+    },
+    "SM_Cafe_Gutter_2m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 16,
+        "triangles": 24,
+        "bounds_m": {
+          "min": [
+            -1.2239188329488115e-08,
+            -0.019999999552965164,
+            0.0
+          ],
+          "max": [
+            2.0,
+            0.14000017940998077,
+            0.11999999731779099
+          ],
+          "dimensions": [
+            2.0000000122391883,
+            0.16000017896294594,
+            0.11999999731779099
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.7881393432617188e-07
+    },
+    "SM_Cafe_Downpipe_3m": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 8,
+        "triangles": 12,
+        "bounds_m": {
+          "min": [
+            -0.03500000387430191,
+            -0.03500000387430191,
+            0.0
+          ],
+          "max": [
+            0.03500000387430191,
+            0.03500000387430191,
+            3.0
+          ],
+          "dimensions": [
+            0.07000000774860382,
+            0.07000000774860382,
+            3.0
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 3.725290298461914e-09
+    },
+    "SM_Cafe_FasciaSign": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 676,
+        "triangles": 644,
+        "bounds_m": {
+          "min": [
+            -1.5499999523162842,
+            -0.04560013860464096,
+            0.0
+          ],
+          "max": [
+            1.5499999523162842,
+            0.12000013142824173,
+            0.5799999833106995
+          ],
+          "dimensions": [
+            3.0999999046325684,
+            0.1656002700328827,
+            0.5799999833106995
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Trim",
+          "M_Cafe_Paper",
+          "M_Cafe_Wood"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 1.341104507446289e-07
+    },
+    "SM_Cafe_RoundSign": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 408,
+        "triangles": 596,
+        "bounds_m": {
+          "min": [
+            -0.3199999928474426,
+            -0.800599992275238,
+            0.07999999821186066
+          ],
+          "max": [
+            0.3200000524520874,
+            0.005926276557147503,
+            0.8700000047683716
+          ],
+          "dimensions": [
+            0.64000004529953,
+            0.8065262688323855,
+            0.7900000065565109
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Metal",
+          "M_Cafe_Trim",
+          "M_Cafe_Paper",
+          "M_Cafe_Rose"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 5.960464477539063e-08
+    },
+    "SM_Cafe_MenuBoard": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 876,
+        "triangles": 856,
+        "bounds_m": {
+          "min": [
+            -0.3400000333786011,
+            -0.28187504410743713,
+            0.0
+          ],
+          "max": [
+            0.3400000333786011,
+            0.3216792047023773,
+            1.0860220193862915
+          ],
+          "dimensions": [
+            0.6800000667572021,
+            0.6035542488098145,
+            1.0860220193862915
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood",
+          "M_Cafe_Chalk",
+          "M_Cafe_Metal",
+          "M_Cafe_Paper"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe_Chair": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 152,
+        "triangles": 228,
+        "bounds_m": {
+          "min": [
+            -0.24000002443790436,
+            -0.23294222354888916,
+            0.0
+          ],
+          "max": [
+            0.24000000953674316,
+            0.26090002059936523,
+            0.8719516396522522
+          ],
+          "dimensions": [
+            0.4800000339746475,
+            0.4938422441482544,
+            0.8719516396522522
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood",
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe_Table": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 288,
+        "triangles": 532,
+        "bounds_m": {
+          "min": [
+            -0.3500000238418579,
+            -0.3500000238418579,
+            0.0
+          ],
+          "max": [
+            0.3500000238418579,
+            0.3500000238418579,
+            0.7450000047683716
+          ],
+          "dimensions": [
+            0.7000000476837158,
+            0.7000000476837158,
+            0.7450000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood",
+          "M_Cafe_Metal",
+          "M_Cafe_Trim"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe_Bench": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 280,
+        "triangles": 468,
+        "bounds_m": {
+          "min": [
+            -0.800000011920929,
+            -0.2315000742673874,
+            0.0
+          ],
+          "max": [
+            0.800000011920929,
+            0.32194462418556213,
+            0.9262120723724365
+          ],
+          "dimensions": [
+            1.600000023841858,
+            0.5534446984529495,
+            0.9262120723724365
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood",
+          "M_Cafe_Metal"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 7.450580596923828e-08
+    },
+    "SM_Cafe_StreetLamp": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 274,
+        "triangles": 492,
+        "bounds_m": {
+          "min": [
+            -0.26500001549720764,
+            -0.2294967621564865,
+            0.0
+          ],
+          "max": [
+            0.26500001549720764,
+            0.2294967621564865,
+            3.200000047683716
+          ],
+          "dimensions": [
+            0.5300000309944153,
+            0.458993524312973,
+            3.200000047683716
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Metal",
+          "M_Cafe_Lamp"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe_PottedPlant": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 513,
+        "triangles": 878,
+        "bounds_m": {
+          "min": [
+            -0.27859586477279663,
+            -0.2774338126182556,
+            0.0
+          ],
+          "max": [
+            0.2785000205039978,
+            0.2794093191623688,
+            0.9523900151252747
+          ],
+          "dimensions": [
+            0.5570958852767944,
+            0.5568431317806244,
+            0.9523900151252747
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Terracotta",
+          "M_Cafe_Soil",
+          "M_Cafe_Wood",
+          "M_Cafe_Leaf_Light",
+          "M_Cafe_Leaf"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe_Planter": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 355,
+        "triangles": 546,
+        "bounds_m": {
+          "min": [
+            -0.6075000166893005,
+            -0.2210000604391098,
+            0.0
+          ],
+          "max": [
+            0.6247751712799072,
+            0.2210000604391098,
+            0.8199999928474426
+          ],
+          "dimensions": [
+            1.2322751879692078,
+            0.4420001208782196,
+            0.8199999928474426
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Wood",
+          "M_Cafe_Soil",
+          "M_Cafe_Metal",
+          "M_Cafe_Leaf",
+          "M_Cafe_Leaf_Light"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 5.960464477539063e-08
+    },
+    "SM_Cafe_AC": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 208,
+        "triangles": 340,
+        "bounds_m": {
+          "min": [
+            -0.4100000262260437,
+            -0.21750003099441528,
+            0.0
+          ],
+          "max": [
+            0.4100000262260437,
+            0.19500002264976501,
+            0.6449999809265137
+          ],
+          "dimensions": [
+            0.8200000524520874,
+            0.4125000536441803,
+            0.6449999809265137
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster",
+          "M_Cafe_Metal",
+          "M_Cafe_Trim",
+          "M_Cafe_Stone",
+          "M_Cafe_Paper"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 2.9802322387695312e-08
+    },
+    "SM_Cafe01_Assembled": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_count": 1,
+      "mesh": {
+        "vertices": 7203,
+        "triangles": 10526,
+        "bounds_m": {
+          "min": [
+            -3.5785958766937256,
+            -4.550000190734863,
+            0.0
+          ],
+          "max": [
+            4.365000247955322,
+            2.960000514984131,
+            7.070000171661377
+          ],
+          "dimensions": [
+            7.943596124649048,
+            7.510000705718994,
+            7.070000171661377
+          ]
+        },
+        "material_slots": [
+          "M_Cafe_Plaster",
+          "M_Cafe_Wood",
+          "M_Cafe_Stone",
+          "M_Cafe_Trim",
+          "M_Cafe_Glass",
+          "M_Cafe_Reflection",
+          "M_Cafe_Rose",
+          "M_Cafe_Paper",
+          "M_Cafe_Metal",
+          "M_Cafe_Roof",
+          "M_Cafe_Terracotta",
+          "M_Cafe_Soil",
+          "M_Cafe_Leaf_Light",
+          "M_Cafe_Leaf",
+          "M_Cafe_Chalk",
+          "M_Cafe_Lamp"
+        ],
+        "uv_channels": [
+          "UV0_Surface",
+          "UV1_Lightmap"
+        ],
+        "uv_checks": {
+          "UV0_Surface": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0
+          },
+          "UV1_Lightmap": {
+            "invalid_coordinate_loops": 0,
+            "degenerate_triangles": 0,
+            "overlapping_triangle_pairs": 0
+          }
+        },
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0
+      },
+      "max_bounds_error_m": 4.76837158203125e-07
+    }
+  },
+  "checks": {
+    "SM_Cafe_Wall_Window_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          -1.879589639486312e-08,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.215000182390213,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0000000187958964,
+          0.26000018417835236,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Wall_Door_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          -1.879589639486312e-08,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.215000182390213,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0000000187958964,
+          0.26000018417835236,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Wall_Solid_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          -1.879589639486312e-08,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.215000182390213,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0000000187958964,
+          0.26000018417835236,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Upper_Window_2m": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          -1.5736100422714117e-08,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.1800001859664917,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0000000157361004,
+          0.1800001859664917,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Upper_Solid_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -1.5736100422714117e-08,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.1800001859664917,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0000000157361004,
+          0.1800001859664917,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Window_168x205": {
+      "vertices": 88,
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.045000020414590836,
+          -0.10000000894069672,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.725000023841858,
+          0.20000015199184418,
+          2.049999952316284
+        ],
+        "dimensions": [
+          1.7700000442564487,
+          0.3000001609325409,
+          2.084999952465296
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Window_120x135": {
+      "vertices": 88,
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.045000020414590836,
+          -0.10000000894069672,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.2450000047683716,
+          0.2000001072883606,
+          1.350000023841858
+        ],
+        "dimensions": [
+          1.2900000251829624,
+          0.3000001162290573,
+          1.3850000239908695
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Door_130x260": {
+      "vertices": 96,
+      "triangles": 144,
+      "bounds_m": {
+        "min": [
+          -1.2239188329488115e-08,
+          -0.11600000411272049,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.140000119805336,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.2999999645554725,
+          0.2560001239180565,
+          2.5999999046325684
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Wood",
+        "M_Cafe_Glass",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Awning_2m": {
+      "vertices": 176,
+      "triangles": 304,
+      "bounds_m": {
+        "min": [
+          -2.622683181741081e-09,
+          -1.21750009059906,
+          -0.6119584441184998
+        ],
+        "max": [
+          2.0,
+          0.030000174418091774,
+          0.07999999821186066
+        ],
+        "dimensions": [
+          2.0000000026226834,
+          1.2475002650171518,
+          0.6919584423303604
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_StoryTrim_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -1.9233011627761698e-08,
+          -0.05999999865889549,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.22000017762184143,
+          0.1599999964237213
+        ],
+        "dimensions": [
+          2.0000000192330116,
+          0.2800001762807369,
+          0.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Foundation_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -2.272992105645244e-08,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.26000016927719116,
+          0.18000000715255737
+        ],
+        "dimensions": [
+          2.000000022729921,
+          0.26000016927719116,
+          0.18000000715255737
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Stone"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_CornerTrim_3m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000759959221,
+          -0.04000000283122063,
+          0.0
+        ],
+        "max": [
+          0.07500000298023224,
+          0.07000000774860382,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.11000001057982445,
+          0.11000001057982445,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_RoofSlope_2m": {
+      "vertices": 56,
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          -2.5877142206809367e-07,
+          0.0,
+          -0.1599999964237213
+        ],
+        "max": [
+          2.0,
+          2.9600002765655518,
+          1.0
+        ],
+        "dimensions": [
+          2.000000258771422,
+          2.9600002765655518,
+          1.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Roof",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Ridge_2m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -8.742278012618954e-09,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10000017285346985,
+          0.12999999523162842
+        ],
+        "dimensions": [
+          2.000000008742278,
+          0.20000017434358597,
+          0.12999999523162842
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Gable_5m": {
+      "vertices": 6,
+      "triangles": 8,
+      "bounds_m": {
+        "min": [
+          -4.37113897078234e-07,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.1599999964237213,
+          5.0,
+          0.8619999885559082
+        ],
+        "dimensions": [
+          0.1600004335376184,
+          5.0,
+          0.8619999885559082
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Bargeboard_5m": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          -0.060000255703926086,
+          -2.9195594787597656,
+          -0.056722380220890045
+        ],
+        "max": [
+          0.060000255703926086,
+          2.9195594787597656,
+          1.0567224025726318
+        ],
+        "dimensions": [
+          0.12000051140785217,
+          5.839118957519531,
+          1.1134447827935219
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Gutter_2m": {
+      "vertices": 16,
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          -1.2239188329488115e-08,
+          -0.019999999552965164,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.14000017940998077,
+          0.11999999731779099
+        ],
+        "dimensions": [
+          2.0000000122391883,
+          0.16000017896294594,
+          0.11999999731779099
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Downpipe_3m": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000387430191,
+          -0.03500000387430191,
+          0.0
+        ],
+        "max": [
+          0.03500000387430191,
+          0.03500000387430191,
+          3.0
+        ],
+        "dimensions": [
+          0.07000000774860382,
+          0.07000000774860382,
+          3.0
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_FasciaSign": {
+      "vertices": 676,
+      "triangles": 644,
+      "bounds_m": {
+        "min": [
+          -1.5499999523162842,
+          -0.04560013860464096,
+          0.0
+        ],
+        "max": [
+          1.5499999523162842,
+          0.12000013142824173,
+          0.5799999833106995
+        ],
+        "dimensions": [
+          3.0999999046325684,
+          0.1656002700328827,
+          0.5799999833106995
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_RoundSign": {
+      "vertices": 408,
+      "triangles": 596,
+      "bounds_m": {
+        "min": [
+          -0.3199999928474426,
+          -0.800599992275238,
+          0.07999999821186066
+        ],
+        "max": [
+          0.3200000524520874,
+          0.005926276557147503,
+          0.8700000047683716
+        ],
+        "dimensions": [
+          0.64000004529953,
+          0.8065262688323855,
+          0.7900000065565109
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Rose"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_MenuBoard": {
+      "vertices": 876,
+      "triangles": 856,
+      "bounds_m": {
+        "min": [
+          -0.3400000333786011,
+          -0.28187504410743713,
+          0.0
+        ],
+        "max": [
+          0.3400000333786011,
+          0.3216792047023773,
+          1.0860220193862915
+        ],
+        "dimensions": [
+          0.6800000667572021,
+          0.6035542488098145,
+          1.0860220193862915
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Chalk",
+        "M_Cafe_Metal",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Chair": {
+      "vertices": 152,
+      "triangles": 228,
+      "bounds_m": {
+        "min": [
+          -0.24000002443790436,
+          -0.23294222354888916,
+          0.0
+        ],
+        "max": [
+          0.24000000953674316,
+          0.26090002059936523,
+          0.8719516396522522
+        ],
+        "dimensions": [
+          0.4800000339746475,
+          0.4938422441482544,
+          0.8719516396522522
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Table": {
+      "vertices": 288,
+      "triangles": 532,
+      "bounds_m": {
+        "min": [
+          -0.3500000238418579,
+          -0.3500000238418579,
+          0.0
+        ],
+        "max": [
+          0.3500000238418579,
+          0.3500000238418579,
+          0.7450000047683716
+        ],
+        "dimensions": [
+          0.7000000476837158,
+          0.7000000476837158,
+          0.7450000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Bench": {
+      "vertices": 280,
+      "triangles": 468,
+      "bounds_m": {
+        "min": [
+          -0.800000011920929,
+          -0.2315000742673874,
+          0.0
+        ],
+        "max": [
+          0.800000011920929,
+          0.32194462418556213,
+          0.9262120723724365
+        ],
+        "dimensions": [
+          1.600000023841858,
+          0.5534446984529495,
+          0.9262120723724365
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_StreetLamp": {
+      "vertices": 274,
+      "triangles": 492,
+      "bounds_m": {
+        "min": [
+          -0.26500001549720764,
+          -0.2294967621564865,
+          0.0
+        ],
+        "max": [
+          0.26500001549720764,
+          0.2294967621564865,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.5300000309944153,
+          0.458993524312973,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Lamp"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_PottedPlant": {
+      "vertices": 513,
+      "triangles": 878,
+      "bounds_m": {
+        "min": [
+          -0.27859586477279663,
+          -0.2774338126182556,
+          0.0
+        ],
+        "max": [
+          0.2785000205039978,
+          0.2794093191623688,
+          0.9523900151252747
+        ],
+        "dimensions": [
+          0.5570958852767944,
+          0.5568431317806244,
+          0.9523900151252747
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Wood",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_Planter": {
+      "vertices": 355,
+      "triangles": 546,
+      "bounds_m": {
+        "min": [
+          -0.6075000166893005,
+          -0.2210000604391098,
+          0.0
+        ],
+        "max": [
+          0.6247751712799072,
+          0.2210000604391098,
+          0.8199999928474426
+        ],
+        "dimensions": [
+          1.2322751879692078,
+          0.4420001208782196,
+          0.8199999928474426
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Soil",
+        "M_Cafe_Metal",
+        "M_Cafe_Leaf",
+        "M_Cafe_Leaf_Light"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe_AC": {
+      "vertices": 208,
+      "triangles": 340,
+      "bounds_m": {
+        "min": [
+          -0.4100000262260437,
+          -0.21750003099441528,
+          0.0
+        ],
+        "max": [
+          0.4100000262260437,
+          0.19500002264976501,
+          0.6449999809265137
+        ],
+        "dimensions": [
+          0.8200000524520874,
+          0.4125000536441803,
+          0.6449999809265137
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Stone",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    },
+    "SM_Cafe01_Assembled": {
+      "vertices": 7203,
+      "triangles": 10526,
+      "bounds_m": {
+        "min": [
+          -3.5785958766937256,
+          -4.550000190734863,
+          0.0
+        ],
+        "max": [
+          4.365000247955322,
+          2.960000514984131,
+          7.070000171661377
+        ],
+        "dimensions": [
+          7.943596124649048,
+          7.510000705718994,
+          7.070000171661377
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Reflection",
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal",
+        "M_Cafe_Roof",
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf",
+        "M_Cafe_Chalk",
+        "M_Cafe_Lamp"
+      ],
+      "uv_channels": [
+        "UV0_Surface",
+        "UV1_Lightmap"
+      ],
+      "uv_checks": {
+        "UV0_Surface": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0
+        },
+        "UV1_Lightmap": {
+          "invalid_coordinate_loops": 0,
+          "degenerate_triangles": 0,
+          "overlapping_triangle_pairs": 0
+        }
+      },
+      "identity_transform_error": 8.742277657347586e-08,
+      "degenerate_geometry_triangles": 0
+    }
+  },
+  "uv_overlap_policy": "Prototype UV1 and assembled exported UV1 tested for triangle overlap; assembled UV0 repetition intentional",
+  "validated_sha256": {
+    "Cafe01.blend": "b74a78b70d68caf77b5096efb3178660e4180fba96d61b77880ce9cd417228a6",
+    "build_manifest.json": "be0e0f523d825ccd09fd5da4e83a1ebb3234822a5e8f91cada2141d219b82d88",
+    "Exports\\SM_Cafe_Wall_Window_2m.fbx": "e1cd58a6ca3dc7c953ae52f61906f5e3bfad19042866bb3201fbb3cb1ddab059",
+    "Exports\\SM_Cafe_Wall_Door_2m.fbx": "24dcb0defa21f001322b667020c57a06729519517b39c7c21a2b3c12c9049fd8",
+    "Exports\\SM_Cafe_Wall_Solid_2m.fbx": "c13a13d1d7cfa3d5b2d6d47f7bbfcde706171ba0c179429b72e84d19fa2de424",
+    "Exports\\SM_Cafe_Upper_Window_2m.fbx": "628ecae370eb27610e3cd2c36c3bb4b134a7ca5a35f27a22ed006d51f654bfad",
+    "Exports\\SM_Cafe_Upper_Solid_2m.fbx": "9d64ebc6d2d97c8dc7899834709b8ac25d2159962d3529f27baef7f3ecbbca07",
+    "Exports\\SM_Cafe_Window_168x205.fbx": "4b02b3fd7f5bdc7e3cfa577a6d5cf744e201b9f6764f11de24a0f5452399ee13",
+    "Exports\\SM_Cafe_Window_120x135.fbx": "7c2665c1d5b600366564cc3232292630d151388b29b1bf3b2201003961e11527",
+    "Exports\\SM_Cafe_Door_130x260.fbx": "80bba3faedac648cfa49aa65b493deceb8fec698a5d0be9b0034f537a07c8280",
+    "Exports\\SM_Cafe_Awning_2m.fbx": "fd347aee150780f3e2d3765a04e6de334569f3da69087f6bdca0856b15ef208b",
+    "Exports\\SM_Cafe_StoryTrim_2m.fbx": "a15e1e37e50cb7c3c0b00f5b89e8238189f35fd3df111c164d29dbf9af6c26f7",
+    "Exports\\SM_Cafe_Foundation_2m.fbx": "791ec315f9b0240cf65e4cf5cd26db68b2dca159e11629ff26190cc00cf0d967",
+    "Exports\\SM_Cafe_CornerTrim_3m.fbx": "3edaf438e8199baa68b4b2b4d7fb26ebeee0f1e929a6ab53caeeaa64c7b84c00",
+    "Exports\\SM_Cafe_RoofSlope_2m.fbx": "db557554c497128c70a61387492d2655324aeefbbf733ad1ae54fbb5e58e7dfa",
+    "Exports\\SM_Cafe_Ridge_2m.fbx": "27e9103ada99770608ead8af0329c236837d315f74f7dd19998fe00c035da0d3",
+    "Exports\\SM_Cafe_Gable_5m.fbx": "59e28e3514052938a9b569bb2c6e0ab585d801b06b9e39df11268954f1f97a56",
+    "Exports\\SM_Cafe_Bargeboard_5m.fbx": "6e30bd09fbb48192119ac06c680ec3613cc94893a78cc1dea13ec5c15575ad2c",
+    "Exports\\SM_Cafe_Gutter_2m.fbx": "9e2e0f73a3e07f867149d14de13ccc4c3f5e5aca04f43d591d946d7fc70a7246",
+    "Exports\\SM_Cafe_Downpipe_3m.fbx": "a27c30664b0f69a31207963fb0154d80ab865d80936237623c50041519577a79",
+    "Exports\\SM_Cafe_FasciaSign.fbx": "c9f224cc277ddb6e9dec91ae400845bd620f559016067402d7fd9d1259a60481",
+    "Exports\\SM_Cafe_RoundSign.fbx": "1304fbfb9f97253ef5ac55e6b1739c7d0f356ac070336663ccbd31857f835c29",
+    "Exports\\SM_Cafe_MenuBoard.fbx": "b0a1a903dc677d2b5be9a34104e4de8c63dcf81c54740e267d1243a7ca17a307",
+    "Exports\\SM_Cafe_Chair.fbx": "67d43c5fdba7335281c11689ae08e1d2f8eebba70fefc3f942c3e7e9136ded02",
+    "Exports\\SM_Cafe_Table.fbx": "3346a780bd51ffb20ed1a097c6fdb5e965a025526225844bac2dd68282063f88",
+    "Exports\\SM_Cafe_Bench.fbx": "08a48a951eda360b6808c751533e3490c0e18d8b91bd39f789a012bd79dc15f9",
+    "Exports\\SM_Cafe_StreetLamp.fbx": "ec4535af3a6095e2403d65685201e974f75e96ae42c1015a3f0574ce6adc5356",
+    "Exports\\SM_Cafe_PottedPlant.fbx": "e8b97bec3abe8af82ff9841d9d8390da4da2b3c31b4d611ed6b1cf2d63377f4b",
+    "Exports\\SM_Cafe_Planter.fbx": "500f30fed7b0fc63ef9100b0c4843a63a7502b2f2931f509ce5be734b17ddbcf",
+    "Exports\\SM_Cafe_AC.fbx": "79a03d97f6e1ffe17f6ca139bea8104b5bf9dce1ec50c468c4ac37dd275dd64e",
+    "Exports\\SM_Cafe01_Assembled.fbx": "fb245a995850164ba6085423fac5a42a2c293f8ae03f6e93e861dce9cfd32f5b"
+  },
+  "errors": [],
+  "passed": true
+}

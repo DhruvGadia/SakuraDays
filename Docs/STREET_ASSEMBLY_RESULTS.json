@@ -1,0 +1,4397 @@
+{
+  "recipe": "street_assembly_v1",
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "errors": [],
+  "placed": [
+    {
+      "label": "SD_Cafe_HANA",
+      "asset": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01",
+      "position_cm": [
+        180,
+        -950,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Cafe_Apron",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        180,
+        -580,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        10.0,
+        2.6,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House01",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        1900,
+        -1000,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House01_Path",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1900,
+        -550,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        1.6,
+        3.0,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House02",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        1100,
+        1200,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House02_Path",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1100,
+        750,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        1.6,
+        3.0,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House03",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        3300,
+        1200,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House03_Path",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3300,
+        750,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        1.6,
+        3.0,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House04",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        3500,
+        -1000,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House04_Path",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3500,
+        -550,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        1.6,
+        3.0,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House05",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        -200,
+        1200,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_House05_Path",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        -200,
+        750,
+        5
+      ],
+      "yaw": 0,
+      "scale": [
+        1.6,
+        3.0,
+        0.2
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_BackgroundHouse00",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        5480,
+        -900,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_BackgroundHouse01",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        5480,
+        1250,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_BackgroundHouse02",
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "position_cm": [
+        5180,
+        150,
+        15
+      ],
+      "yaw": 180,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Sakura_HeroCafe",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "position_cm": [
+        1000,
+        -500,
+        15
+      ],
+      "yaw": 15,
+      "scale": [
+        0.93,
+        0.93,
+        0.93
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_HeroCafe",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1000,
+        -500,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_HeroCafe0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        948,
+        -500,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_HeroCafe1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1052,
+        -500,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_HeroCafe2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1000,
+        -552,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_HeroCafe3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1000,
+        -448,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_NearLeft",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "position_cm": [
+        1450,
+        -195,
+        15
+      ],
+      "yaw": 40,
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_NearLeft",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1450,
+        -195,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_NearLeft0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1398,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_NearLeft1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1502,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_NearLeft2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1450,
+        -247,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_NearLeft3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1450,
+        -143,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_LeftMiddle",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "position_cm": [
+        2800,
+        -195,
+        15
+      ],
+      "yaw": 115,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_LeftMiddle",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2800,
+        -195,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftMiddle0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2748,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftMiddle1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2852,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftMiddle2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2800,
+        -247,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftMiddle3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2800,
+        -143,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_LeftFar",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "position_cm": [
+        4200,
+        -195,
+        15
+      ],
+      "yaw": 70,
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_LeftFar",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4200,
+        -195,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftFar0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4148,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftFar1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4252,
+        -195,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftFar2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4200,
+        -247,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_LeftFar3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4200,
+        -143,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_RightNear",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "position_cm": [
+        300,
+        490,
+        15
+      ],
+      "yaw": 130,
+      "scale": [
+        0.93,
+        0.93,
+        0.93
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_RightNear",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        300,
+        490,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightNear0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        248,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightNear1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        352,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightNear2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        300,
+        438,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightNear3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        300,
+        542,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_RightMiddle",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "position_cm": [
+        2100,
+        490,
+        15
+      ],
+      "yaw": 195,
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_RightMiddle",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2100,
+        490,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightMiddle0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2048,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightMiddle1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2152,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightMiddle2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2100,
+        438,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightMiddle3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2100,
+        542,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_RightFar",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "position_cm": [
+        4000,
+        490,
+        15
+      ],
+      "yaw": 15,
+      "scale": [
+        1.05,
+        1.05,
+        1.05
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_RightFar",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4000,
+        490,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightFar0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3948,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightFar1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4052,
+        490,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightFar2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4000,
+        438,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_RightFar3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4000,
+        542,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_GardenWeeping",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "position_cm": [
+        2600,
+        1150,
+        15
+      ],
+      "yaw": 40,
+      "scale": [
+        0.86,
+        0.86,
+        0.86
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_TreePit_GardenWeeping",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2600,
+        1150,
+        15.6
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_GardenWeeping0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2548,
+        1150,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_GardenWeeping1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2652,
+        1150,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        1.12,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_GardenWeeping2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2600,
+        1098,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PitRim_GardenWeeping3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2600,
+        1202,
+        18
+      ],
+      "yaw": 0,
+      "scale": [
+        0.96,
+        0.08,
+        0.06
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_BackLeft",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "position_cm": [
+        5200,
+        -400,
+        15
+      ],
+      "yaw": 15,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Sakura_BackRight",
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "position_cm": [
+        5500,
+        700,
+        15
+      ],
+      "yaw": 130,
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Bench00",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "position_cm": [
+        1600,
+        -540,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_PotBench00",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "position_cm": [
+        1730,
+        -540,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Bench01",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "position_cm": [
+        3350,
+        835,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_PotBench01",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "position_cm": [
+        3480,
+        835,
+        15
+      ],
+      "yaw": -90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Planter00",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "position_cm": [
+        40,
+        -540,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Planter01",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "position_cm": [
+        780,
+        -540,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Planter02",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "position_cm": [
+        1800,
+        -590,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Planter03",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "position_cm": [
+        3700,
+        835,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Planter04",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "position_cm": [
+        850,
+        835,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Lamp00",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "position_cm": [
+        650,
+        -185,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Lamp01",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "position_cm": [
+        2350,
+        -185,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Lamp02",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "position_cm": [
+        3700,
+        -185,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Lamp03",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "position_cm": [
+        1250,
+        490,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Lamp04",
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "position_cm": [
+        3100,
+        490,
+        15
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenWall00",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1350,
+        -590,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.4,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap00",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1350,
+        -590,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.52,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub00_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1270.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9230769230769231,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub00_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1350.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9230769230769231,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub00_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1430.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9230769230769231,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall01",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2450,
+        -590,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.8,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap01",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2450,
+        -590,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.92,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub01_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2356.6666666666665,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0769230769230769,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub01_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2450.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0769230769230769,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub01_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2543.3333333333335,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0769230769230769,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall02",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3000,
+        -590,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.0,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap02",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3000,
+        -590,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.12,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub02_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2933.3333333333335,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub02_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3000.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub02_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3066.6666666666665,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall03",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4050,
+        -590,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        3.0,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap03",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4050,
+        -590,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        3.12,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub03_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3950.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.1538461538461537,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub03_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        4050.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.1538461538461537,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub03_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        4150.0,
+        -655,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.1538461538461537,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall04",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        500,
+        855,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.3,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap04",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        500,
+        855,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.42,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub04_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        423.3333333333333,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.8846153846153846,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub04_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        500.0,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.8846153846153846,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub04_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        576.6666666666666,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.8846153846153846,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall05",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1700,
+        855,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.6,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap05",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        1700,
+        855,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.72,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub05_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1613.3333333333333,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub05_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1700.0,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub05_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        1786.6666666666667,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        1.0,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall06",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2750,
+        855,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.5,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap06",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2750,
+        855,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.62,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub06_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2666.6666666666665,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9615384615384616,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub06_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2750.0,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9615384615384616,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub06_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        2833.3333333333335,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.9615384615384616,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_GardenWall07",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3900,
+        855,
+        80
+      ],
+      "yaw": 0,
+      "scale": [
+        2.0,
+        0.25,
+        1.3
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_GardenCap07",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        3900,
+        855,
+        149
+      ],
+      "yaw": 0,
+      "scale": [
+        2.12,
+        0.35,
+        0.1
+      ],
+      "collision": true
+    },
+    {
+      "label": "SD_Shrub07_0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3833.3333333333335,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub07_1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3900.0,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Shrub07_2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        3966.6666666666665,
+        920,
+        165
+      ],
+      "yaw": 0,
+      "scale": [
+        0.7692307692307693,
+        1.05,
+        1.15
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Pole00",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350.0,
+        -170.0,
+        452.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.18,
+        0.18,
+        8.75
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossarm00",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350.0,
+        -170.0,
+        825.0
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        0.08,
+        1.8
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand00_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350,
+        -170,
+        72
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand00_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350,
+        -170,
+        100
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand00_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350,
+        -170,
+        128
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator00_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350.0,
+        -250.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator00_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350.0,
+        -170.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator00_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1350.0,
+        -90.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Pole01",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900.0,
+        -170.0,
+        452.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.18,
+        0.18,
+        8.75
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossarm01",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900.0,
+        -170.0,
+        825.0
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        0.08,
+        1.8
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand01_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900,
+        -170,
+        72
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand01_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900,
+        -170,
+        100
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand01_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900,
+        -170,
+        128
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator01_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900.0,
+        -250.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator01_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900.0,
+        -170.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator01_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2900.0,
+        -90.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Pole02",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400.0,
+        -170.0,
+        452.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.18,
+        0.18,
+        8.75
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossarm02",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400.0,
+        -170.0,
+        825.0
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        0.08,
+        1.8
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand02_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400,
+        -170,
+        72
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand02_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400,
+        -170,
+        100
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand02_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400,
+        -170,
+        128
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator02_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400.0,
+        -250.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator02_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400.0,
+        -170.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator02_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4400.0,
+        -90.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Pole03",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950.0,
+        -170.0,
+        452.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.18,
+        0.18,
+        8.75
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossarm03",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950.0,
+        -170.0,
+        825.0
+      ],
+      "yaw": 0,
+      "scale": [
+        0.08,
+        0.08,
+        1.8
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand03_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950,
+        -170,
+        72
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand03_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950,
+        -170,
+        100
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_PoleBand03_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950,
+        -170,
+        128
+      ],
+      "yaw": 0,
+      "scale": [
+        0.185,
+        0.185,
+        0.14
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator03_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950.0,
+        -250.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator03_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950.0,
+        -170.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Insulator03_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5950.0,
+        -90.0,
+        833.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.33
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1427.5,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1582.5,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1737.5,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1892.5,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2047.5,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2202.5,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2357.5,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2512.5,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2667.5,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_0_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2822.5,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1427.5,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1582.5,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1737.5,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1892.5,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2047.5,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2202.5,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2357.5,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2512.5,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2667.5,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_1_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2822.5,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1427.5,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1582.5,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1737.5,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        1892.5,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2047.5,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2202.5,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2357.5,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2512.5,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2667.5,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable0_2_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2822.5,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2975.0,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3125.0,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3275.0,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3425.0,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3575.0,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3725.0,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3875.0,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4025.0,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4175.0,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_0_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4325.0,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2975.0,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3125.0,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3275.0,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3425.0,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3575.0,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3725.0,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3875.0,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4025.0,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4175.0,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_1_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4325.0,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        2975.0,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3125.0,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3275.0,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3425.0,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3575.0,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3725.0,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5002253164108383
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        3875.0,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.502026630922368
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4025.0,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5056227947264877
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4175.0,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5110009927197268
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable1_2_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4325.0,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5181422858217208
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4477.5,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4632.5,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4787.5,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4942.5,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5097.5,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5252.5,
+        -250.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5407.5,
+        -250.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5562.5,
+        -250.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5717.5,
+        -250.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_0_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5872.5,
+        -250.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4477.5,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4632.5,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4787.5,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4942.5,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5097.5,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5252.5,
+        -170.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5407.5,
+        -170.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5562.5,
+        -170.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5717.5,
+        -170.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_1_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5872.5,
+        -170.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_0",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4477.5,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_1",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4632.5,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_2",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4787.5,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_3",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        4942.5,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_4",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5097.5,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_5",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5252.5,
+        -90.0,
+        786.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5502180491788888
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_6",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5407.5,
+        -90.0,
+        791.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5519613397246723
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_7",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5562.5,
+        -90.0,
+        801.9
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.5554420593516172
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_8",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5717.5,
+        -90.0,
+        817.5
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.560648583121774
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Cable2_2_9",
+      "asset": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "position_cm": [
+        5872.5,
+        -90.0,
+        838.3
+      ],
+      "yaw": 0,
+      "scale": [
+        0.023,
+        0.023,
+        1.567563714813532
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_TactileLeft",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2000,
+        -235,
+        15.8
+      ],
+      "yaw": 0,
+      "scale": [
+        58.0,
+        0.32,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_TactileRight",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2000,
+        690,
+        15.8
+      ],
+      "yaw": 0,
+      "scale": [
+        58.0,
+        0.32,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_CurbLeft",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2000,
+        -153,
+        8
+      ],
+      "yaw": 0,
+      "scale": [
+        60.0,
+        0.1,
+        0.16
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_CurbRight",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        2000,
+        453,
+        8
+      ],
+      "yaw": 0,
+      "scale": [
+        60.0,
+        0.1,
+        0.16
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_RoadDiamond0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        825,
+        -37.5,
+        1.3
+      ],
+      "yaw": -26.565,
+      "scale": [
+        1.6769999999999998,
+        0.1,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_RoadDiamond1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        975,
+        -37.5,
+        1.3
+      ],
+      "yaw": 26.565,
+      "scale": [
+        1.6769999999999998,
+        0.1,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_RoadDiamond2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        975,
+        37.5,
+        1.3
+      ],
+      "yaw": -26.565,
+      "scale": [
+        1.6769999999999998,
+        0.1,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_RoadDiamond3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        825,
+        37.5,
+        1.3
+      ],
+      "yaw": 26.565,
+      "scale": [
+        1.6769999999999998,
+        0.1,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing0",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        -110,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing1",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        -30,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing2",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        50,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing3",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        130,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing4",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        210,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing5",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        290,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_Crossing6",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "position_cm": [
+        4370,
+        370,
+        1.4
+      ],
+      "yaw": 0,
+      "scale": [
+        1.2,
+        0.35,
+        0.01
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge0",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        -1250,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge1",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        -980,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge2",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        -710,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge3",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        -440,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge4",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        -170,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge5",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        100,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge6",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        370,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge7",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        640,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge8",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        910,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge9",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        1180,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    },
+    {
+      "label": "SD_EndHedge10",
+      "asset": "/Engine/BasicShapes/Sphere.Sphere",
+      "position_cm": [
+        5010,
+        1450,
+        330
+      ],
+      "yaw": 0,
+      "scale": [
+        3.5,
+        3.0,
+        1.4
+      ],
+      "collision": false
+    }
+  ],
+  "removed_graybox": [],
+  "backup": "Saved\\StreetAssembly\\Backups\\L_SakuraStreet_176c16ac4c8fc1fc.umap",
+  "protected_before": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "protected_after": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "actor_count": 288,
+  "passed": true
+}

@@ -1,0 +1,2735 @@
+{
+  "blender_version": "5.2.3 LTS",
+  "source_file": "SakuraTreeKit.blend",
+  "unit_scale_length": 1.0,
+  "uv0_overlap_policy": "Allowed: repeated foliage/bark UV islands; not a baked lightmap atlas",
+  "checks": {
+    "SM_Sakura_Hero_LOD0": {
+      "vertices": 12912,
+      "triangles": 11964,
+      "polygons": 5730,
+      "bounds_m": {
+        "min": [
+          -4.907969951629639,
+          -4.752508640289307,
+          0.0
+        ],
+        "max": [
+          4.704892158508301,
+          4.426320552825928,
+          7.67877721786499
+        ],
+        "dimensions": [
+          9.61286211013794,
+          9.178829193115234,
+          7.67877721786499
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 12912,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.49803924560546875,
+          1.0
+        ]
+      },
+      "boundary_edges": 9072,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 7428,
+        "M_Sakura_Blossom": 4536
+      }
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "vertices": 6708,
+      "triangles": 5604,
+      "polygons": 2676,
+      "bounds_m": {
+        "min": [
+          -4.900242328643799,
+          -4.834665775299072,
+          0.0
+        ],
+        "max": [
+          4.748386859893799,
+          4.513551712036133,
+          7.735746383666992
+        ],
+        "dimensions": [
+          9.648629188537598,
+          9.348217487335205,
+          7.735746383666992
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 6708,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.5098039507865906,
+          1.0
+        ]
+      },
+      "boundary_edges": 5040,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 3084,
+        "M_Sakura_Blossom": 2520
+      }
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "vertices": 2880,
+      "triangles": 1908,
+      "polygons": 936,
+      "bounds_m": {
+        "min": [
+          -4.894970893859863,
+          -4.7092084884643555,
+          0.0
+        ],
+        "max": [
+          4.814773082733154,
+          4.646693706512451,
+          7.832424163818359
+        ],
+        "dimensions": [
+          9.709743976593018,
+          9.355902194976807,
+          7.832424163818359
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 2880,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          0.9911022186279297,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.5098039507865906,
+          1.0
+        ]
+      },
+      "boundary_edges": 2520,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 648,
+        "M_Sakura_Blossom": 1260
+      }
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "vertices": 10288,
+      "triangles": 9572,
+      "polygons": 4582,
+      "bounds_m": {
+        "min": [
+          -2.8094100952148438,
+          -2.5455915927886963,
+          0.0
+        ],
+        "max": [
+          3.4683921337127686,
+          3.359950304031372,
+          5.951271057128906
+        ],
+        "dimensions": [
+          6.277802228927612,
+          5.905541896820068,
+          5.951271057128906
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 10288,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          0.8196079134941101
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          0.8196079134941101
+        ]
+      },
+      "boundary_edges": 7200,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 5972,
+        "M_Sakura_Blossom": 3600
+      }
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "vertices": 5344,
+      "triangles": 4484,
+      "polygons": 2140,
+      "bounds_m": {
+        "min": [
+          -2.8774313926696777,
+          -2.6085569858551025,
+          0.0
+        ],
+        "max": [
+          3.544039726257324,
+          3.3991293907165527,
+          5.997363090515137
+        ],
+        "dimensions": [
+          6.421471118927002,
+          6.007686376571655,
+          5.997363090515137
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 5344,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          0.8156863451004028
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          0.8156863451004028
+        ]
+      },
+      "boundary_edges": 4000,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 2484,
+        "M_Sakura_Blossom": 2000
+      }
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "vertices": 2310,
+      "triangles": 1556,
+      "polygons": 762,
+      "bounds_m": {
+        "min": [
+          -2.9533863067626953,
+          -2.74285888671875,
+          0.0
+        ],
+        "max": [
+          3.503156900405884,
+          3.4696712493896484,
+          6.112868309020996
+        ],
+        "dimensions": [
+          6.456543207168579,
+          6.212530136108398,
+          6.112868309020996
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 2310,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          0.9911022186279297,
+          1.0,
+          0.803921639919281
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          0.803921639919281
+        ]
+      },
+      "boundary_edges": 2000,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 556,
+        "M_Sakura_Blossom": 1000
+      }
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "vertices": 22992,
+      "triangles": 19792,
+      "polygons": 9540,
+      "bounds_m": {
+        "min": [
+          -3.4502811431884766,
+          -5.1123857498168945,
+          0.0
+        ],
+        "max": [
+          4.043488502502441,
+          3.7108445167541504,
+          7.388258934020996
+        ],
+        "dimensions": [
+          7.493769645690918,
+          8.823230266571045,
+          7.388258934020996
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 22992,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          1.0
+        ]
+      },
+      "boundary_edges": 17224,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 11180,
+        "M_Sakura_Blossom": 8612
+      }
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "vertices": 12490,
+      "triangles": 9588,
+      "polygons": 4616,
+      "bounds_m": {
+        "min": [
+          -3.466717481613159,
+          -5.081539154052734,
+          0.0
+        ],
+        "max": [
+          4.112823009490967,
+          3.730264186859131,
+          7.456377983093262
+        ],
+        "dimensions": [
+          7.579540491104126,
+          8.811803340911865,
+          7.456377983093262
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 12490,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          1.0
+        ]
+      },
+      "boundary_edges": 10024,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 4576,
+        "M_Sakura_Blossom": 5012
+      }
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "vertices": 5347,
+      "triangles": 3108,
+      "polygons": 1537,
+      "bounds_m": {
+        "min": [
+          -3.554825782775879,
+          -5.1397175788879395,
+          0.0
+        ],
+        "max": [
+          4.224523544311523,
+          3.825502634048462,
+          7.532388210296631
+        ],
+        "dimensions": [
+          7.779349327087402,
+          8.965220212936401,
+          7.532388210296631
+        ]
+      },
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "uv_channels": [
+        "UV0_Surface"
+      ],
+      "identity_transform_error": 0.0,
+      "degenerate_geometry_triangles": 0,
+      "uv_checks": {
+        "UV0_Surface": {
+          "nonfinite_loops": 0,
+          "outside_unit_square_loops": 0,
+          "degenerate_triangles": 0
+        }
+      },
+      "color_attribute": {
+        "name": "Color",
+        "domain": "POINT",
+        "data_type": "BYTE_COLOR",
+        "elements": 5347,
+        "invalid_elements": 0,
+        "channel_min": [
+          0.8227859735488892,
+          0.8227859735488892,
+          0.8227859735488892,
+          0.0
+        ],
+        "channel_max": [
+          1.0,
+          0.9911022186279297,
+          1.0,
+          1.0
+        ]
+      },
+      "wind_alpha_ranges": {
+        "M_Sakura_Bark": [
+          0.0,
+          0.0
+        ],
+        "M_Sakura_Blossom": [
+          0.40000003576278687,
+          1.0
+        ]
+      },
+      "boundary_edges": 5012,
+      "nonmanifold_edges_over_two_faces": 0,
+      "material_triangle_counts": {
+        "M_Sakura_Bark": 602,
+        "M_Sakura_Blossom": 2506
+      }
+    }
+  },
+  "source_collision": {
+    "SM_Sakura_Hero_LOD0": {
+      "UCX_SM_Sakura_Hero_LOD0_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31990575790405273,
+            -0.31939923763275146,
+            -0.019593223929405212
+          ],
+          "max": [
+            0.31990575790405273,
+            0.31939923763275146,
+            1.1273729801177979
+          ],
+          "dimensions": [
+            0.6398115158081055,
+            0.6387984752655029,
+            1.146966204047203
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD0_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.27366888523101807,
+            -0.18133094906806946,
+            1.0852781534194946
+          ],
+          "max": [
+            0.3238130211830139,
+            0.3186120092868805,
+            2.1774001121520996
+          ],
+          "dimensions": [
+            0.597481906414032,
+            0.49994295835494995,
+            1.092121958732605
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD0_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07084934413433075,
+            -0.11567293107509613,
+            2.131369113922119
+          ],
+          "max": [
+            0.38781172037124634,
+            0.284155011177063,
+            3.084857702255249
+          ],
+          "dimensions": [
+            0.4586610645055771,
+            0.3998279422521591,
+            0.9534885883331299
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "UCX_SM_Sakura_Hero_LOD1_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31990575790405273,
+            -0.31939923763275146,
+            -0.019593223929405212
+          ],
+          "max": [
+            0.31990575790405273,
+            0.31939923763275146,
+            1.1273729801177979
+          ],
+          "dimensions": [
+            0.6398115158081055,
+            0.6387984752655029,
+            1.146966204047203
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD1_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.27366888523101807,
+            -0.18133094906806946,
+            1.0852781534194946
+          ],
+          "max": [
+            0.3238130211830139,
+            0.3186120092868805,
+            2.1774001121520996
+          ],
+          "dimensions": [
+            0.597481906414032,
+            0.49994295835494995,
+            1.092121958732605
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD1_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07084934413433075,
+            -0.11567293107509613,
+            2.131369113922119
+          ],
+          "max": [
+            0.38781172037124634,
+            0.284155011177063,
+            3.084857702255249
+          ],
+          "dimensions": [
+            0.4586610645055771,
+            0.3998279422521591,
+            0.9534885883331299
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "UCX_SM_Sakura_Hero_LOD2_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31990575790405273,
+            -0.31939923763275146,
+            -0.019593223929405212
+          ],
+          "max": [
+            0.31990575790405273,
+            0.31939923763275146,
+            1.1273729801177979
+          ],
+          "dimensions": [
+            0.6398115158081055,
+            0.6387984752655029,
+            1.146966204047203
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD2_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.27366888523101807,
+            -0.18133094906806946,
+            1.0852781534194946
+          ],
+          "max": [
+            0.3238130211830139,
+            0.3186120092868805,
+            2.1774001121520996
+          ],
+          "dimensions": [
+            0.597481906414032,
+            0.49994295835494995,
+            1.092121958732605
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Hero_LOD2_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07084934413433075,
+            -0.11567293107509613,
+            2.131369113922119
+          ],
+          "max": [
+            0.38781172037124634,
+            0.284155011177063,
+            3.084857702255249
+          ],
+          "dimensions": [
+            0.4586610645055771,
+            0.3998279422521591,
+            0.9534885883331299
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "UCX_SM_Sakura_Spread_LOD0_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31985989212989807,
+            -0.3191080093383789,
+            -0.02386554516851902
+          ],
+          "max": [
+            0.31985989212989807,
+            0.3191080093383789,
+            0.9296460151672363
+          ],
+          "dimensions": [
+            0.6397197842597961,
+            0.6382160186767578,
+            0.9535115603357553
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD0_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2722227871417999,
+            -0.18130141496658325,
+            0.8763548135757446
+          ],
+          "max": [
+            0.3226248621940613,
+            0.318614661693573,
+            1.7961537837982178
+          ],
+          "dimensions": [
+            0.5948476493358612,
+            0.49991607666015625,
+            0.9197989702224731
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD0_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.06986160576343536,
+            -0.115663543343544,
+            1.7381222248077393
+          ],
+          "max": [
+            0.3870776891708374,
+            0.28408282995224,
+            2.5360426902770996
+          ],
+          "dimensions": [
+            0.45693929493427277,
+            0.399746373295784,
+            0.7979204654693604
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "UCX_SM_Sakura_Spread_LOD1_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31985989212989807,
+            -0.3191080093383789,
+            -0.02386554516851902
+          ],
+          "max": [
+            0.31985989212989807,
+            0.3191080093383789,
+            0.9296460151672363
+          ],
+          "dimensions": [
+            0.6397197842597961,
+            0.6382160186767578,
+            0.9535115603357553
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD1_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2722227871417999,
+            -0.18130141496658325,
+            0.8763548135757446
+          ],
+          "max": [
+            0.3226248621940613,
+            0.318614661693573,
+            1.7961537837982178
+          ],
+          "dimensions": [
+            0.5948476493358612,
+            0.49991607666015625,
+            0.9197989702224731
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD1_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.06986160576343536,
+            -0.115663543343544,
+            1.7381222248077393
+          ],
+          "max": [
+            0.3870776891708374,
+            0.28408282995224,
+            2.5360426902770996
+          ],
+          "dimensions": [
+            0.45693929493427277,
+            0.399746373295784,
+            0.7979204654693604
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "UCX_SM_Sakura_Spread_LOD2_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31985989212989807,
+            -0.3191080093383789,
+            -0.02386554516851902
+          ],
+          "max": [
+            0.31985989212989807,
+            0.3191080093383789,
+            0.9296460151672363
+          ],
+          "dimensions": [
+            0.6397197842597961,
+            0.6382160186767578,
+            0.9535115603357553
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD2_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2722227871417999,
+            -0.18130141496658325,
+            0.8763548135757446
+          ],
+          "max": [
+            0.3226248621940613,
+            0.318614661693573,
+            1.7961537837982178
+          ],
+          "dimensions": [
+            0.5948476493358612,
+            0.49991607666015625,
+            0.9197989702224731
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Spread_LOD2_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.06986160576343536,
+            -0.115663543343544,
+            1.7381222248077393
+          ],
+          "max": [
+            0.3870776891708374,
+            0.28408282995224,
+            2.5360426902770996
+          ],
+          "dimensions": [
+            0.45693929493427277,
+            0.399746373295784,
+            0.7979204654693604
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "UCX_SM_Sakura_Weeping_LOD0_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31989774107933044,
+            -0.3193483352661133,
+            -0.02040533535182476
+          ],
+          "max": [
+            0.31989774107933044,
+            0.3193483352661133,
+            1.0833261013031006
+          ],
+          "dimensions": [
+            0.6397954821586609,
+            0.6386966705322266,
+            1.1037314366549253
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD0_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2734123468399048,
+            -0.1813255101442337,
+            1.0390963554382324
+          ],
+          "max": [
+            0.3236018121242523,
+            0.3186126947402954,
+            2.092482089996338
+          ],
+          "dimensions": [
+            0.5970141589641571,
+            0.4999382048845291,
+            1.0533857345581055
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD0_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07067377865314484,
+            -0.11567175388336182,
+            2.044160842895508
+          ],
+          "max": [
+            0.38768070936203003,
+            0.28414186835289,
+            2.9627723693847656
+          ],
+          "dimensions": [
+            0.45835448801517487,
+            0.39981362223625183,
+            0.9186115264892578
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "UCX_SM_Sakura_Weeping_LOD1_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31989774107933044,
+            -0.3193483352661133,
+            -0.02040533535182476
+          ],
+          "max": [
+            0.31989774107933044,
+            0.3193483352661133,
+            1.0833261013031006
+          ],
+          "dimensions": [
+            0.6397954821586609,
+            0.6386966705322266,
+            1.1037314366549253
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD1_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2734123468399048,
+            -0.1813255101442337,
+            1.0390963554382324
+          ],
+          "max": [
+            0.3236018121242523,
+            0.3186126947402954,
+            2.092482089996338
+          ],
+          "dimensions": [
+            0.5970141589641571,
+            0.4999382048845291,
+            1.0533857345581055
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD1_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07067377865314484,
+            -0.11567175388336182,
+            2.044160842895508
+          ],
+          "max": [
+            0.38768070936203003,
+            0.28414186835289,
+            2.9627723693847656
+          ],
+          "dimensions": [
+            0.45835448801517487,
+            0.39981362223625183,
+            0.9186115264892578
+          ]
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "UCX_SM_Sakura_Weeping_LOD2_00": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.31989774107933044,
+            -0.3193483352661133,
+            -0.02040533535182476
+          ],
+          "max": [
+            0.31989774107933044,
+            0.3193483352661133,
+            1.0833261013031006
+          ],
+          "dimensions": [
+            0.6397954821586609,
+            0.6386966705322266,
+            1.1037314366549253
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD2_01": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.2734123468399048,
+            -0.1813255101442337,
+            1.0390963554382324
+          ],
+          "max": [
+            0.3236018121242523,
+            0.3186126947402954,
+            2.092482089996338
+          ],
+          "dimensions": [
+            0.5970141589641571,
+            0.4999382048845291,
+            1.0533857345581055
+          ]
+        }
+      },
+      "UCX_SM_Sakura_Weeping_LOD2_02": {
+        "closed": true,
+        "convex": true,
+        "vertices": 16,
+        "bounds_m": {
+          "min": [
+            -0.07067377865314484,
+            -0.11567175388336182,
+            2.044160842895508
+          ],
+          "max": [
+            0.38768070936203003,
+            0.28414186835289,
+            2.9627723693847656
+          ],
+          "dimensions": [
+            0.45835448801517487,
+            0.39981362223625183,
+            0.9186115264892578
+          ]
+        }
+      }
+    }
+  },
+  "fbx_roundtrips": {
+    "SM_Sakura_Hero_LOD0": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 12912,
+        "triangles": 11964,
+        "polygons": 11964,
+        "bounds_m": {
+          "min": [
+            -4.907970428466797,
+            -4.752509117126465,
+            0.0
+          ],
+          "max": [
+            4.704892635345459,
+            4.426321029663086,
+            7.67877721786499
+          ],
+          "dimensions": [
+            9.612863063812256,
+            9.17883014678955,
+            7.67877721786499
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 35892,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.49803924560546875,
+            1.0
+          ]
+        },
+        "boundary_edges": 9072,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 7428,
+          "M_Sakura_Blossom": 4536
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Hero_LOD0_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.3199057877063751,
+              -0.31939926743507385,
+              -0.019593223929405212
+            ],
+            "max": [
+              0.3199057877063751,
+              0.31939926743507385,
+              1.1273729801177979
+            ],
+            "dimensions": [
+              0.6398115754127502,
+              0.6387985348701477,
+              1.146966204047203
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD0_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.27366891503334045,
+              -0.18133097887039185,
+              1.0852781534194946
+            ],
+            "max": [
+              0.3238130509853363,
+              0.3186120390892029,
+              2.1774001121520996
+            ],
+            "dimensions": [
+              0.5974819660186768,
+              0.4999430179595947,
+              1.092121958732605
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD0_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07084936648607254,
+              -0.11567293852567673,
+              2.131369113922119
+            ],
+            "max": [
+              0.38781172037124634,
+              0.2841550409793854,
+              3.084857702255249
+            ],
+            "dimensions": [
+              0.4586610868573189,
+              0.3998279795050621,
+              0.9534885883331299
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 6708,
+        "triangles": 5604,
+        "polygons": 5604,
+        "bounds_m": {
+          "min": [
+            -4.900242805480957,
+            -4.8346662521362305,
+            0.0
+          ],
+          "max": [
+            4.748387336730957,
+            4.513552188873291,
+            7.735746383666992
+          ],
+          "dimensions": [
+            9.648630142211914,
+            9.348218441009521,
+            7.735746383666992
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 16812,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.5098039507865906,
+            1.0
+          ]
+        },
+        "boundary_edges": 5040,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 3084,
+          "M_Sakura_Blossom": 2520
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Hero_LOD1_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.3199057877063751,
+              -0.31939926743507385,
+              -0.019593223929405212
+            ],
+            "max": [
+              0.3199057877063751,
+              0.31939926743507385,
+              1.1273729801177979
+            ],
+            "dimensions": [
+              0.6398115754127502,
+              0.6387985348701477,
+              1.146966204047203
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD1_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.27366891503334045,
+              -0.18133097887039185,
+              1.0852781534194946
+            ],
+            "max": [
+              0.3238130509853363,
+              0.3186120390892029,
+              2.1774001121520996
+            ],
+            "dimensions": [
+              0.5974819660186768,
+              0.4999430179595947,
+              1.092121958732605
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD1_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07084936648607254,
+              -0.11567293852567673,
+              2.131369113922119
+            ],
+            "max": [
+              0.38781172037124634,
+              0.2841550409793854,
+              3.084857702255249
+            ],
+            "dimensions": [
+              0.4586610868573189,
+              0.3998279795050621,
+              0.9534885883331299
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 2880,
+        "triangles": 1908,
+        "polygons": 1908,
+        "bounds_m": {
+          "min": [
+            -4.8949713706970215,
+            -4.709208965301514,
+            0.0
+          ],
+          "max": [
+            4.8147735595703125,
+            4.646694183349609,
+            7.832424163818359
+          ],
+          "dimensions": [
+            9.709744930267334,
+            9.355903148651123,
+            7.832424163818359
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 5724,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            0.9911022186279297,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.5098039507865906,
+            1.0
+          ]
+        },
+        "boundary_edges": 2520,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 648,
+          "M_Sakura_Blossom": 1260
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Hero_LOD2_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.3199057877063751,
+              -0.31939926743507385,
+              -0.019593223929405212
+            ],
+            "max": [
+              0.3199057877063751,
+              0.31939926743507385,
+              1.1273729801177979
+            ],
+            "dimensions": [
+              0.6398115754127502,
+              0.6387985348701477,
+              1.146966204047203
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD2_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.27366891503334045,
+              -0.18133097887039185,
+              1.0852781534194946
+            ],
+            "max": [
+              0.3238130509853363,
+              0.3186120390892029,
+              2.1774001121520996
+            ],
+            "dimensions": [
+              0.5974819660186768,
+              0.4999430179595947,
+              1.092121958732605
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Hero_LOD2_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07084936648607254,
+              -0.11567293852567673,
+              2.131369113922119
+            ],
+            "max": [
+              0.38781172037124634,
+              0.2841550409793854,
+              3.084857702255249
+            ],
+            "dimensions": [
+              0.4586610868573189,
+              0.3998279795050621,
+              0.9534885883331299
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 10288,
+        "triangles": 9572,
+        "polygons": 9572,
+        "bounds_m": {
+          "min": [
+            -2.809410333633423,
+            -2.5455918312072754,
+            0.0
+          ],
+          "max": [
+            3.4683923721313477,
+            3.359950542449951,
+            5.951271057128906
+          ],
+          "dimensions": [
+            6.2778027057647705,
+            5.905542373657227,
+            5.951271057128906
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 28716,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            0.8196079134941101
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            0.8196079134941101
+          ]
+        },
+        "boundary_edges": 7200,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 5972,
+          "M_Sakura_Blossom": 3600
+        }
+      },
+      "max_bounds_error_m": 2.384185791015625e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Spread_LOD0_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31985992193222046,
+              -0.3191080391407013,
+              -0.02386554516851902
+            ],
+            "max": [
+              0.31985992193222046,
+              0.3191080391407013,
+              0.9296460151672363
+            ],
+            "dimensions": [
+              0.6397198438644409,
+              0.6382160782814026,
+              0.9535115603357553
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD0_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2722228169441223,
+              -0.18130144476890564,
+              0.8763548135757446
+            ],
+            "max": [
+              0.32262489199638367,
+              0.3186146914958954,
+              1.7961537837982178
+            ],
+            "dimensions": [
+              0.594847708940506,
+              0.499916136264801,
+              0.9197989702224731
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD0_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.06986162811517715,
+              -0.1156635507941246,
+              1.7381222248077393
+            ],
+            "max": [
+              0.3870776891708374,
+              0.2840828597545624,
+              2.5360426902770996
+            ],
+            "dimensions": [
+              0.45693931728601456,
+              0.399746410548687,
+              0.7979204654693604
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 5344,
+        "triangles": 4484,
+        "polygons": 4484,
+        "bounds_m": {
+          "min": [
+            -2.877431631088257,
+            -2.6085572242736816,
+            0.0
+          ],
+          "max": [
+            3.5440399646759033,
+            3.399129629135132,
+            5.997363090515137
+          ],
+          "dimensions": [
+            6.42147159576416,
+            6.0076868534088135,
+            5.997363090515137
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 13452,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            0.8156863451004028
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            0.8156863451004028
+          ]
+        },
+        "boundary_edges": 4000,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 2484,
+          "M_Sakura_Blossom": 2000
+        }
+      },
+      "max_bounds_error_m": 2.384185791015625e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Spread_LOD1_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31985992193222046,
+              -0.3191080391407013,
+              -0.02386554516851902
+            ],
+            "max": [
+              0.31985992193222046,
+              0.3191080391407013,
+              0.9296460151672363
+            ],
+            "dimensions": [
+              0.6397198438644409,
+              0.6382160782814026,
+              0.9535115603357553
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD1_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2722228169441223,
+              -0.18130144476890564,
+              0.8763548135757446
+            ],
+            "max": [
+              0.32262489199638367,
+              0.3186146914958954,
+              1.7961537837982178
+            ],
+            "dimensions": [
+              0.594847708940506,
+              0.499916136264801,
+              0.9197989702224731
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD1_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.06986162811517715,
+              -0.1156635507941246,
+              1.7381222248077393
+            ],
+            "max": [
+              0.3870776891708374,
+              0.2840828597545624,
+              2.5360426902770996
+            ],
+            "dimensions": [
+              0.45693931728601456,
+              0.399746410548687,
+              0.7979204654693604
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 2310,
+        "triangles": 1556,
+        "polygons": 1556,
+        "bounds_m": {
+          "min": [
+            -2.9533865451812744,
+            -2.742859125137329,
+            0.0
+          ],
+          "max": [
+            3.503157138824463,
+            3.4696714878082275,
+            6.112868309020996
+          ],
+          "dimensions": [
+            6.456543684005737,
+            6.212530612945557,
+            6.112868309020996
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 4668,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            0.9911022186279297,
+            1.0,
+            0.803921639919281
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            0.803921639919281
+          ]
+        },
+        "boundary_edges": 2000,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 556,
+          "M_Sakura_Blossom": 1000
+        }
+      },
+      "max_bounds_error_m": 2.384185791015625e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Spread_LOD2_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31985992193222046,
+              -0.3191080391407013,
+              -0.02386554516851902
+            ],
+            "max": [
+              0.31985992193222046,
+              0.3191080391407013,
+              0.9296460151672363
+            ],
+            "dimensions": [
+              0.6397198438644409,
+              0.6382160782814026,
+              0.9535115603357553
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD2_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2722228169441223,
+              -0.18130144476890564,
+              0.8763548135757446
+            ],
+            "max": [
+              0.32262489199638367,
+              0.3186146914958954,
+              1.7961537837982178
+            ],
+            "dimensions": [
+              0.594847708940506,
+              0.499916136264801,
+              0.9197989702224731
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Spread_LOD2_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.06986162811517715,
+              -0.1156635507941246,
+              1.7381222248077393
+            ],
+            "max": [
+              0.3870776891708374,
+              0.2840828597545624,
+              2.5360426902770996
+            ],
+            "dimensions": [
+              0.45693931728601456,
+              0.399746410548687,
+              0.7979204654693604
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 22992,
+        "triangles": 19792,
+        "polygons": 19792,
+        "bounds_m": {
+          "min": [
+            -3.4502813816070557,
+            -5.112386226654053,
+            0.0
+          ],
+          "max": [
+            4.0434889793396,
+            3.7108447551727295,
+            7.388258934020996
+          ],
+          "dimensions": [
+            7.493770360946655,
+            8.823230981826782,
+            7.388258934020996
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 59376,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            1.0
+          ]
+        },
+        "boundary_edges": 17224,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 11180,
+          "M_Sakura_Blossom": 8612
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Weeping_LOD0_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31989777088165283,
+              -0.31934836506843567,
+              -0.02040533535182476
+            ],
+            "max": [
+              0.31989777088165283,
+              0.31934836506843567,
+              1.0833261013031006
+            ],
+            "dimensions": [
+              0.6397955417633057,
+              0.6386967301368713,
+              1.1037314366549253
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD0_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2734123766422272,
+              -0.1813255399465561,
+              1.0390963554382324
+            ],
+            "max": [
+              0.3236018419265747,
+              0.3186127245426178,
+              2.092482089996338
+            ],
+            "dimensions": [
+              0.5970142185688019,
+              0.4999382644891739,
+              1.0533857345581055
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD0_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07067380100488663,
+              -0.11567176133394241,
+              2.044160842895508
+            ],
+            "max": [
+              0.38768070936203003,
+              0.2841418981552124,
+              2.9627723693847656
+            ],
+            "dimensions": [
+              0.45835451036691666,
+              0.3998136594891548,
+              0.9186115264892578
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 12490,
+        "triangles": 9588,
+        "polygons": 9588,
+        "bounds_m": {
+          "min": [
+            -3.4667177200317383,
+            -5.081539630889893,
+            0.0
+          ],
+          "max": [
+            4.112823486328125,
+            3.730264663696289,
+            7.456377983093262
+          ],
+          "dimensions": [
+            7.579541206359863,
+            8.811804294586182,
+            7.456377983093262
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 28764,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            1.0
+          ]
+        },
+        "boundary_edges": 10024,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 4576,
+          "M_Sakura_Blossom": 5012
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Weeping_LOD1_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31989777088165283,
+              -0.31934836506843567,
+              -0.02040533535182476
+            ],
+            "max": [
+              0.31989777088165283,
+              0.31934836506843567,
+              1.0833261013031006
+            ],
+            "dimensions": [
+              0.6397955417633057,
+              0.6386967301368713,
+              1.1037314366549253
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD1_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2734123766422272,
+              -0.1813255399465561,
+              1.0390963554382324
+            ],
+            "max": [
+              0.3236018419265747,
+              0.3186127245426178,
+              2.092482089996338
+            ],
+            "dimensions": [
+              0.5970142185688019,
+              0.4999382644891739,
+              1.0533857345581055
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD1_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07067380100488663,
+              -0.11567176133394241,
+              2.044160842895508
+            ],
+            "max": [
+              0.38768070936203003,
+              0.2841418981552124,
+              2.9627723693847656
+            ],
+            "dimensions": [
+              0.45835451036691666,
+              0.3998136594891548,
+              0.9186115264892578
+            ]
+          }
+        }
+      }
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "fbx_version": 7400,
+      "metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0,
+        "OriginalUnitScaleFactor": 100.0
+      },
+      "render_mesh_count": 1,
+      "collision_hull_count": 3,
+      "mesh": {
+        "vertices": 5347,
+        "triangles": 3108,
+        "polygons": 3108,
+        "bounds_m": {
+          "min": [
+            -3.554826021194458,
+            -5.139718055725098,
+            0.0
+          ],
+          "max": [
+            4.224524021148682,
+            3.82550311088562,
+            7.532388210296631
+          ],
+          "dimensions": [
+            7.77935004234314,
+            8.965221166610718,
+            7.532388210296631
+          ]
+        },
+        "material_slots": [
+          "M_Sakura_Bark",
+          "M_Sakura_Blossom"
+        ],
+        "uv_channels": [
+          "UV0_Surface"
+        ],
+        "identity_transform_error": 8.742277657347586e-08,
+        "degenerate_geometry_triangles": 0,
+        "uv_checks": {
+          "UV0_Surface": {
+            "nonfinite_loops": 0,
+            "outside_unit_square_loops": 0,
+            "degenerate_triangles": 0
+          }
+        },
+        "color_attribute": {
+          "name": "Color",
+          "domain": "CORNER",
+          "data_type": "BYTE_COLOR",
+          "elements": 9324,
+          "invalid_elements": 0,
+          "channel_min": [
+            0.8227859735488892,
+            0.8227859735488892,
+            0.8227859735488892,
+            0.0
+          ],
+          "channel_max": [
+            1.0,
+            0.9911022186279297,
+            1.0,
+            1.0
+          ]
+        },
+        "wind_alpha_ranges": {
+          "M_Sakura_Bark": [
+            0.0,
+            0.0
+          ],
+          "M_Sakura_Blossom": [
+            0.40000003576278687,
+            1.0
+          ]
+        },
+        "boundary_edges": 5012,
+        "nonmanifold_edges_over_two_faces": 0,
+        "material_triangle_counts": {
+          "M_Sakura_Bark": 602,
+          "M_Sakura_Blossom": 2506
+        }
+      },
+      "max_bounds_error_m": 4.76837158203125e-07,
+      "max_color_extrema_error_linear": 0.0,
+      "collision": {
+        "UCX_SM_Sakura_Weeping_LOD2_00": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.31989777088165283,
+              -0.31934836506843567,
+              -0.02040533535182476
+            ],
+            "max": [
+              0.31989777088165283,
+              0.31934836506843567,
+              1.0833261013031006
+            ],
+            "dimensions": [
+              0.6397955417633057,
+              0.6386967301368713,
+              1.1037314366549253
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD2_01": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.2734123766422272,
+              -0.1813255399465561,
+              1.0390963554382324
+            ],
+            "max": [
+              0.3236018419265747,
+              0.3186127245426178,
+              2.092482089996338
+            ],
+            "dimensions": [
+              0.5970142185688019,
+              0.4999382644891739,
+              1.0533857345581055
+            ]
+          }
+        },
+        "UCX_SM_Sakura_Weeping_LOD2_02": {
+          "closed": true,
+          "convex": true,
+          "vertices": 16,
+          "bounds_m": {
+            "min": [
+              -0.07067380100488663,
+              -0.11567176133394241,
+              2.044160842895508
+            ],
+            "max": [
+              0.38768070936203003,
+              0.2841418981552124,
+              2.9627723693847656
+            ],
+            "dimensions": [
+              0.45835451036691666,
+              0.3998136594891548,
+              0.9186115264892578
+            ]
+          }
+        }
+      }
+    }
+  },
+  "blossom_atlas": {
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "packed_in_source": true,
+    "colorspace": "sRGB",
+    "masked_coverage_per_quadrant_at_0_4": [
+      0.3074836730957031,
+      0.30361175537109375,
+      0.2928657531738281,
+      0.25275421142578125
+    ],
+    "min_alpha": 0.0,
+    "max_alpha": 1.0
+  },
+  "validated_sha256": {
+    "SakuraTreeKit.blend": "2d398eb03ed8c2d86f6b90b5bdc0fd67b8b5eac092efcfc65cb4d3954f609567",
+    "Textures\\T_Sakura_Blossom_Atlas.png": "3c1d065b6c930a2320c6e42467ab178f83155c1967a2a54c7f181bbfc912a66f",
+    "Exports\\SM_Sakura_Hero_LOD0.fbx": "580d1512a7db42b99e8d82f9520aab22b0696f752f9a71330cf479f3d9dd7bae",
+    "Exports\\SM_Sakura_Hero_LOD1.fbx": "902e79b87616d2d9d25305560e77a46c795a79245a5a84991b9ee729f37688d2",
+    "Exports\\SM_Sakura_Hero_LOD2.fbx": "6d46549901b4cccb0a793e80dc7cf3b79a89a85d452aa48aed226fa7e5d4c7be",
+    "Exports\\SM_Sakura_Spread_LOD0.fbx": "aa9e79ec91202fcf0da444b9af7c5adcef56b9bb43f79dd06e1d57085719bc0c",
+    "Exports\\SM_Sakura_Spread_LOD1.fbx": "51d55601b21df9a9e4c2a55e4822e3be45559ef706dcb67a0be014b314dc8dd3",
+    "Exports\\SM_Sakura_Spread_LOD2.fbx": "cc25eb50e8bbc3b67d75cdf9c011606dedefba6795aa7725e274aa8565ab7434",
+    "Exports\\SM_Sakura_Weeping_LOD0.fbx": "9d2c75e53c19891d5cda58e269ccfae062771ceaf77ca584f04c63e193a1bc1e",
+    "Exports\\SM_Sakura_Weeping_LOD1.fbx": "325fec22b49e7927321d87980cae928a1bb5b6d90990fc1f5b01678977afd25f",
+    "Exports\\SM_Sakura_Weeping_LOD2.fbx": "3298df4b9c08e6d2da09ea713638d6bf07c34c90e21a96be55072a621f3edbc2"
+  },
+  "warnings": [],
+  "errors": [],
+  "passed": true
+}

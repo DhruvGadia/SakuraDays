@@ -1,0 +1,2957 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "passed": true,
+  "errors": [],
+  "checks": [
+    {
+      "name": "correct_loaded_map",
+      "passed": true,
+      "loaded_world": "/Game/SakuraDays/Maps/L_SakuraStreet.L_SakuraStreet"
+    },
+    {
+      "name": "no_duplicate_assembly_labels",
+      "passed": true,
+      "duplicate_labels": []
+    },
+    {
+      "name": "graybox_building_tree_placeholders_replaced",
+      "passed": true,
+      "remaining": []
+    },
+    {
+      "name": "protected_transform_Prototype_Road",
+      "passed": true,
+      "expected": [
+        2000.0,
+        150.0,
+        -5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        6.0,
+        0.1
+      ],
+      "actual": [
+        2000.0,
+        150.0,
+        -5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        6.0,
+        0.1
+      ]
+    },
+    {
+      "name": "protected_transform_Prototype_LeftSidewalk",
+      "passed": true,
+      "expected": [
+        2000.0,
+        -300.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ],
+      "actual": [
+        2000.0,
+        -300.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ]
+    },
+    {
+      "name": "protected_transform_Prototype_RightSidewalk",
+      "passed": true,
+      "expected": [
+        2000.0,
+        600.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ],
+      "actual": [
+        2000.0,
+        600.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ]
+    },
+    {
+      "name": "protected_transform_PlayerStart_SakuraStreet",
+      "passed": true,
+      "expected": [
+        0.0,
+        -320.0,
+        115.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "actual": [
+        0.0,
+        -320.0,
+        115.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "protected_transform_CAM_SakuraStreet_Reference",
+      "passed": true,
+      "expected": [
+        -480.0,
+        -180.0,
+        210.0,
+        -4.0,
+        -7.000000000000002,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "actual": [
+        -480.0,
+        -180.0,
+        210.0,
+        -4.0,
+        -7.000000000000002,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "exact_reference_camera",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_Ground",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_Ground",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_Road",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_Road",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_LeftSidewalk",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_LeftSidewalk",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_RightSidewalk",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_RightSidewalk",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_LeftBoundary",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_LeftBoundary",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_RightBoundary",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_RightBoundary",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_FarBoundary",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_FarBoundary",
+      "passed": true
+    },
+    {
+      "name": "blocking_surface_Prototype_NearBoundary",
+      "passed": true
+    },
+    {
+      "name": "original_surface_transform_Prototype_NearBoundary",
+      "passed": true
+    },
+    {
+      "name": "surface_height_Prototype_Road",
+      "passed": true
+    },
+    {
+      "name": "surface_height_Prototype_LeftSidewalk",
+      "passed": true
+    },
+    {
+      "name": "surface_height_Prototype_RightSidewalk",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Cafe_HANA",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01"
+    },
+    {
+      "name": "imported_placement_SD_Cafe_HANA",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Cafe_Apron",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_House01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_House01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_House01_Path",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_House02",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_House02",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_House02_Path",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_House03",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_House03",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_House03_Path",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_House04",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_House04",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_House04_Path",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_House05",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_House05",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_House05_Path",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_BackgroundHouse00",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_BackgroundHouse00",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_BackgroundHouse01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_BackgroundHouse01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_BackgroundHouse02",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "actual": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01"
+    },
+    {
+      "name": "imported_placement_SD_BackgroundHouse02",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Sakura_HeroCafe",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_HeroCafe",
+      "passed": true
+    },
+    {
+      "name": "tree_ucx_SM_Sakura_Hero",
+      "passed": true
+    },
+    {
+      "name": "tree_masked_material_SM_Sakura_Hero",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_HeroCafe",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_HeroCafe0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_HeroCafe1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_HeroCafe2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_HeroCafe3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_NearLeft",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_NearLeft",
+      "passed": true
+    },
+    {
+      "name": "tree_ucx_SM_Sakura_Spread",
+      "passed": true
+    },
+    {
+      "name": "tree_masked_material_SM_Sakura_Spread",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_NearLeft",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_NearLeft0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_NearLeft1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_NearLeft2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_NearLeft3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_LeftMiddle",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_LeftMiddle",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_LeftMiddle",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftMiddle0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftMiddle1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftMiddle2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftMiddle3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_LeftFar",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_LeftFar",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_LeftFar",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftFar0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftFar1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftFar2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_LeftFar3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_RightNear",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_RightNear",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_RightNear",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightNear0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightNear1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightNear2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightNear3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_RightMiddle",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_RightMiddle",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_RightMiddle",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightMiddle0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightMiddle1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightMiddle2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightMiddle3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_RightFar",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_RightFar",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_RightFar",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightFar0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightFar1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightFar2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_RightFar3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_GardenWeeping",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_GardenWeeping",
+      "passed": true
+    },
+    {
+      "name": "tree_ucx_SM_Sakura_Weeping",
+      "passed": true
+    },
+    {
+      "name": "tree_masked_material_SM_Sakura_Weeping",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_TreePit_GardenWeeping",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_GardenWeeping0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_GardenWeeping1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_GardenWeeping2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_PitRim_GardenWeeping3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Sakura_BackLeft",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_BackLeft",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Sakura_BackRight",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "actual": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping"
+    },
+    {
+      "name": "imported_placement_SD_Sakura_BackRight",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Bench00",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench"
+    },
+    {
+      "name": "imported_placement_SD_Bench00",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_PotBench00",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant"
+    },
+    {
+      "name": "imported_placement_SD_PotBench00",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Bench01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench"
+    },
+    {
+      "name": "imported_placement_SD_Bench01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_PotBench01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant"
+    },
+    {
+      "name": "imported_placement_SD_PotBench01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Planter00",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter"
+    },
+    {
+      "name": "imported_placement_SD_Planter00",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Planter01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter"
+    },
+    {
+      "name": "imported_placement_SD_Planter01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Planter02",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter"
+    },
+    {
+      "name": "imported_placement_SD_Planter02",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Planter03",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter"
+    },
+    {
+      "name": "imported_placement_SD_Planter03",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Planter04",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter"
+    },
+    {
+      "name": "imported_placement_SD_Planter04",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Lamp00",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp"
+    },
+    {
+      "name": "imported_placement_SD_Lamp00",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Lamp01",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp"
+    },
+    {
+      "name": "imported_placement_SD_Lamp01",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Lamp02",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp"
+    },
+    {
+      "name": "imported_placement_SD_Lamp02",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Lamp03",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp"
+    },
+    {
+      "name": "imported_placement_SD_Lamp03",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_Lamp04",
+      "passed": true,
+      "expected": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "actual": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp"
+    },
+    {
+      "name": "imported_placement_SD_Lamp04",
+      "passed": true
+    },
+    {
+      "name": "placed_asset_SD_GardenWall00",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap00",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub00_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub00_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub00_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall01",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap01",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub01_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub01_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub01_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall02",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap02",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub02_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub02_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub02_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall03",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap03",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub03_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub03_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub03_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall04",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap04",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub04_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub04_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub04_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall05",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap05",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub05_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub05_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub05_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall06",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap06",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub06_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub06_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub06_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_GardenWall07",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_GardenCap07",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Shrub07_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub07_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Shrub07_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_Pole00",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Crossarm00",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand00_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand00_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand00_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator00_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator00_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator00_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Pole01",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Crossarm01",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand01_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand01_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand01_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator01_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator01_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator01_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Pole02",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Crossarm02",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand02_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand02_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand02_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator02_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator02_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator02_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Pole03",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Crossarm03",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand03_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand03_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_PoleBand03_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator03_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator03_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Insulator03_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_0_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_1_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable0_2_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_0_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_1_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable1_2_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_0_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_1_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_Cable2_2_9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "actual": "/Engine/BasicShapes/Cylinder.Cylinder"
+    },
+    {
+      "name": "placed_asset_SD_TactileLeft",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_TactileRight",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_CurbLeft",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_CurbRight",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_RoadDiamond0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_RoadDiamond1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_RoadDiamond2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_RoadDiamond3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_Crossing6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Cube.Cube",
+      "actual": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge0",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge1",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge2",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge3",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge4",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge5",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge6",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge7",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge8",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge9",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "name": "placed_asset_SD_EndHedge10",
+      "passed": true,
+      "expected": "/Engine/BasicShapes/Sphere.Sphere",
+      "actual": "/Engine/BasicShapes/Sphere.Sphere"
+    }
+  ],
+  "protected": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "physical_surfaces": {
+    "Prototype_Ground": {
+      "transform": [
+        2000.0,
+        150.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        34.0,
+        1.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        150.0,
+        -60.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        1700.0,
+        50.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        -1550.0,
+        -110.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        1850.0,
+        -10.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Earth_9e510152df.M_Earth_9e510152df"
+      ]
+    },
+    "Prototype_Road": {
+      "transform": [
+        2000.0,
+        150.0,
+        -5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        6.0,
+        0.1
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        150.0,
+        -5.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        300.0,
+        5.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        -150.0,
+        -10.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        450.0,
+        0.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Road_ca8f477250.M_Road_ca8f477250"
+      ]
+    },
+    "Prototype_LeftSidewalk": {
+      "transform": [
+        2000.0,
+        -300.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        -300.0,
+        5.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        150.0,
+        10.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        -450.0,
+        -5.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        -150.0,
+        15.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Paving_cca0f601c0.M_Paving_cca0f601c0"
+      ]
+    },
+    "Prototype_RightSidewalk": {
+      "transform": [
+        2000.0,
+        600.0,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        3.0,
+        0.2
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        600.0,
+        5.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        150.0,
+        10.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        450.0,
+        -5.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        750.0,
+        15.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Paving_cca0f601c0.M_Paving_cca0f601c0"
+      ]
+    },
+    "Prototype_LeftBoundary": {
+      "transform": [
+        2000.0,
+        -1500.0,
+        140.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        1.0,
+        3.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        -1500.0,
+        140.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        50.0,
+        150.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        -1550.0,
+        -10.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        -1450.0,
+        290.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Cream_151e6fdfeb.M_Cream_151e6fdfeb"
+      ]
+    },
+    "Prototype_RightBoundary": {
+      "transform": [
+        2000.0,
+        1800.0,
+        140.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        1.0,
+        3.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        2000.0,
+        1800.0,
+        140.0
+      ],
+      "world_bounds_extent_cm": [
+        3000.0,
+        50.0,
+        150.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        1750.0,
+        -10.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        1850.0,
+        290.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Cream_151e6fdfeb.M_Cream_151e6fdfeb"
+      ]
+    },
+    "Prototype_FarBoundary": {
+      "transform": [
+        4950.0,
+        150.0,
+        140.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        34.0,
+        3.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        4950.0,
+        150.0,
+        140.0
+      ],
+      "world_bounds_extent_cm": [
+        50.0,
+        1700.0,
+        150.0
+      ],
+      "bounds_min_cm": [
+        4900.0,
+        -1550.0,
+        -10.0
+      ],
+      "bounds_max_cm": [
+        5000.0,
+        1850.0,
+        290.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Cream_151e6fdfeb.M_Cream_151e6fdfeb"
+      ]
+    },
+    "Prototype_NearBoundary": {
+      "transform": [
+        -950.0,
+        150.0,
+        140.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        34.0,
+        3.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision_profile": "BlockAll",
+      "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "collision_object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "query_collision": true,
+      "actor_collision": true,
+      "world_bounds_origin_cm": [
+        -950.0,
+        150.0,
+        140.0
+      ],
+      "world_bounds_extent_cm": [
+        50.0,
+        1700.0,
+        150.0
+      ],
+      "bounds_min_cm": [
+        -1000.0,
+        -1550.0,
+        -10.0
+      ],
+      "bounds_max_cm": [
+        -900.0,
+        1850.0,
+        290.0
+      ],
+      "simple_collision_shapes": 1,
+      "convex_hulls": 0,
+      "materials": [
+        "/Game/SakuraDays/Environment/Street/Materials/M_Cream_151e6fdfeb.M_Cream_151e6fdfeb"
+      ]
+    }
+  },
+  "imported_actors": {
+    "SD_Cafe_HANA": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/Cafe01/Revisions/r_929016223384/SM_Cafe01.SM_Cafe01",
+      "transform": [
+        180.0,
+        -950.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_House01": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        1900.0,
+        -1000.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_House02": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        1100.0,
+        1200.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_House03": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        3300.0,
+        1200.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_House04": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        3500.0,
+        -1000.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_House05": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        -200.0,
+        1200.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_BackgroundHouse00": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        5480.0,
+        -900.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "NoCollision"
+    },
+    "SD_BackgroundHouse01": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        5480.0,
+        1250.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "NoCollision"
+    },
+    "SD_BackgroundHouse02": {
+      "asset": "/Game/SakuraDays/Environment/Architecture/House01/Revisions/r_65c36027274b/SM_House01.SM_House01",
+      "transform": [
+        5180.0,
+        150.0,
+        15.0,
+        0.0,
+        180.0,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_HeroCafe": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "transform": [
+        1000.0,
+        -500.0,
+        15.0,
+        0.0,
+        14.999999999999998,
+        -0.0,
+        0.93,
+        0.93,
+        0.93
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_NearLeft": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "transform": [
+        1450.0,
+        -195.0,
+        15.0,
+        0.0,
+        40.00000000000003,
+        -0.0,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_LeftMiddle": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "transform": [
+        2800.0,
+        -195.0,
+        15.0,
+        0.0,
+        115.0,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_LeftFar": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "transform": [
+        4200.0,
+        -195.0,
+        15.0,
+        0.0,
+        69.99999999999996,
+        -0.0,
+        0.85,
+        0.85,
+        0.85
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_RightNear": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "transform": [
+        300.0,
+        490.0,
+        15.0,
+        0.0,
+        129.99999999999997,
+        -0.0,
+        0.93,
+        0.93,
+        0.93
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_RightMiddle": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero",
+      "transform": [
+        2100.0,
+        490.0,
+        15.0,
+        0.0,
+        -165.00000000000003,
+        0.0,
+        0.85,
+        0.85,
+        0.85
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_RightFar": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "transform": [
+        4000.0,
+        490.0,
+        15.0,
+        0.0,
+        14.999999999999998,
+        -0.0,
+        1.05,
+        1.05,
+        1.05
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_GardenWeeping": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "transform": [
+        2600.0,
+        1150.0,
+        15.0,
+        0.0,
+        40.00000000000003,
+        -0.0,
+        0.86,
+        0.86,
+        0.86
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Sakura_BackLeft": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread",
+      "transform": [
+        5200.0,
+        -400.0,
+        15.0,
+        0.0,
+        14.999999999999998,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "NoCollision"
+    },
+    "SD_Sakura_BackRight": {
+      "asset": "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping",
+      "transform": [
+        5500.0,
+        700.0,
+        15.0,
+        0.0,
+        129.99999999999997,
+        -0.0,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "collision_profile": "NoCollision"
+    },
+    "SD_Bench00": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "transform": [
+        1600.0,
+        -540.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_PotBench00": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "transform": [
+        1730.0,
+        -540.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Bench01": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Bench/Revisions/r_13af946a7c9b/SM_Cafe_Bench.SM_Cafe_Bench",
+      "transform": [
+        3350.0,
+        835.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_PotBench01": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/PottedPlant/Revisions/r_d3383408a920/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "transform": [
+        3480.0,
+        835.0,
+        15.0,
+        0.0,
+        -90.00000000000001,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Planter00": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "transform": [
+        40.0,
+        -540.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Planter01": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "transform": [
+        780.0,
+        -540.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Planter02": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "transform": [
+        1800.0,
+        -590.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Planter03": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "transform": [
+        3700.0,
+        835.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Planter04": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/Planter/Revisions/r_34524348d959/SM_Cafe_Planter.SM_Cafe_Planter",
+      "transform": [
+        850.0,
+        835.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Lamp00": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "transform": [
+        650.0,
+        -185.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Lamp01": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "transform": [
+        2350.0,
+        -185.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Lamp02": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "transform": [
+        3700.0,
+        -185.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Lamp03": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "transform": [
+        1250.0,
+        490.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    },
+    "SD_Lamp04": {
+      "asset": "/Game/SakuraDays/Environment/Props/Cafe01/StreetLamp/Revisions/r_31eeb0756f69/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "transform": [
+        3100.0,
+        490.0,
+        15.0,
+        0.0,
+        89.99999999999999,
+        -0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "collision_profile": "BlockAll"
+    }
+  },
+  "tree_meshes": {
+    "/Game/SakuraDays/Environment/Foliage/Sakura/Hero/Revisions/r_356c82d91a4c/SM_Sakura_Hero.SM_Sakura_Hero": {
+      "convex_trunk_hulls": 3,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "blossom_two_sided": true,
+      "blossom_blend_mode": "<BlendMode.BLEND_MASKED: 1>",
+      "blossom_shading_model": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+    },
+    "/Game/SakuraDays/Environment/Foliage/Sakura/Spread/Revisions/r_1a6249ad6534/SM_Sakura_Spread.SM_Sakura_Spread": {
+      "convex_trunk_hulls": 3,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "blossom_two_sided": true,
+      "blossom_blend_mode": "<BlendMode.BLEND_MASKED: 1>",
+      "blossom_shading_model": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+    },
+    "/Game/SakuraDays/Environment/Foliage/Sakura/Weeping/Revisions/r_5f3748a5eeaa/SM_Sakura_Weeping.SM_Sakura_Weeping": {
+      "convex_trunk_hulls": 3,
+      "material_slots": [
+        "M_Sakura_Bark",
+        "M_Sakura_Blossom"
+      ],
+      "blossom_two_sided": true,
+      "blossom_blend_mode": "<BlendMode.BLEND_MASKED: 1>",
+      "blossom_shading_model": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+    }
+  },
+  "actor_count": 288,
+  "reference_camera": {
+    "transform": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "projection_mode": "<CameraProjectionMode.PERSPECTIVE: 0>",
+    "horizontal_fov": 75.0,
+    "aspect_ratio": 1.7777777910232544,
+    "constrain_aspect_ratio": true,
+    "auto_activate_for_player": "<AutoReceiveInput.DISABLED: 0>"
+  }
+}

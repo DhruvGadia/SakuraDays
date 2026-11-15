@@ -1,0 +1,756 @@
+{
+  "blender": "5.2.3 LTS",
+  "meters_per_unit": 1,
+  "modules": {
+    "SM_Cafe_Wall_Window_2m": {
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Wall_Door_2m": {
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Wall_Solid_2m": {
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.04500000178813934,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2150000035762787,
+          3.200000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.26000000536441803,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Upper_Window_2m": {
+      "triangles": 48,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ]
+    },
+    "SM_Cafe_Upper_Solid_2m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ],
+        "dimensions": [
+          2.0,
+          0.18000000715255737,
+          2.700000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ]
+    },
+    "SM_Cafe_Window_168x205": {
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.04500000178813934,
+          -0.10000000149011612,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.725000023841858,
+          0.20000000298023224,
+          2.049999952316284
+        ],
+        "dimensions": [
+          1.7700000256299973,
+          0.30000000447034836,
+          2.084999952465296
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ]
+    },
+    "SM_Cafe_Window_120x135": {
+      "triangles": 124,
+      "bounds_m": {
+        "min": [
+          -0.04500000178813934,
+          -0.10000000149011612,
+          -0.03500000014901161
+        ],
+        "max": [
+          1.2450000047683716,
+          0.20000000298023224,
+          1.350000023841858
+        ],
+        "dimensions": [
+          1.290000006556511,
+          0.30000000447034836,
+          1.3850000239908695
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ]
+    },
+    "SM_Cafe_Door_130x260": {
+      "triangles": 144,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.11600000411272049,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.14000000059604645,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.2999999523162842,
+          0.25600000470876694,
+          2.5999999046325684
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Wood",
+        "M_Cafe_Glass",
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_Awning_2m": {
+      "triangles": 304,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -1.21750009059906,
+          -0.6119584441184998
+        ],
+        "max": [
+          2.0,
+          0.029999999329447746,
+          0.07999999821186066
+        ],
+        "dimensions": [
+          2.0,
+          1.2475000899285078,
+          0.6919584423303604
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_StoryTrim_2m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.05999999865889549,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2199999988079071,
+          0.1599999964237213
+        ],
+        "dimensions": [
+          2.0,
+          0.2799999974668026,
+          0.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Foundation_2m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.25999999046325684,
+          0.18000000715255737
+        ],
+        "dimensions": [
+          2.0,
+          0.25999999046325684,
+          0.18000000715255737
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Stone"
+      ]
+    },
+    "SM_Cafe_CornerTrim_3m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000014901161,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          0.07500000298023224,
+          0.07000000029802322,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.11000000312924385,
+          0.10999999940395355,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood"
+      ]
+    },
+    "SM_Cafe_RoofSlope_2m": {
+      "triangles": 84,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          -0.1599999964237213
+        ],
+        "max": [
+          2.0,
+          2.9600000381469727,
+          1.0
+        ],
+        "dimensions": [
+          2.0,
+          2.9600000381469727,
+          1.1599999964237213
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Roof",
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Ridge_2m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          0.12999999523162842
+        ],
+        "dimensions": [
+          2.0,
+          0.20000000298023224,
+          0.12999999523162842
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Gable_5m": {
+      "triangles": 8,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.1599999964237213,
+          5.0,
+          0.8619999885559082
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          5.0,
+          0.8619999885559082
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ]
+    },
+    "SM_Cafe_Bargeboard_5m": {
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          -0.05999999865889549,
+          -2.9195594787597656,
+          -0.056722380220890045
+        ],
+        "max": [
+          0.05999999865889549,
+          2.9195594787597656,
+          1.0567224025726318
+        ],
+        "dimensions": [
+          0.11999999731779099,
+          5.839118957519531,
+          1.1134447827935219
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Gutter_2m": {
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          0.0,
+          -0.019999999552965164,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.14000000059604645,
+          0.11999999731779099
+        ],
+        "dimensions": [
+          2.0,
+          0.1600000001490116,
+          0.11999999731779099
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_Downpipe_3m": {
+      "triangles": 12,
+      "bounds_m": {
+        "min": [
+          -0.03500000014901161,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.03500000014901161,
+          0.03500000014901161,
+          3.0
+        ],
+        "dimensions": [
+          0.07000000029802322,
+          0.07000000029802322,
+          3.0
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_FasciaSign": {
+      "triangles": 644,
+      "bounds_m": {
+        "min": [
+          -1.5499999523162842,
+          -0.045600004494190216,
+          0.0
+        ],
+        "max": [
+          1.5499999523162842,
+          0.11999999731779099,
+          0.5799999833106995
+        ],
+        "dimensions": [
+          3.0999999046325684,
+          0.1656000018119812,
+          0.5799999833106995
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Wood"
+      ]
+    },
+    "SM_Cafe_RoundSign": {
+      "triangles": 596,
+      "bounds_m": {
+        "min": [
+          -0.3199999928474426,
+          -0.800599992275238,
+          0.07999999821186066
+        ],
+        "max": [
+          0.3199999928474426,
+          0.0059262486174702644,
+          0.8700000047683716
+        ],
+        "dimensions": [
+          0.6399999856948853,
+          0.8065262408927083,
+          0.7900000065565109
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Rose"
+      ]
+    },
+    "SM_Cafe_MenuBoard": {
+      "triangles": 856,
+      "bounds_m": {
+        "min": [
+          -0.3400000035762787,
+          -0.28187501430511475,
+          0.0
+        ],
+        "max": [
+          0.3400000035762787,
+          0.32167917490005493,
+          1.0860220193862915
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6035541892051697,
+          1.0860220193862915
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Chalk",
+        "M_Cafe_Metal",
+        "M_Cafe_Paper"
+      ]
+    },
+    "SM_Cafe_Chair": {
+      "triangles": 228,
+      "bounds_m": {
+        "min": [
+          -0.23999999463558197,
+          -0.23294220864772797,
+          0.0
+        ],
+        "max": [
+          0.23999999463558197,
+          0.26089999079704285,
+          0.8719516396522522
+        ],
+        "dimensions": [
+          0.47999998927116394,
+          0.4938421994447708,
+          0.8719516396522522
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_Table": {
+      "triangles": 532,
+      "bounds_m": {
+        "min": [
+          -0.3499999940395355,
+          -0.3499999940395355,
+          0.0
+        ],
+        "max": [
+          0.3499999940395355,
+          0.3499999940395355,
+          0.7450000047683716
+        ],
+        "dimensions": [
+          0.699999988079071,
+          0.699999988079071,
+          0.7450000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim"
+      ]
+    },
+    "SM_Cafe_Bench": {
+      "triangles": 468,
+      "bounds_m": {
+        "min": [
+          -0.800000011920929,
+          -0.23149999976158142,
+          0.0
+        ],
+        "max": [
+          0.800000011920929,
+          0.32194456458091736,
+          0.9262120723724365
+        ],
+        "dimensions": [
+          1.600000023841858,
+          0.5534445643424988,
+          0.9262120723724365
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ]
+    },
+    "SM_Cafe_StreetLamp": {
+      "triangles": 492,
+      "bounds_m": {
+        "min": [
+          -0.26499998569488525,
+          -0.22949673235416412,
+          0.0
+        ],
+        "max": [
+          0.26499998569488525,
+          0.22949673235416412,
+          3.200000047683716
+        ],
+        "dimensions": [
+          0.5299999713897705,
+          0.45899346470832825,
+          3.200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Lamp"
+      ]
+    },
+    "SM_Cafe_PottedPlant": {
+      "triangles": 878,
+      "bounds_m": {
+        "min": [
+          -0.27859583497047424,
+          -0.2774337828159332,
+          0.0
+        ],
+        "max": [
+          0.2784999907016754,
+          0.2794092893600464,
+          0.9523900151252747
+        ],
+        "dimensions": [
+          0.5570958256721497,
+          0.5568430721759796,
+          0.9523900151252747
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Wood",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf"
+      ]
+    },
+    "SM_Cafe_Planter": {
+      "triangles": 546,
+      "bounds_m": {
+        "min": [
+          -0.6075000166893005,
+          -0.22100000083446503,
+          0.0
+        ],
+        "max": [
+          0.6247751712799072,
+          0.22100000083446503,
+          0.8199999928474426
+        ],
+        "dimensions": [
+          1.2322751879692078,
+          0.44200000166893005,
+          0.8199999928474426
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Soil",
+        "M_Cafe_Metal",
+        "M_Cafe_Leaf",
+        "M_Cafe_Leaf_Light"
+      ]
+    },
+    "SM_Cafe_AC": {
+      "triangles": 340,
+      "bounds_m": {
+        "min": [
+          -0.4099999964237213,
+          -0.2175000011920929,
+          0.0
+        ],
+        "max": [
+          0.4099999964237213,
+          0.19499999284744263,
+          0.6449999809265137
+        ],
+        "dimensions": [
+          0.8199999928474426,
+          0.4124999940395355,
+          0.6449999809265137
+        ]
+      },
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Stone",
+        "M_Cafe_Paper"
+      ]
+    }
+  },
+  "assembly_instances": 83,
+  "materials": {
+    "plaster": "DDC9AD",
+    "wood": "80614F",
+    "trim": "393344",
+    "roof": "596276",
+    "rose": "BF7B8A",
+    "glass": "717C8C",
+    "reflection": "B9C7D1",
+    "stone": "B8B1A9",
+    "metal": "484C58",
+    "leaf": "648954",
+    "leaf_light": "8DA767",
+    "terracotta": "B27C65",
+    "soil": "554B49",
+    "paper": "EEE1CA",
+    "lamp": "E6C18C",
+    "chalk": "414651"
+  },
+  "front_axis_blender": "-Y",
+  "up_axis": "Z",
+  "collision": "No gameplay collision authored; add deliberate simple proxies at integration",
+  "assembled": {
+    "triangles": 10526,
+    "bounds_m": {
+      "min": [
+        -3.5785956382751465,
+        -4.549999713897705,
+        0.0
+      ],
+      "max": [
+        4.364999771118164,
+        2.9600000381469727,
+        7.070000171661377
+      ],
+      "dimensions": [
+        7.9435954093933105,
+        7.509999752044678,
+        7.070000171661377
+      ]
+    },
+    "material_slots": [
+      "M_Cafe_Plaster",
+      "M_Cafe_Wood",
+      "M_Cafe_Stone",
+      "M_Cafe_Trim",
+      "M_Cafe_Glass",
+      "M_Cafe_Reflection",
+      "M_Cafe_Rose",
+      "M_Cafe_Paper",
+      "M_Cafe_Metal",
+      "M_Cafe_Roof",
+      "M_Cafe_Terracotta",
+      "M_Cafe_Soil",
+      "M_Cafe_Leaf_Light",
+      "M_Cafe_Leaf",
+      "M_Cafe_Chalk",
+      "M_Cafe_Lamp"
+    ],
+    "uv1_grid": 10
+  }
+}

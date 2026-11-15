@@ -1,0 +1,630 @@
+{
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "isolated_project": "../../../../../../Users/HP/Documents/Unreal Projects/sakuradays/Saved/Cafe01UEValidation/",
+  "import_settings": {
+    "force_front_x_axis": true,
+    "convert_scene": true,
+    "convert_scene_unit": true,
+    "uniform_scale": 1,
+    "combine_meshes": true,
+    "generate_lightmap_uvs": false,
+    "auto_generate_collision": false,
+    "import_materials": false
+  },
+  "scope": "Fresh geometry imports only; final materials, gameplay collision and performance not tested",
+  "results": {
+    "SM_Cafe_Wall_Window_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Wall_Window_2m.SM_Cafe_Wall_Window_2m",
+      "dimensions_cm": [
+        26.000017166137695,
+        200.00000187958983,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        26.000018417835236,
+        200.00000187958963,
+        320.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 84
+    },
+    "SM_Cafe_Wall_Door_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Wall_Door_2m.SM_Cafe_Wall_Door_2m",
+      "dimensions_cm": [
+        26.000017166137695,
+        200.00000187958983,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        26.000018417835236,
+        200.00000187958963,
+        320.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 84
+    },
+    "SM_Cafe_Wall_Solid_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Wall_Solid_2m.SM_Cafe_Wall_Solid_2m",
+      "dimensions_cm": [
+        26.000017166137695,
+        200.00000187958983,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        26.000018417835236,
+        200.00000187958963,
+        320.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 48
+    },
+    "SM_Cafe_Upper_Window_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Upper_Window_2m.SM_Cafe_Upper_Window_2m",
+      "dimensions_cm": [
+        18.000019073486328,
+        200.00000157361012,
+        270.0
+      ],
+      "expected_dimensions_cm": [
+        18.00001859664917,
+        200.00000157361004,
+        270.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": 2,
+      "triangles": 48
+    },
+    "SM_Cafe_Upper_Solid_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Upper_Solid_2m.SM_Cafe_Upper_Solid_2m",
+      "dimensions_cm": [
+        18.000019073486328,
+        200.00000157361012,
+        270.0
+      ],
+      "expected_dimensions_cm": [
+        18.00001859664917,
+        200.00000157361004,
+        270.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_Window_168x205": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Window_168x205.SM_Cafe_Window_168x205",
+      "dimensions_cm": [
+        30.00001621246338,
+        177.00000190734863,
+        208.5
+      ],
+      "expected_dimensions_cm": [
+        30.00001609325409,
+        177.00000442564487,
+        208.49999524652958
+      ],
+      "max_dimensions_error_cm": 4.753470420837402e-06,
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": 2,
+      "triangles": 124
+    },
+    "SM_Cafe_Window_120x135": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Window_120x135.SM_Cafe_Window_120x135",
+      "dimensions_cm": [
+        30.000012397766113,
+        129.00000190734863,
+        138.5
+      ],
+      "expected_dimensions_cm": [
+        30.00001162290573,
+        129.00000251829624,
+        138.50000239908695
+      ],
+      "max_dimensions_error_cm": 2.3990869522094727e-06,
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Wood",
+        "M_Cafe_Reflection"
+      ],
+      "uv_channels": 2,
+      "triangles": 124
+    },
+    "SM_Cafe_Door_130x260": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Door_130x260.SM_Cafe_Door_130x260",
+      "dimensions_cm": [
+        25.60000228881836,
+        130.00000122391896,
+        260.0
+      ],
+      "expected_dimensions_cm": [
+        25.60001239180565,
+        129.99999645554726,
+        259.99999046325684
+      ],
+      "max_dimensions_error_cm": 1.0102987289428711e-05,
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Wood",
+        "M_Cafe_Glass",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 144
+    },
+    "SM_Cafe_Awning_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Awning_2m.SM_Cafe_Awning_2m",
+      "dimensions_cm": [
+        124.7500250339508,
+        200.0000155210574,
+        69.19584274291992
+      ],
+      "expected_dimensions_cm": [
+        124.75002650171518,
+        200.00000026226834,
+        69.19584423303604
+      ],
+      "max_dimensions_error_cm": 1.52587890625e-05,
+      "material_slots": [
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 304
+    },
+    "SM_Cafe_StoryTrim_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_StoryTrim_2m.SM_Cafe_StoryTrim_2m",
+      "dimensions_cm": [
+        28.000017166137695,
+        200.00000192330117,
+        16.0
+      ],
+      "expected_dimensions_cm": [
+        28.000017628073692,
+        200.00000192330117,
+        15.999999642372131
+      ],
+      "max_dimensions_error_cm": 4.6193599700927734e-07,
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_Foundation_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Foundation_2m.SM_Cafe_Foundation_2m",
+      "dimensions_cm": [
+        26.000017166137695,
+        200.0000022729921,
+        18.0
+      ],
+      "expected_dimensions_cm": [
+        26.000016927719116,
+        200.0000022729921,
+        18.000000715255737
+      ],
+      "max_dimensions_error_cm": 7.152557373046875e-07,
+      "material_slots": [
+        "M_Cafe_Stone"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_CornerTrim_3m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_CornerTrim_3m.SM_Cafe_CornerTrim_3m",
+      "dimensions_cm": [
+        11.000000476837158,
+        11.000001192092896,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        11.000001057982445,
+        11.000001057982445,
+        320.0000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_RoofSlope_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_RoofSlope_2m.SM_Cafe_RoofSlope_2m",
+      "dimensions_cm": [
+        296.0000305175781,
+        200.00002587714334,
+        116.0
+      ],
+      "expected_dimensions_cm": [
+        296.0000276565552,
+        200.0000258771422,
+        115.99999964237213
+      ],
+      "max_dimensions_error_cm": 2.86102294921875e-06,
+      "material_slots": [
+        "M_Cafe_Roof",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 84
+    },
+    "SM_Cafe_Ridge_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Ridge_2m.SM_Cafe_Ridge_2m",
+      "dimensions_cm": [
+        20.000017166137695,
+        200.0000008742278,
+        13.0
+      ],
+      "expected_dimensions_cm": [
+        20.000017434358597,
+        200.0000008742278,
+        12.999999523162842
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-07,
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_Gable_5m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Gable_5m.SM_Cafe_Gable_5m",
+      "dimensions_cm": [
+        500.0,
+        16.00004371138857,
+        86.19999694824219
+      ],
+      "expected_dimensions_cm": [
+        500.0,
+        16.00004335376184,
+        86.19999885559082
+      ],
+      "max_dimensions_error_cm": 1.9073486328125e-06,
+      "material_slots": [
+        "M_Cafe_Plaster"
+      ],
+      "uv_channels": 2,
+      "triangles": 8
+    },
+    "SM_Cafe_Bargeboard_5m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Bargeboard_5m.SM_Cafe_Bargeboard_5m",
+      "dimensions_cm": [
+        583.9119262695312,
+        12.00005054473877,
+        111.34447908401489
+      ],
+      "expected_dimensions_cm": [
+        583.9118957519531,
+        12.000051140785217,
+        111.34447827935219
+      ],
+      "max_dimensions_error_cm": 3.0517578125e-05,
+      "material_slots": [
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 24
+    },
+    "SM_Cafe_Gutter_2m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Gutter_2m.SM_Cafe_Gutter_2m",
+      "dimensions_cm": [
+        16.000017166137695,
+        200.00000122391896,
+        12.0
+      ],
+      "expected_dimensions_cm": [
+        16.000017896294594,
+        200.00000122391884,
+        11.999999731779099
+      ],
+      "max_dimensions_error_cm": 7.301568984985352e-07,
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 24
+    },
+    "SM_Cafe_Downpipe_3m": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Downpipe_3m.SM_Cafe_Downpipe_3m",
+      "dimensions_cm": [
+        7.000000476837158,
+        7.000000476837158,
+        300.0
+      ],
+      "expected_dimensions_cm": [
+        7.000000774860382,
+        7.000000774860382,
+        300.0
+      ],
+      "max_dimensions_error_cm": 2.980232238769531e-07,
+      "material_slots": [
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 12
+    },
+    "SM_Cafe_FasciaSign": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_FasciaSign.SM_Cafe_FasciaSign",
+      "dimensions_cm": [
+        16.560017585754395,
+        310.0,
+        58.0
+      ],
+      "expected_dimensions_cm": [
+        16.56002700328827,
+        309.99999046325684,
+        57.999998331069946
+      ],
+      "max_dimensions_error_cm": 9.5367431640625e-06,
+      "material_slots": [
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Wood"
+      ],
+      "uv_channels": 2,
+      "triangles": 644
+    },
+    "SM_Cafe_RoundSign": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_RoundSign.SM_Cafe_RoundSign",
+      "dimensions_cm": [
+        80.65262252092361,
+        64.00000190734863,
+        79.0
+      ],
+      "expected_dimensions_cm": [
+        80.65262688323855,
+        64.000004529953,
+        79.00000065565109
+      ],
+      "max_dimensions_error_cm": 4.362314939498901e-06,
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Paper",
+        "M_Cafe_Rose"
+      ],
+      "uv_channels": 2,
+      "triangles": 596
+    },
+    "SM_Cafe_MenuBoard": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_MenuBoard.SM_Cafe_MenuBoard",
+      "dimensions_cm": [
+        60.35542297363281,
+        68.0,
+        108.60220336914062
+      ],
+      "expected_dimensions_cm": [
+        60.355424880981445,
+        68.00000667572021,
+        108.60220193862915
+      ],
+      "max_dimensions_error_cm": 6.67572021484375e-06,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Chalk",
+        "M_Cafe_Metal",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": 2,
+      "triangles": 856
+    },
+    "SM_Cafe_Chair": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Chair.SM_Cafe_Chair",
+      "dimensions_cm": [
+        49.384225845336914,
+        48.0,
+        87.1951675415039
+      ],
+      "expected_dimensions_cm": [
+        49.38422441482544,
+        48.00000339746475,
+        87.19516396522522
+      ],
+      "max_dimensions_error_cm": 3.5762786865234375e-06,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 228
+    },
+    "SM_Cafe_Table": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Table.SM_Cafe_Table",
+      "dimensions_cm": [
+        70.0,
+        70.0,
+        74.5
+      ],
+      "expected_dimensions_cm": [
+        70.00000476837158,
+        70.00000476837158,
+        74.50000047683716
+      ],
+      "max_dimensions_error_cm": 4.76837158203125e-06,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim"
+      ],
+      "uv_channels": 2,
+      "triangles": 532
+    },
+    "SM_Cafe_Bench": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Bench.SM_Cafe_Bench",
+      "dimensions_cm": [
+        55.34446907043457,
+        160.00000762939453,
+        92.62120819091797
+      ],
+      "expected_dimensions_cm": [
+        55.34446984529495,
+        160.0000023841858,
+        92.62120723724365
+      ],
+      "max_dimensions_error_cm": 5.245208740234375e-06,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Metal"
+      ],
+      "uv_channels": 2,
+      "triangles": 468
+    },
+    "SM_Cafe_StreetLamp": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_StreetLamp.SM_Cafe_StreetLamp",
+      "dimensions_cm": [
+        45.899349212646484,
+        52.999996185302734,
+        320.0
+      ],
+      "expected_dimensions_cm": [
+        45.8993524312973,
+        53.00000309944153,
+        320.0000047683716
+      ],
+      "max_dimensions_error_cm": 6.9141387939453125e-06,
+      "material_slots": [
+        "M_Cafe_Metal",
+        "M_Cafe_Lamp"
+      ],
+      "uv_channels": 2,
+      "triangles": 492
+    },
+    "SM_Cafe_PottedPlant": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_PottedPlant.SM_Cafe_PottedPlant",
+      "dimensions_cm": [
+        55.68430709838867,
+        55.70958137512207,
+        95.23899841308594
+      ],
+      "expected_dimensions_cm": [
+        55.68431317806244,
+        55.70958852767944,
+        95.23900151252747
+      ],
+      "max_dimensions_error_cm": 7.152557373046875e-06,
+      "material_slots": [
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Wood",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf"
+      ],
+      "uv_channels": 2,
+      "triangles": 878
+    },
+    "SM_Cafe_Planter": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_Planter.SM_Cafe_Planter",
+      "dimensions_cm": [
+        44.200008392333984,
+        123.22751998901367,
+        82.0
+      ],
+      "expected_dimensions_cm": [
+        44.20001208782196,
+        123.22751879692078,
+        81.99999928474426
+      ],
+      "max_dimensions_error_cm": 3.6954879760742188e-06,
+      "material_slots": [
+        "M_Cafe_Wood",
+        "M_Cafe_Soil",
+        "M_Cafe_Metal",
+        "M_Cafe_Leaf",
+        "M_Cafe_Leaf_Light"
+      ],
+      "uv_channels": 2,
+      "triangles": 546
+    },
+    "SM_Cafe_AC": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe_AC.SM_Cafe_AC",
+      "dimensions_cm": [
+        41.2500057220459,
+        82.0,
+        64.5
+      ],
+      "expected_dimensions_cm": [
+        41.25000536441803,
+        82.00000524520874,
+        64.49999809265137
+      ],
+      "max_dimensions_error_cm": 5.245208740234375e-06,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Metal",
+        "M_Cafe_Trim",
+        "M_Cafe_Stone",
+        "M_Cafe_Paper"
+      ],
+      "uv_channels": 2,
+      "triangles": 340
+    },
+    "SM_Cafe01_Assembled": {
+      "asset": "/Game/Cafe01Validation/Check_d60ef5cc/SM_Cafe01_Assembled.SM_Cafe01_Assembled",
+      "dimensions_cm": [
+        750.9999694824219,
+        794.3595275878906,
+        707.0
+      ],
+      "expected_dimensions_cm": [
+        751.0000705718994,
+        794.3596124649048,
+        707.0000171661377
+      ],
+      "max_dimensions_error_cm": 0.0001010894775390625,
+      "material_slots": [
+        "M_Cafe_Plaster",
+        "M_Cafe_Wood",
+        "M_Cafe_Stone",
+        "M_Cafe_Trim",
+        "M_Cafe_Glass",
+        "M_Cafe_Reflection",
+        "M_Cafe_Rose",
+        "M_Cafe_Paper",
+        "M_Cafe_Metal",
+        "M_Cafe_Roof",
+        "M_Cafe_Terracotta",
+        "M_Cafe_Soil",
+        "M_Cafe_Leaf_Light",
+        "M_Cafe_Leaf",
+        "M_Cafe_Chalk",
+        "M_Cafe_Lamp"
+      ],
+      "uv_channels": 2,
+      "triangles": 10526
+    }
+  },
+  "errors": [],
+  "passed": true
+}
