@@ -1,5 +1,7 @@
 # SakuraDays art direction
 
+Prompt 13's later supplied campus, riverside, overlook, café, alley, station, sunset and festival references are mapped to the existing street in [the reference update](PROMPT13_REFERENCE_UPDATE.md). Style A/B retain priority; the current street remains a spring-afternoon scene.
+
 SakuraDays should feel like a walk through a sunlit Japanese neighborhood rendered with anime-inspired color, simplified surface detail, and clearly drawn forms. Warm cream buildings, blue-gray roofs, pink sakura, and cool street shadows establish the scene. Utility wires, compact façades, shop signs, and small street props give it a lived-in character.
 
 This guide records visual observations and proposes a future Unreal Engine 5.8 approach. Numerical colors, dimensions, and rendering values below are starting points chosen for production. The images alone cannot establish the original renderer, shaders, camera settings, or asset construction.

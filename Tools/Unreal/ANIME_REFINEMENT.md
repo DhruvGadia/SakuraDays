@@ -21,6 +21,9 @@ to start another editor alongside an existing instance. From the project root:
 & ./Tools/Unreal/Run-AnimeReview.ps1 -Review pass1 -Apply
 & ./Tools/Unreal/Run-AnimeReview.ps1 -Review pass2 -Apply
 & ./Tools/Unreal/Run-AnimeReview.ps1 -Review pass3 -Apply
+
+# Focused follow-up for the reference images supplied after those three passes.
+& ./Tools/Unreal/Run-AnimeReview.ps1 -Review references -Apply
 ```
 
 Omit `-Apply` to capture/test the currently saved map without reapplying a recipe.
@@ -51,6 +54,14 @@ default-map, character/input or project plugin changes are needed.
 - `publish_anime_evidence.py` compares geometry, collision, camera and spawn
   snapshots across the baseline and all three passes, checks the final saved-map
   hash, and retains selected original PNG bytes and sanitized reports in `Docs`.
+- `publish_reference_evidence.py` performs the separate follow-up audit against
+  the retained Pass 3 baseline and copies all eight new captures to
+  `Docs/Images/AnimeReferenceUpdate`. It also hashes the ten supplied references.
+
+Run only the publisher corresponding to the currently tested saved map. The
+original three-pass publisher checks its historical final hash and deliberately
+fails against a later modified map. The follow-up report is
+`Docs/PROMPT13_REFERENCE_UPDATE.md`; earlier evidence remains historical.
 
 Capture output lives under ignored `.dream-loop/prompt13/<review>/` and authoring
 readbacks/backups under ignored `Saved/AnimeRefinement/<pass>/`. The final evidence

@@ -4,8 +4,8 @@
 
 SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-inspired Japanese neighborhood in spring. The first milestone is a walkable sakura-lined street with a café, one NPC, a short conversation and falling petals.
 
-![Current playable SakuraDays street](Docs/Images/AnimeRefinement/pass3/MainStreet.png)
-*Actual 1920×1080 Unreal Engine Play-in-Editor capture after three controlled anime lighting/material refinement passes.*
+![Current playable SakuraDays street](Docs/Images/AnimeReferenceUpdate/MainStreet.png)
+*Actual 1920×1080 Unreal Engine Play-in-Editor capture after the supplied-reference follow-up to three anime lighting/material refinement passes.*
 
 ## Current progress
 
@@ -16,8 +16,9 @@ SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-i
 - Flat-roof and hip-roof house variants, lighter sakura canopies with three LODs, subtle blossom wind and a sparse Niagara petal effect.
 - Fixed-reference and gameplay-camera captures, documented art direction, import validation and a full Play-in-Editor traversal test.
 - Three Dream Loop refinement passes with warmer daylight, controlled pink/green colors, clearer paving and 32 passing PIE checks per pass. Original before-and-after Unreal captures are retained.
+- A focused follow-up using the full reference set, with clearer residential shade, warmer HANA glazing and another 32 passing PIE checks. Geometry, collision and cameras were preserved.
 
-The anime player character, NPC and dialogue, café interior, further architectural and shading polish, audio, performance profiling and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md), [town refinement report](Docs/TOWN_REFINEMENT.md) and [latest anime visual comparison](Docs/ANIME_VISUAL_REFINEMENT.md).
+The anime player character, NPC and dialogue, café interior, further architectural and shading polish, audio, performance profiling and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md), [town refinement report](Docs/TOWN_REFINEMENT.md), [initial anime comparison](Docs/ANIME_VISUAL_REFINEMENT.md) and [latest reference update](Docs/PROMPT13_REFERENCE_UPDATE.md).
 
 ## Getting started
 

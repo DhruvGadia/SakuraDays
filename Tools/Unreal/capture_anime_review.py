@@ -1,7 +1,7 @@
 """Prompt 13: real PIE traversal and fixed-camera evidence, without browser control.
 
-Run with SAKURA_ANIME_REVIEW=before/pass1/pass2/pass3. Optionally set
-SAKURA_ANIME_APPLY=refine_anime_passN.py to author that pass before validation.
+Run with SAKURA_ANIME_REVIEW=before/pass1/pass2/pass3/references. Optionally set
+SAKURA_ANIME_APPLY to the matching refine_anime_*.py entrypoint before validation.
 Capture output stays in ignored .dream-loop/prompt13/<review>/.
 """
 import hashlib
@@ -16,14 +16,14 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = ROOT / 'Tools/Unreal'
 sys.path.insert(0, str(HERE))
 LABEL = os.environ.get('SAKURA_ANIME_REVIEW', 'before')
-if LABEL not in ('before', 'pass1', 'pass2', 'pass3'):
+if LABEL not in ('before', 'pass1', 'pass2', 'pass3', 'references'):
     raise ValueError('Unknown review label: ' + LABEL)
 OUT = ROOT / '.dream-loop/prompt13' / LABEL
 OUT.mkdir(parents=True, exist_ok=True)
 
 apply_script = os.environ.get('SAKURA_ANIME_APPLY', '')
 if apply_script:
-    if apply_script not in tuple('refine_anime_pass%d.py' % n for n in (1, 2, 3)):
+    if apply_script not in tuple('refine_anime_pass%d.py' % n for n in (1, 2, 3)) + ('refine_anime_references.py',):
         raise ValueError('Only explicit Prompt 13 pass entrypoints are supported.')
     runpy.run_path(str(HERE / apply_script), run_name='__main__')
 

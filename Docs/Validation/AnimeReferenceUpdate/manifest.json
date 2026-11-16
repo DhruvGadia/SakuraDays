@@ -1,0 +1,112 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "checkpoint": "6ec5b17",
+  "before_commit": "ff30d2f",
+  "before_map_sha256": "9bc5f16b8a75a7e578a0ca5968c707c36ef55eee05c667fdd5274f222c1a8505",
+  "final_saved_map_sha256": "9ccb0d418c112c844de3297d05c3b36f11073a38185e31a43907446fa057a154",
+  "target_sha256": "b8722fd2c7f82df2b9af7f0e4921debeef1f80fee34bccb894de12ce74306c1a",
+  "checks_passed": 32,
+  "preserved_geometry_collision_camera_spawn_records": 739,
+  "references": {
+    "02_School_Campus.png": "9fa1dca7abd05fa5f5630f220b0a9f1ba574e75a5d016f9e7ddd928e5bb38da2",
+    "03_Riverside_Path.png": "5654c7c62df87319cd7a791241ffbbd1b99758f1fabde14d1bda042828e8212a",
+    "04_Hilltop_Overlook.png": "dbb755f5a22ccbf241123075280d6d8e1b6b566658b7e28d668a88b7bbfbc714",
+    "05_Local_Cafe.png": "4ad194209ca5f99e63817bcdd83c4ced4d48a8b830c461142386ada74e6266d1",
+    "06_Residential_Alley.png": "8255ed1d42b94327ba6d891f54a78423ccea34c4cef392f2f12dc7e3c4e7e7d1",
+    "07_Train_Station.png": "5640b7bd52f5871d861c676de269aaaa72a2eb72b8864b4542f2e5c476c185fd",
+    "08_Evening_Sunset.png": "4d6fc49e86b2423165d890f7e5e49f6831b0383acc993761243764f57df157d9",
+    "09_Night_Festival.png": "927ecea1704f2f64408ddacdaabe380de2a5cce50403e14963e4967b904caa63",
+    "Style_A.png": "8eeb0da464481ddb663d5886bafb05532549072ebbdde9820d7eccbe0e62272c",
+    "Style_B.png": "97dccd49f88901909e751e0e3c687b3cb7e902cbe342f7df2c8d1042c02cd039"
+  },
+  "images": {
+    "MainStreet": {
+      "before": "Docs/Images/AnimeRefinement/pass3/MainStreet.png",
+      "before_sha256": "d97a4d790e67a1002ff5b71345eb7c529ba7613b9265ec8dd962945eaf0848ff",
+      "after": "Docs/Images/AnimeReferenceUpdate/MainStreet.png",
+      "after_sha256": "8c13bac520b116a96120199fd1ccb068e952c3fd6b4109d3314d13f35524e592",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Reference": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Reference.png",
+      "before_sha256": "4317c18d0e84dfc9e817bccabd3b7db88085bbdb67d731e2e77ef41005b35f5b",
+      "after": "Docs/Images/AnimeReferenceUpdate/Reference.png",
+      "after_sha256": "9d73c313c1a0f399c7c7770ca3ba5d3efaeeaf1bad82550da3d5ac405d6d1c32",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Gameplay": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Gameplay.png",
+      "before_sha256": "173486fa0281f0c6618fce7714c1522fbaedf597dad7a207890eda3d7a92990b",
+      "after": "Docs/Images/AnimeReferenceUpdate/Gameplay.png",
+      "after_sha256": "d4a1336d5281389abbb52c5739e6c327e448cd938bf3621c83a78842f1c1ef80",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Hana": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Hana.png",
+      "before_sha256": "3d7cc500289a033b0ecbc2f12375f5cfd1bf138373a3c6fa8dc09703c72198e9",
+      "after": "Docs/Images/AnimeReferenceUpdate/Hana.png",
+      "after_sha256": "6f00f03924401c6d6f84935849fb8a9cb36c3fb33495859064c1d4a71fcea029",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Residential": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Residential.png",
+      "before_sha256": "c8fa0063b7c61c98aee3c3cf8103ac9216afcf17d13f2c037b26674a3044a888",
+      "after": "Docs/Images/AnimeReferenceUpdate/Residential.png",
+      "after_sha256": "77436c0bcaa9af3efc4c50c56ba5eb37169bdf401dae7f84df8e00f319dce1fa",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Storefront": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Storefront.png",
+      "before_sha256": "69e84f6854ddfc0e96b3d5fc18d2003f2dc1d8b7b51753f8ee99ec969f93b033",
+      "after": "Docs/Images/AnimeReferenceUpdate/Storefront.png",
+      "after_sha256": "9b16fd9202cf41334371fe2e8435bc8a774c80cce79bc9beba624a3b9250fb2c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "StreetSign": {
+      "before": "Docs/Images/AnimeRefinement/pass3/StreetSign.png",
+      "before_sha256": "01f4fa5642ff18c0736b15e860102b8765f1697768512afbabb25b1162305cf7",
+      "after": "Docs/Images/AnimeReferenceUpdate/StreetSign.png",
+      "after_sha256": "dd2d3429dc8b73943fcb197b1c03af9bb04b396f534edac86b917eabb966bbe6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Noticeboard": {
+      "before": "Docs/Images/AnimeRefinement/pass3/Noticeboard.png",
+      "before_sha256": "78487558e646f8992c7df957a2523abb7e8778ab231fcf0a251a856aceaf9bcb",
+      "after": "Docs/Images/AnimeReferenceUpdate/Noticeboard.png",
+      "after_sha256": "a9e5b5a339f581ce8573138847cb2de3c6cd14f90a6a39a079654943f90bfa0b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    }
+  }
+}

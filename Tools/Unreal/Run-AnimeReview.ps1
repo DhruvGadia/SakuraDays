@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('before', 'pass1', 'pass2', 'pass3')]
+    [ValidateSet('before', 'pass1', 'pass2', 'pass3', 'references')]
     [string]$Review = 'before',
     [switch]$Apply,
     [string]$EngineRoot = 'C:\Program Files\Epic Games\UE_5.8'
