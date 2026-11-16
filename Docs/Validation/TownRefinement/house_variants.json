@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "assets": {
+    "UrbanFlat": "/Game/SakuraDays/Environment/JapaneseTown/Prompt12/Architecture/UrbanFlat/r_be952910f978/SM_House_UrbanFlat.SM_House_UrbanFlat",
+    "HipRoof": "/Game/SakuraDays/Environment/JapaneseTown/Prompt12/Architecture/HipRoof/r_f2c642f9898e/SM_House_HipRoof.SM_House_HipRoof"
+  },
+  "errors": [],
+  "results": {
+    "UrbanFlat": {
+      "dimensions_cm": [
+        744.0000610351562,
+        880.0000305175781,
+        920.5
+      ],
+      "uv_channels": 2,
+      "triangles": 10520,
+      "collision_shapes": 3
+    },
+    "HipRoof": {
+      "dimensions_cm": [
+        754.0000305175781,
+        900.0000610351562,
+        728.5
+      ],
+      "uv_channels": 2,
+      "triangles": 8048,
+      "collision_shapes": 3
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source": "../House01/SakuraHouse01.blend",
+  "meters_per_unit": 1,
+  "front": "-Y",
+  "up": "Z",
+  "variants": {
+    "UrbanFlat": {
+      "fbx": "Exports/SM_House_UrbanFlat.fbx",
+      "bounds_m": {
+        "min": [
+          -4.400000095367432,
+          -4.039999961853027,
+          0.0
+        ],
+        "max": [
+          4.399999618530273,
+          3.4000000953674316,
+          9.204999923706055
+        ],
+        "dimensions": [
+          8.799999713897705,
+          7.440000057220459,
+          9.204999923706055
+        ]
+      },
+      "triangles": 10520,
+      "materials": [
+        "M_Plaster_Cream",
+        "M_Siding_BlueGray",
+        "M_Trim_Plum",
+        "M_Roof_Slate",
+        "M_Timber_Warm",
+        "M_Glass_Blue",
+        "M_Glass_Reflection",
+        "M_Concrete"
+      ],
+      "collision_body_height_cm": 870
+    },
+    "HipRoof": {
+      "fbx": "Exports/SM_House_HipRoof.fbx",
+      "bounds_m": {
+        "min": [
+          -4.5,
+          -4.039999961853027,
+          0.0
+        ],
+        "max": [
+          4.5,
+          3.5,
+          7.284999847412109
+        ],
+        "dimensions": [
+          9.0,
+          7.539999961853027,
+          7.284999847412109
+        ]
+      },
+      "triangles": 8048,
+      "materials": [
+        "M_Plaster_Cream",
+        "M_Siding_BlueGray",
+        "M_Trim_Plum",
+        "M_Roof_Slate",
+        "M_Timber_Warm",
+        "M_Glass_Blue",
+        "M_Glass_Reflection",
+        "M_Concrete"
+      ],
+      "collision_body_height_cm": 590
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "stage": "identity",
+  "passed": true,
+  "errors": [],
+  "backup": "Saved/TownRefinement/Backups/identity_91fedb2ad7266c31.umap",
+  "japanese_signs": {
+    "ramen": [
+      "ラーメン",
+      "営業中"
+    ],
+    "hana_sign": [
+      "喫茶 花"
+    ],
+    "open_sign": [
+      "営業中"
+    ],
+    "street_sign": [
+      "さくら通り"
+    ],
+    "noticeboard": [
+      "掲示板"
+    ]
+  },
+  "placed": [
+    "JP_RamenShop",
+    "JP_RamenApron",
+    "JP_HanaJapaneseSign",
+    "JP_HanaOpenSign",
+    "JP_SakuraStreetSign",
+    "JP_StreetSignBracket",
+    "JP_VendingMachine",
+    "JP_BicycleCafe",
+    "JP_BicycleHouse",
+    "JP_NeighborhoodNoticeboard",
+    "JP_RoadMirror",
+    "JP_Mailbox0",
+    "JP_Mailbox1",
+    "JP_Mailbox2",
+    "JP_Mailbox3",
+    "JP_Mailbox4"
+  ],
+  "protected_before": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "protected_after": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "actor_count": 748
+}

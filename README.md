@@ -4,17 +4,19 @@
 
 SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-inspired Japanese neighborhood in spring. The first milestone is a walkable sakura-lined street with a café, one NPC, a short conversation and falling petals.
 
-![Current playable SakuraDays street](Docs/Images/SakuraStreet_Assembled_Reference.png)
-*Actual 1920×1080 Unreal Engine playtest capture from the fixed reference camera.*
+![Current playable SakuraDays street](Docs/Images/Town_MainStreet.png)
+*Actual 1920×1080 Unreal Engine Play-in-Editor capture of the Japanese town refinement.*
 
 ## Current progress
 
 - Preserved Third Person template controls in a separate 60 m playable street map.
 - An original HANA café exterior, Japanese house kit, three sakura forms and a neighborhood prop set authored in Blender and imported through repeatable Unreal Python workflows.
 - A dressed street with roads, sidewalks, buildings, sakura trees, garden walls, lamps, utility poles and wires.
+- HANA and ramen storefronts with authored Japanese lettering, vending machines, bicycles, mailboxes, drainage, utility equipment and a small scenic torii.
+- Flat-roof and hip-roof house variants, lighter sakura canopies with three LODs, subtle blossom wind and a sparse Niagara petal effect.
 - Fixed-reference and gameplay-camera captures, documented art direction, import validation and a full Play-in-Editor traversal test.
 
-The anime player character, NPC and dialogue, café interior, falling petals, additional architectural variety, audio, gameplay polish, performance work and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md) and [current street report](Docs/STREET_ASSEMBLY.md).
+The anime player character, NPC and dialogue, café interior, further architectural and shading polish, audio, performance profiling and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md) and [town refinement report and screenshots](Docs/TOWN_REFINEMENT.md).
 
 ## Getting started
 
@@ -41,6 +43,9 @@ The project targets desktop scalability, with hardware ray tracing initially dis
 | `SourceArt/Architecture/House01/` | Editable Blender house, modular FBX exports, previews and validation notes |
 | `SourceArt/Architecture/Cafe01/` | Editable café/prop source, Unreal-ready FBX exports and previews |
 | `SourceArt/Foliage/SakuraTreeKit/` | Hero, spread and weeping sakura sources, LOD exports, atlas and previews |
+| `SourceArt/Environment/JapaneseTown01/` | Ramen exterior, Japanese signs, neighborhood details and editable Blender source |
+| `SourceArt/Architecture/HouseTownVariants/` | Derived flat-roof and hip-roof house revisions |
+| `SourceArt/Foliage/SakuraTreeKitV2/` | Refined canopy sources, optimized render LODs, atlas and previews |
 | `Tools/Unreal/` | Repeatable asset import, street assembly and PIE validation scripts |
 | `Docs/` | Roadmap, technical plan, art direction, screenshots and validation evidence |
 | `References/` | Prepared visual target for future art review |

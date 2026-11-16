@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "errors": [],
+  "parameter_checks": [
+    {
+      "name": "Life Cycle Mode",
+      "passed": true
+    },
+    {
+      "name": "Loop Behavior",
+      "passed": true
+    },
+    {
+      "name": "Loop Duration",
+      "passed": true
+    },
+    {
+      "name": "SpawnRate",
+      "passed": true
+    },
+    {
+      "name": "Lifetime",
+      "passed": true
+    },
+    {
+      "name": "Sprite Size Mode",
+      "passed": true
+    },
+    {
+      "name": "Sprite Size",
+      "passed": true
+    },
+    {
+      "name": "Minimum",
+      "passed": true
+    },
+    {
+      "name": "Maximum",
+      "passed": true
+    },
+    {
+      "name": "Sprite Rotation Mode",
+      "passed": true
+    },
+    {
+      "name": "Sprite Rotation Angle",
+      "passed": true
+    },
+    {
+      "name": "Minimum",
+      "passed": true
+    },
+    {
+      "name": "Maximum",
+      "passed": true
+    },
+    {
+      "name": "Vector",
+      "passed": true
+    },
+    {
+      "name": "Minimum",
+      "passed": true
+    },
+    {
+      "name": "Maximum",
+      "passed": true
+    },
+    {
+      "name": "Rotation Rate",
+      "passed": true
+    }
+  ],
+  "compile": {
+    "aggregateStatus": "UpToDate",
+    "bIsCompiling": false,
+    "bIsStale": false,
+    "bHasErrors": false,
+    "bHasWarnings": false,
+    "scripts": [
+      {
+        "emitterName": "None",
+        "scriptName": "ENiagaraScriptUsage::SystemSpawnScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "None",
+        "scriptName": "ENiagaraScriptUsage::SystemUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "GentleFallingPetals",
+        "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "GentleFallingPetals",
+        "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      }
+    ]
+  },
+  "stack": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "issues": []
+  },
+  "runtime_activity_verified": false,
+  "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+  "rate_per_emitter": 4,
+  "lifetime_seconds": 12,
+  "emitters_placed": 3,
+  "maximum_steady_particles": 144,
+  "collision": false,
+  "audio": "None: no licensed ambience supplied"
+}

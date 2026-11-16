@@ -22,3 +22,7 @@
 *.blend[0-9]*
 Thumbs.db
 .DS_Store
+
+# Python automation bytecode
+__pycache__/
+*.py[cod]

@@ -1,0 +1,12 @@
+{
+  "source": "JapaneseTown01.blend",
+  "source_modified": false,
+  "renderer": "Cycles CPU",
+  "samples": 16,
+  "files": [
+    "RamenShop_ThreeQuarter.png",
+    "RamenShop_Front.png",
+    "TownProps_Lineup.png",
+    "Japanese_Signage.png"
+  ]
+}

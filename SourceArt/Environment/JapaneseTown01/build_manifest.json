@@ -1,0 +1,855 @@
+{
+  "blender": "5.2.3 LTS",
+  "meters_per_unit": 1,
+  "front_axis_blender": "-Y",
+  "front_axis_unreal_after_force_front_x": "X",
+  "up_axis": "Z",
+  "materials": {
+    "M_Town_Plaster": "D9C8AD",
+    "M_Town_Siding": "8D9DAB",
+    "M_Town_Timber": "705447",
+    "M_Town_Trim": "393344",
+    "M_Town_Roof": "535B6D",
+    "M_Town_Glass": "6F8EA4",
+    "M_Town_Reflection": "B6CCD8",
+    "M_Town_Stone": "B2ACA5",
+    "M_Town_Metal": "5D6470",
+    "M_Town_Paper": "F0E3CC",
+    "M_Town_RamenRed": "B74A44",
+    "M_Town_Noren": "963C3F",
+    "M_Town_VendingRed": "BD504E",
+    "M_Town_Sage": "6F9581",
+    "M_Town_Leaf": "64895D",
+    "M_Town_Lamp": "EDC894",
+    "M_Town_Tire": "34343C",
+    "M_Town_Bicycle": "648B91",
+    "M_Town_Yellow": "D8B64D",
+    "M_Town_White": "E5E3DA",
+    "M_Town_Blue": "477D9A"
+  },
+  "font": "C:\\Windows\\Fonts\\YuGothB.ttc",
+  "font_embedded": false,
+  "glyph_coverage": {
+    "+": 14,
+    "A": 36,
+    "C": 38,
+    "E": 40,
+    "F": 41,
+    "H": 43,
+    "N": 49,
+    "O": 50,
+    "P": 51,
+    "T": 55,
+    "く": 858,
+    "さ": 864,
+    "ま": 905,
+    "ら": 916,
+    "り": 917,
+    "れ": 919,
+    "メ": 991,
+    "ラ": 999,
+    "ン": 1009,
+    "ー": 662,
+    "中": 2982,
+    "喫": 1638,
+    "営": 1256,
+    "掲": 1823,
+    "板": 3418,
+    "業": 1730,
+    "止": 2223,
+    "示": 2262,
+    "花": 1368,
+    "茶": 2979,
+    "通": 3050
+  },
+  "sign_strings": [
+    "喫茶 花",
+    "HANA",
+    "ラーメン",
+    "営業中",
+    "さくら通り",
+    "掲示板",
+    "止まれ",
+    "P",
+    "COFFEE + TEA"
+  ],
+  "collision": "Add simple deliberate proxies in Unreal. Decorative signs and equipment should use NoCollision.",
+  "recommended_collision_cm": {
+    "SM_RamenShop_Assembled": [
+      {
+        "center": [
+          0,
+          0,
+          280
+        ],
+        "size": [
+          460,
+          600,
+          560
+        ]
+      }
+    ],
+    "SM_VendingMachine": [
+      {
+        "center": [
+          0,
+          0,
+          93
+        ],
+        "size": [
+          76,
+          100,
+          186
+        ]
+      }
+    ]
+  },
+  "modules": {
+    "SM_Sign_Ramen_Fascia": {
+      "fbx": "Exports/SM_Sign_Ramen_Fascia.fbx",
+      "triangles": 740,
+      "bounds_m": {
+        "min": [
+          -1.899999976158142,
+          -0.03435000777244568,
+          0.0
+        ],
+        "max": [
+          1.899999976158142,
+          0.08500000089406967,
+          0.6800000071525574
+        ],
+        "dimensions": [
+          3.799999952316284,
+          0.11935000866651535,
+          0.6800000071525574
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Paper",
+        "M_Town_RamenRed"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "ラーメン"
+      ]
+    },
+    "SM_Sign_Ramen_Vertical": {
+      "fbx": "Exports/SM_Sign_Ramen_Vertical.fbx",
+      "triangles": 740,
+      "bounds_m": {
+        "min": [
+          -0.30000001192092896,
+          -0.042350005358457565,
+          0.0
+        ],
+        "max": [
+          0.30000001192092896,
+          0.10000000149011612,
+          1.899999976158142
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          0.14235000684857368,
+          1.899999976158142
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_RamenRed",
+        "M_Town_Paper"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "ラ",
+        "ー",
+        "メ",
+        "ン"
+      ]
+    },
+    "SM_Sign_Hana_Japanese": {
+      "fbx": "Exports/SM_Sign_Hana_Japanese.fbx",
+      "triangles": 2368,
+      "bounds_m": {
+        "min": [
+          -1.274999976158142,
+          -0.03435000777244568,
+          0.0
+        ],
+        "max": [
+          1.274999976158142,
+          0.08500000089406967,
+          0.6200000047683716
+        ],
+        "dimensions": [
+          2.549999952316284,
+          0.11935000866651535,
+          0.6200000047683716
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Paper",
+        "M_Town_Timber"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "喫茶 花"
+      ]
+    },
+    "SM_Sign_Open": {
+      "fbx": "Exports/SM_Sign_Open.fbx",
+      "triangles": 1888,
+      "bounds_m": {
+        "min": [
+          -0.3199999928474426,
+          -0.03435000404715538,
+          0.0
+        ],
+        "max": [
+          0.3199999928474426,
+          0.08500000089406967,
+          0.8799999952316284
+        ],
+        "dimensions": [
+          0.6399999856948853,
+          0.11935000494122505,
+          0.8799999952316284
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Noren",
+        "M_Town_Paper"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "営業中"
+      ]
+    },
+    "SM_Sign_SakuraStreet": {
+      "fbx": "Exports/SM_Sign_SakuraStreet.fbx",
+      "triangles": 1824,
+      "bounds_m": {
+        "min": [
+          -0.675000011920929,
+          -0.03435000404715538,
+          0.0
+        ],
+        "max": [
+          0.675000011920929,
+          0.08500000089406967,
+          0.3499999940395355
+        ],
+        "dimensions": [
+          1.350000023841858,
+          0.11935000494122505,
+          0.3499999940395355
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Blue",
+        "M_Town_White"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "さくら通り"
+      ]
+    },
+    "SM_Road_StopSign": {
+      "fbx": "Exports/SM_Road_StopSign.fbx",
+      "triangles": 1142,
+      "bounds_m": {
+        "min": [
+          -0.38999998569488525,
+          -0.05535000190138817,
+          0.0
+        ],
+        "max": [
+          0.38999998569488525,
+          0.032999999821186066,
+          2.75
+        ],
+        "dimensions": [
+          0.7799999713897705,
+          0.08835000172257423,
+          2.75
+        ]
+      },
+      "material_slots": [
+        "M_Town_Metal",
+        "M_Town_White",
+        "M_Town_RamenRed"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "止まれ"
+      ]
+    },
+    "SM_PublicNoticeboard": {
+      "fbx": "Exports/SM_PublicNoticeboard.fbx",
+      "triangles": 2076,
+      "bounds_m": {
+        "min": [
+          -0.9399999976158142,
+          -0.11999999731779099,
+          0.0
+        ],
+        "max": [
+          0.9399999976158142,
+          0.25,
+          2.1500000953674316
+        ],
+        "dimensions": [
+          1.8799999952316284,
+          0.369999997317791,
+          2.1500000953674316
+        ]
+      },
+      "material_slots": [
+        "M_Town_Timber",
+        "M_Town_Sage",
+        "M_Town_Roof",
+        "M_Town_Paper",
+        "M_Town_Siding"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "掲示板"
+      ]
+    },
+    "SM_Ramen_Shell": {
+      "fbx": "Exports/SM_Ramen_Shell.fbx",
+      "triangles": 156,
+      "bounds_m": {
+        "min": [
+          -3.049999952316284,
+          -2.390000104904175,
+          0.0
+        ],
+        "max": [
+          3.049999952316284,
+          2.299999952316284,
+          5.630000114440918
+        ],
+        "dimensions": [
+          6.099999904632568,
+          4.690000057220459,
+          5.630000114440918
+        ]
+      },
+      "material_slots": [
+        "M_Town_Stone",
+        "M_Town_Plaster",
+        "M_Town_Timber",
+        "M_Town_Trim"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Ramen_ShopGlazing": {
+      "fbx": "Exports/SM_Ramen_ShopGlazing.fbx",
+      "triangles": 242,
+      "bounds_m": {
+        "min": [
+          -2.740000009536743,
+          -2.497999906539917,
+          0.20000000298023224
+        ],
+        "max": [
+          2.680000066757202,
+          -2.200000047683716,
+          2.630000114440918
+        ],
+        "dimensions": [
+          5.420000076293945,
+          0.29799985885620117,
+          2.4300001114606857
+        ]
+      },
+      "material_slots": [
+        "M_Town_Glass",
+        "M_Town_Timber",
+        "M_Town_Reflection",
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Window_ShopUpper_140": {
+      "fbx": "Exports/SM_Window_ShopUpper_140.fbx",
+      "triangles": 112,
+      "bounds_m": {
+        "min": [
+          -0.75,
+          -0.11999999731779099,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.75,
+          0.125,
+          1.399999976158142
+        ],
+        "dimensions": [
+          1.5,
+          0.24499999731779099,
+          1.4599999748170376
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Glass",
+        "M_Town_Metal",
+        "M_Town_Reflection",
+        "M_Town_Stone"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Ramen_Noren": {
+      "fbx": "Exports/SM_Ramen_Noren.fbx",
+      "triangles": 760,
+      "bounds_m": {
+        "min": [
+          -2.799999952316284,
+          -0.07935000956058502,
+          0.0
+        ],
+        "max": [
+          2.799999952316284,
+          0.02500000037252903,
+          0.6850000023841858
+        ],
+        "dimensions": [
+          5.599999904632568,
+          0.10435000993311405,
+          0.6850000023841858
+        ]
+      },
+      "material_slots": [
+        "M_Town_Timber",
+        "M_Town_Noren",
+        "M_Town_Paper"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "ラーメン"
+      ]
+    },
+    "SM_Ramen_Roof": {
+      "fbx": "Exports/SM_Ramen_Roof.fbx",
+      "triangles": 292,
+      "bounds_m": {
+        "min": [
+          -3.4000000953674316,
+          -2.745000123977661,
+          5.425000190734863
+        ],
+        "max": [
+          3.4000000953674316,
+          2.745000123977661,
+          6.444999694824219
+        ],
+        "dimensions": [
+          6.800000190734863,
+          5.490000247955322,
+          1.0199995040893555
+        ]
+      },
+      "material_slots": [
+        "M_Town_Roof",
+        "M_Town_Trim",
+        "M_Town_Plaster"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Ramen_Canopy": {
+      "fbx": "Exports/SM_Ramen_Canopy.fbx",
+      "triangles": 70,
+      "bounds_m": {
+        "min": [
+          -3.1700000762939453,
+          -3.0999999046325684,
+          2.3302319049835205
+        ],
+        "max": [
+          3.1700000762939453,
+          -2.299999952316284,
+          3.049999952316284
+        ],
+        "dimensions": [
+          6.340000152587891,
+          0.7999999523162842,
+          0.7197680473327637
+        ]
+      },
+      "material_slots": [
+        "M_Town_Roof",
+        "M_Town_Trim",
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Gutter_3m": {
+      "fbx": "Exports/SM_Gutter_3m.fbx",
+      "triangles": 24,
+      "bounds_m": {
+        "min": [
+          -1.5,
+          -0.08500000089406967,
+          0.0
+        ],
+        "max": [
+          1.5,
+          0.05999999865889549,
+          0.12999999523162842
+        ],
+        "dimensions": [
+          3.0,
+          0.14499999955296516,
+          0.12999999523162842
+        ]
+      },
+      "material_slots": [
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Downpipe_3m": {
+      "fbx": "Exports/SM_Downpipe_3m.fbx",
+      "triangles": 144,
+      "bounds_m": {
+        "min": [
+          -0.054999999701976776,
+          -0.1932869702577591,
+          0.0
+        ],
+        "max": [
+          0.054999999701976776,
+          0.15000000596046448,
+          3.0
+        ],
+        "dimensions": [
+          0.10999999940395355,
+          0.34328697621822357,
+          3.0
+        ]
+      },
+      "material_slots": [
+        "M_Town_Metal",
+        "M_Town_Trim"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Shutter_76x140": {
+      "fbx": "Exports/SM_Shutter_76x140.fbx",
+      "triangles": 156,
+      "bounds_m": {
+        "min": [
+          -0.3799999952316284,
+          -0.02500000037252903,
+          0.0
+        ],
+        "max": [
+          0.3799999952316284,
+          0.07999999821186066,
+          1.399999976158142
+        ],
+        "dimensions": [
+          0.7599999904632568,
+          0.10499999858438969,
+          1.399999976158142
+        ]
+      },
+      "material_slots": [
+        "M_Town_Trim",
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Balcony_Compact_320": {
+      "fbx": "Exports/SM_Balcony_Compact_320.fbx",
+      "triangles": 392,
+      "bounds_m": {
+        "min": [
+          -1.6299999952316284,
+          -0.8999999761581421,
+          0.0
+        ],
+        "max": [
+          1.6299999952316284,
+          0.0,
+          1.0869998931884766
+        ],
+        "dimensions": [
+          3.259999990463257,
+          0.8999999761581421,
+          1.0869998931884766
+        ]
+      },
+      "material_slots": [
+        "M_Town_Stone",
+        "M_Town_Siding",
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_Ramen_Lantern": {
+      "fbx": "Exports/SM_Ramen_Lantern.fbx",
+      "triangles": 668,
+      "bounds_m": {
+        "min": [
+          -0.23000000417232513,
+          -0.23000000417232513,
+          -0.009999999776482582
+        ],
+        "max": [
+          0.23000000417232513,
+          0.23000000417232513,
+          0.7300000190734863
+        ],
+        "dimensions": [
+          0.46000000834465027,
+          0.46000000834465027,
+          0.7400000188499689
+        ]
+      },
+      "material_slots": [
+        "M_Town_RamenRed",
+        "M_Town_Noren",
+        "M_Town_Trim",
+        "M_Town_Metal"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_VendingMachine": {
+      "fbx": "Exports/SM_VendingMachine.fbx",
+      "triangles": 1248,
+      "bounds_m": {
+        "min": [
+          -0.5,
+          -0.5109999775886536,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.3799999952316284,
+          1.8550000190734863
+        ],
+        "dimensions": [
+          1.0,
+          0.890999972820282,
+          1.8550000190734863
+        ]
+      },
+      "material_slots": [
+        "M_Town_VendingRed",
+        "M_Town_Trim",
+        "M_Town_Paper",
+        "M_Town_Glass",
+        "M_Town_White",
+        "M_Town_Lamp",
+        "M_Town_Sage",
+        "M_Town_RamenRed",
+        "M_Town_Blue",
+        "M_Town_Yellow",
+        "M_Town_Metal",
+        "M_Town_Tire"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_CityBicycle": {
+      "fbx": "Exports/SM_CityBicycle.fbx",
+      "triangles": 2232,
+      "bounds_m": {
+        "min": [
+          -0.9049999713897705,
+          -0.27000001072883606,
+          -0.0071126245893538
+        ],
+        "max": [
+          0.9049999713897705,
+          0.27000001072883606,
+          1.121999979019165
+        ],
+        "dimensions": [
+          1.809999942779541,
+          0.5400000214576721,
+          1.1291126036085188
+        ]
+      },
+      "material_slots": [
+        "M_Town_Tire",
+        "M_Town_Metal",
+        "M_Town_Bicycle",
+        "M_Town_Timber"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_RoadsideMirror": {
+      "fbx": "Exports/SM_RoadsideMirror.fbx",
+      "triangles": 322,
+      "bounds_m": {
+        "min": [
+          -0.09999999403953552,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          0.5399999618530273,
+          0.03200000151991844,
+          3.169999837875366
+        ],
+        "dimensions": [
+          0.6399999558925629,
+          0.13200000301003456,
+          3.169999837875366
+        ]
+      },
+      "material_slots": [
+        "M_Town_RamenRed",
+        "M_Town_Metal",
+        "M_Town_Reflection",
+        "M_Town_Glass"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_ResidentialMailbox": {
+      "fbx": "Exports/SM_ResidentialMailbox.fbx",
+      "triangles": 60,
+      "bounds_m": {
+        "min": [
+          -0.27000001072883606,
+          -0.18000000715255737,
+          0.0
+        ],
+        "max": [
+          0.27000001072883606,
+          0.18000000715255737,
+          1.2549999952316284
+        ],
+        "dimensions": [
+          0.5400000214576721,
+          0.36000001430511475,
+          1.2549999952316284
+        ]
+      },
+      "material_slots": [
+        "M_Town_Metal",
+        "M_Town_Sage",
+        "M_Town_Trim",
+        "M_Town_Tire",
+        "M_Town_Paper"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_AC_Outdoor": {
+      "fbx": "Exports/SM_AC_Outdoor.fbx",
+      "triangles": 436,
+      "bounds_m": {
+        "min": [
+          -0.41999998688697815,
+          -0.2459999918937683,
+          0.0
+        ],
+        "max": [
+          0.41999998688697815,
+          0.1899999976158142,
+          0.6299999952316284
+        ],
+        "dimensions": [
+          0.8399999737739563,
+          0.4359999895095825,
+          0.6299999952316284
+        ]
+      },
+      "material_slots": [
+        "M_Town_Paper",
+        "M_Town_Metal",
+        "M_Town_Siding"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_SmallTorii": {
+      "fbx": "Exports/SM_SmallTorii.fbx",
+      "triangles": 224,
+      "bounds_m": {
+        "min": [
+          -1.7999999523162842,
+          -0.18000000715255737,
+          -0.002480472205206752
+        ],
+        "max": [
+          1.7999999523162842,
+          0.18000000715255737,
+          3.180000066757202
+        ],
+        "dimensions": [
+          3.5999999046325684,
+          0.36000001430511475,
+          3.182480538962409
+        ]
+      },
+      "material_slots": [
+        "M_Town_RamenRed",
+        "M_Town_Trim"
+      ],
+      "uv_channels": 2,
+      "text": []
+    },
+    "SM_RamenShop_Assembled": {
+      "fbx": "Exports/SM_RamenShop_Assembled.fbx",
+      "triangles": 7332,
+      "bounds_m": {
+        "min": [
+          -3.4000000953674316,
+          -3.0999999046325684,
+          0.0
+        ],
+        "max": [
+          3.4160001277923584,
+          2.745000123977661,
+          6.444999694824219
+        ],
+        "dimensions": [
+          6.81600022315979,
+          5.8450000286102295,
+          6.444999694824219
+        ]
+      },
+      "material_slots": [
+        "M_Town_Stone",
+        "M_Town_Plaster",
+        "M_Town_Timber",
+        "M_Town_Trim",
+        "M_Town_Glass",
+        "M_Town_Reflection",
+        "M_Town_Metal",
+        "M_Town_Roof",
+        "M_Town_Paper",
+        "M_Town_RamenRed",
+        "M_Town_Noren",
+        "M_Town_Siding"
+      ],
+      "uv_channels": 2,
+      "text": [
+        "ラーメン",
+        "営業中"
+      ]
+    }
+  }
+}

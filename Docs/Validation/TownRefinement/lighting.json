@@ -1,0 +1,132 @@
+{
+  "stage": "lighting",
+  "passed": true,
+  "errors": [],
+  "backup": "Saved/TownRefinement/Backups/lighting_b5564e18d4e90e89.umap",
+  "lighting": {
+    "sun_intensity": 5.5,
+    "sun_elevation": 36,
+    "skylight": 1.2,
+    "bloom": 0.08,
+    "motion_blur": 0,
+    "exposure_min_max": 1.0,
+    "exposure_bias": 2.0,
+    "shadow_method": "Three cascaded shadow maps; hardware ray tracing remains disabled"
+  },
+  "placed": [],
+  "protected_before": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "protected_after": {
+    "Prototype_Road": [
+      2000.0,
+      150.0,
+      -5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      6.0,
+      0.1
+    ],
+    "Prototype_LeftSidewalk": [
+      2000.0,
+      -300.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "Prototype_RightSidewalk": [
+      2000.0,
+      600.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      60.0,
+      3.0,
+      0.2
+    ],
+    "PlayerStart_SakuraStreet": [
+      0.0,
+      -320.0,
+      115.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "CAM_SakuraStreet_Reference": [
+      -480.0,
+      -180.0,
+      210.0,
+      -4.0,
+      -7.000000000000002,
+      -0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "actor_count": 742
+}

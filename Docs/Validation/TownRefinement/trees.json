@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "assets": {
+    "Hero": "/Game/SakuraDays/Environment/Foliage/Sakura/Prompt12/Hero/r_b13c27d0af53/SM_Sakura_Hero_LOD0.SM_Sakura_Hero_LOD0",
+    "Spread": "/Game/SakuraDays/Environment/Foliage/Sakura/Prompt12/Spread/r_db96687bf62d/SM_Sakura_Spread_LOD0.SM_Sakura_Spread_LOD0",
+    "Weeping": "/Game/SakuraDays/Environment/Foliage/Sakura/Prompt12/Weeping/r_a42693b0b5dc/SM_Sakura_Weeping_LOD0.SM_Sakura_Weeping_LOD0"
+  },
+  "results": {
+    "Hero": {
+      "lod_triangles": [
+        8250,
+        3792,
+        1200
+      ],
+      "lod0_dimensions_cm": [
+        962.31640625,
+        1030.7094421386719,
+        727.3623657226562
+      ],
+      "expected_cm": [
+        962.316370010376,
+        1030.709457397461,
+        727.3623943328857
+      ],
+      "combined_lod_bounds_cm": [
+        962.31640625,
+        1030.7094421386719,
+        727.3623657226562
+      ],
+      "uv_channels": 1,
+      "trunk_hulls": 3,
+      "invalid_normals": 0,
+      "requested_screen_sizes": [
+        1.0,
+        0.38,
+        0.16
+      ],
+      "render_screen_sizes": [
+        1.0,
+        0.3799999952316284,
+        0.1599999964237213
+      ],
+      "errors": []
+    },
+    "Spread": {
+      "lod_triangles": [
+        6646,
+        3056,
+        996
+      ],
+      "lod0_dimensions_cm": [
+        704.7648010253906,
+        796.7457275390625,
+        589.433837890625
+      ],
+      "expected_cm": [
+        704.7648191452026,
+        796.745753288269,
+        589.4338607788086
+      ],
+      "combined_lod_bounds_cm": [
+        704.7648010253906,
+        796.7457275390625,
+        589.433837890625
+      ],
+      "uv_channels": 1,
+      "trunk_hulls": 3,
+      "invalid_normals": 0,
+      "requested_screen_sizes": [
+        1.0,
+        0.38,
+        0.16
+      ],
+      "render_screen_sizes": [
+        1.0,
+        0.3799999952316284,
+        0.1599999964237213
+      ],
+      "errors": []
+    },
+    "Weeping": {
+      "lod_triangles": [
+        11928,
+        5472,
+        1546
+      ],
+      "lod0_dimensions_cm": [
+        838.9163208007812,
+        1010.847900390625,
+        787.9057006835938
+      ],
+      "expected_cm": [
+        838.9163255691528,
+        1010.8479022979736,
+        787.9056930541992
+      ],
+      "combined_lod_bounds_cm": [
+        838.9163208007812,
+        1010.847900390625,
+        787.9057006835938
+      ],
+      "uv_channels": 1,
+      "trunk_hulls": 3,
+      "invalid_normals": 0,
+      "requested_screen_sizes": [
+        1.0,
+        0.38,
+        0.16
+      ],
+      "render_screen_sizes": [
+        1.0,
+        0.3799999952316284,
+        0.1599999964237213
+      ],
+      "errors": []
+    }
+  },
+  "errors": [],
+  "actors_updated": [
+    "SD_Sakura_HeroCafe",
+    "SD_Sakura_NearLeft",
+    "SD_Sakura_LeftMiddle",
+    "SD_Sakura_LeftFar",
+    "SD_Sakura_RightNear",
+    "SD_Sakura_RightMiddle",
+    "SD_Sakura_RightFar",
+    "SD_Sakura_GardenWeeping",
+    "SD_Sakura_BackLeft",
+    "SD_Sakura_BackRight"
+  ],
+  "wind": "Vertex alpha weights; maximum horizontal amplitude 2.3cm; no bark motion"
+}

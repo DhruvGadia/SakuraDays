@@ -1,0 +1,350 @@
+{
+  "source": "SakuraTreeKit.blend",
+  "checks": [
+    {
+      "name": "SM_Sakura_Hero_LOD0 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD0 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD0 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD0 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD0 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD0 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD1 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Hero_LOD2 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD0 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD1 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Spread_LOD2 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD0 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD1 three convex trunk proxies",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 origin/scale",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 finite nondegenerate geometry",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 UV0 in zero-to-one atlas",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 two material slots",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 vertex color and wind weights",
+      "passed": true
+    },
+    {
+      "name": "SM_Sakura_Weeping_LOD2 three convex trunk proxies",
+      "passed": true
+    }
+  ],
+  "meshes": {
+    "SM_Sakura_Hero_LOD0": {
+      "triangles": 8250,
+      "dimensions_m": [
+        10.30709457397461,
+        9.62316370010376,
+        7.273623943328857
+      ],
+      "foliage_cards": 897,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Hero_LOD1": {
+      "triangles": 3792,
+      "dimensions_m": [
+        10.177477359771729,
+        9.553133487701416,
+        7.341891288757324
+      ],
+      "foliage_cards": 552,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Hero_LOD2": {
+      "triangles": 1200,
+      "dimensions_m": [
+        10.146636009216309,
+        9.734660148620605,
+        7.421889305114746
+      ],
+      "foliage_cards": 276,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD0": {
+      "triangles": 6646,
+      "dimensions_m": [
+        7.96745753288269,
+        7.047648191452026,
+        5.894338607788086
+      ],
+      "foliage_cards": 715,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD1": {
+      "triangles": 3056,
+      "dimensions_m": [
+        7.956149101257324,
+        6.991199970245361,
+        5.944596767425537
+      ],
+      "foliage_cards": 440,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Spread_LOD2": {
+      "triangles": 996,
+      "dimensions_m": [
+        8.022780179977417,
+        7.234234571456909,
+        6.035981178283691
+      ],
+      "foliage_cards": 220,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD0": {
+      "triangles": 11928,
+      "dimensions_m": [
+        10.108479022979736,
+        8.389163255691528,
+        7.879056930541992
+      ],
+      "foliage_cards": 1366,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD1": {
+      "triangles": 5472,
+      "dimensions_m": [
+        10.1898512840271,
+        8.563529014587402,
+        7.9884748458862305
+      ],
+      "foliage_cards": 848,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    },
+    "SM_Sakura_Weeping_LOD2": {
+      "triangles": 1546,
+      "dimensions_m": [
+        9.970916271209717,
+        8.829666137695312,
+        7.987486839294434
+      ],
+      "foliage_cards": 472,
+      "degenerate_triangles": 0,
+      "uv_layers": [
+        "UV0_Surface"
+      ],
+      "collision_hulls": 3
+    }
+  },
+  "passed": true
+}

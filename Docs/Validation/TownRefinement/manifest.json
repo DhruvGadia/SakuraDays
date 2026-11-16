@@ -1,0 +1,93 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "screenshots": {
+    "MainStreet": {
+      "path": "Docs/Images/Town_MainStreet.png",
+      "sha256": "0dcdc51f74651f5be8ac3e8fe11c809794f48bad66bbcf7c9a4306200c68f188",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Hana": {
+      "path": "Docs/Images/Town_Hana.png",
+      "sha256": "bf47fd9fc1fe24182d84812fd0310d13f816755b4d6150f60c66ed2a05e56cf8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Residential": {
+      "path": "Docs/Images/Town_Residential.png",
+      "sha256": "494facfd004d29d22758042ee74b25fc2753c35d5341e8574802fad6f5a45dca",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Storefront": {
+      "path": "Docs/Images/Town_Storefront.png",
+      "sha256": "f9271a18b0861ad7478571fdaa4031e068a8488ac10003f5fc41981d6d13c20c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Gameplay": {
+      "path": "Docs/Images/Town_Gameplay.png",
+      "sha256": "f8564faf2d841e19efee62b3604955a955a40f0431bf77ee0498e92f88933638",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Reference": {
+      "path": "Docs/Images/Town_Reference.png",
+      "sha256": "f069f87587f96f76cb24e8defa4ea89d9783af17d94689977ce3e80f3a5fb222",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "StreetSign": {
+      "path": "Docs/Images/Town_StreetSign.png",
+      "sha256": "cd091322a359cb8e5cddc94c1c1e9decb7f983f687d080cf6494656a1e6d077b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    },
+    "Noticeboard": {
+      "path": "Docs/Images/Town_Noticeboard.png",
+      "sha256": "ebb77058162e8c9082262b7dfa6afce474bb5b8817a0a5384b4fe2d945b11db9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "Genuine Unreal PIE HighResShot"
+    }
+  },
+  "evidence": {
+    "imports": "Docs/Validation/TownRefinement/imports.json",
+    "house_variants": "Docs/Validation/TownRefinement/house_variants.json",
+    "trees": "Docs/Validation/TownRefinement/trees.json",
+    "geometry": "Docs/Validation/TownRefinement/geometry.json",
+    "identity": "Docs/Validation/TownRefinement/identity.json",
+    "materials": "Docs/Validation/TownRefinement/materials.json",
+    "lighting": "Docs/Validation/TownRefinement/lighting.json",
+    "petals": "Docs/Validation/TownRefinement/petals.json",
+    "PIE_geometry": "Docs/Validation/TownRefinement/PIE_geometry.json",
+    "PIE_identity": "Docs/Validation/TownRefinement/PIE_identity.json",
+    "PIE_materials": "Docs/Validation/TownRefinement/PIE_materials.json",
+    "PIE_lighting": "Docs/Validation/TownRefinement/PIE_lighting.json",
+    "PIE_final": "Docs/Validation/TownRefinement/PIE_final.json"
+  },
+  "saved_map_sha256": "b8835bfa95c55532a74c880d214f3590483282c9a176da978ca25f5414ea4900"
+}
