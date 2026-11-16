@@ -1,0 +1,361 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "pre_refinement_checkpoint": "97822a7",
+  "target_sha256": "b8722fd2c7f82df2b9af7f0e4921debeef1f80fee34bccb894de12ce74306c1a",
+  "iterations": {
+    "before": {
+      "passed_checks": 32,
+      "errors": [],
+      "preserved_geometry_camera_spawn_actors": 739,
+      "map_sha256": "b8835bfa95c55532a74c880d214f3590483282c9a176da978ca25f5414ea4900",
+      "screenshots": {
+        "MainStreet": {
+          "path": "Docs/Images/AnimeRefinement/before/MainStreet.png",
+          "sha256": "a49379392d760b24a2d9d9e52bafaf2ec864600b80f1e92d73a2508153524dde",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Reference": {
+          "path": "Docs/Images/AnimeRefinement/before/Reference.png",
+          "sha256": "a6209262d9eb324cafbfe244841619911ee253f4738796dafb1851564cf0f600",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Gameplay": {
+          "path": "Docs/Images/AnimeRefinement/before/Gameplay.png",
+          "sha256": "1a5f74c6e9050c2ba2794ec77dd11e5a729b851c125cb7f58fb649f98c9ed0e9",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Hana": {
+          "path": "Docs/Images/AnimeRefinement/before/Hana.png",
+          "sha256": "d0374a1239241abfdb2b4c2af2f874074eaf5f85a50bf28be51212e41ec406ea",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Residential": {
+          "path": "Docs/Images/AnimeRefinement/before/Residential.png",
+          "sha256": "e8dbe6067790f62713661324185c19ac754a09aa677cade6fc1866879e3a8bc6",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Storefront": {
+          "path": "Docs/Images/AnimeRefinement/before/Storefront.png",
+          "sha256": "adf046bf506a73cf8d456fe431576017e901186f648603610eeef0605764f0c2",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "StreetSign": {
+          "path": "Docs/Images/AnimeRefinement/before/StreetSign.png",
+          "sha256": "7bd70f98f54e1906a4967357bfdbc368d165a20b91f28d47267bc490f8f5ecce",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Noticeboard": {
+          "path": "Docs/Images/AnimeRefinement/before/Noticeboard.png",
+          "sha256": "4d80c068f52758e98a74ae937d464b652111041df1db3c86b89dbc28fe2dc942",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        }
+      }
+    },
+    "pass1": {
+      "passed_checks": 32,
+      "errors": [],
+      "preserved_geometry_camera_spawn_actors": 739,
+      "map_sha256": "191ac1ffc054fa476cd94e2216b40e8e3e6898dad12ff234fb16e3d19d063cab",
+      "screenshots": {
+        "MainStreet": {
+          "path": "Docs/Images/AnimeRefinement/pass1/MainStreet.png",
+          "sha256": "f78fc195e860afd65b6cfa9fd61b0b4184779c028308d8c098274586397c3569",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Reference": {
+          "path": "Docs/Images/AnimeRefinement/pass1/Reference.png",
+          "sha256": "2c05aee5d15498f6b14922ede4bb9cf25edc683d6c35c80c2d5c72d098cb20df",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Gameplay": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/Gameplay.png",
+          "sha256": "3ada76e78388ca921efc2218bb0eead88b86b47a428cb55f85c46a74efdf14ae",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Hana": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/Hana.png",
+          "sha256": "c83e7df236cb0ff30eaa551e73cbb9c512748da27da9eb9deebae7e5de9a5290",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Residential": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/Residential.png",
+          "sha256": "648a0df111f8bd171cbfbc95c53371e4f7b8a2ea5d355b4394d7d169aa7af07c",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Storefront": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/Storefront.png",
+          "sha256": "3b1546c045316d34ff55cc974a4fc1f63bebc8ddd62d328ccf43f1d52941c7e1",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "StreetSign": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/StreetSign.png",
+          "sha256": "52f230130fade1f903573b3d94124b8f391061111214e1f5ce5d2d8bb37dce37",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Noticeboard": {
+          "path": "<LOCAL_DREAM_LOOP>/pass1/Noticeboard.png",
+          "sha256": "93c2449f82adb56fe058fa1491ec8fad054439ea50f931040d311fcc0daee9c6",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        }
+      }
+    },
+    "pass2": {
+      "passed_checks": 32,
+      "errors": [],
+      "preserved_geometry_camera_spawn_actors": 739,
+      "map_sha256": "61ef39ca63748be65689492ef0059b9d4b3080fe0fd458cc1b537679d861f2f6",
+      "screenshots": {
+        "MainStreet": {
+          "path": "Docs/Images/AnimeRefinement/pass2/MainStreet.png",
+          "sha256": "1bd0027f98e88bfdff932f1e9fa4a83d0a5aa9e92115c05f2582f7b68b0e36ba",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Reference": {
+          "path": "Docs/Images/AnimeRefinement/pass2/Reference.png",
+          "sha256": "7380afc16307631997715f5df1b9b1f30fbc44d88ab0cc2a1f01cf9bed0a3f19",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Gameplay": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/Gameplay.png",
+          "sha256": "dbc1600d4fb96a882a3df9239a22461bf9c61f8a93540a36a43fff330557a2c3",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Hana": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/Hana.png",
+          "sha256": "57b894a47a48f56e4fe18343106830c2daac4aa4f697cdc8cae9df2fa7eed10e",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Residential": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/Residential.png",
+          "sha256": "5a03c412134ce7dfbe79d67b3dc4d4aaaa24dc7bacbd0bc845d1cf0f20df786c",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Storefront": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/Storefront.png",
+          "sha256": "a77a7cab17136ea1fca46e001d01b3b12562bbf1f91a362e1e230cb87ebe2318",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "StreetSign": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/StreetSign.png",
+          "sha256": "a25004f67dc96eea9718bf39e1505744c9108a84f6da05527c4d2f9c12e15096",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Noticeboard": {
+          "path": "<LOCAL_DREAM_LOOP>/pass2/Noticeboard.png",
+          "sha256": "b8c56e3b54bd7b12353eee8159d7bd4e779812a8e93bee2d6f2742154f2a4c68",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": false,
+          "source": "Genuine Unreal PIE HighResShot"
+        }
+      }
+    },
+    "pass3": {
+      "passed_checks": 32,
+      "errors": [],
+      "preserved_geometry_camera_spawn_actors": 739,
+      "map_sha256": "9bc5f16b8a75a7e578a0ca5968c707c36ef55eee05c667fdd5274f222c1a8505",
+      "screenshots": {
+        "MainStreet": {
+          "path": "Docs/Images/AnimeRefinement/pass3/MainStreet.png",
+          "sha256": "d97a4d790e67a1002ff5b71345eb7c529ba7613b9265ec8dd962945eaf0848ff",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Reference": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Reference.png",
+          "sha256": "4317c18d0e84dfc9e817bccabd3b7db88085bbdb67d731e2e77ef41005b35f5b",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Gameplay": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Gameplay.png",
+          "sha256": "173486fa0281f0c6618fce7714c1522fbaedf597dad7a207890eda3d7a92990b",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Hana": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Hana.png",
+          "sha256": "3d7cc500289a033b0ecbc2f12375f5cfd1bf138373a3c6fa8dc09703c72198e9",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Residential": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Residential.png",
+          "sha256": "c8fa0063b7c61c98aee3c3cf8103ac9216afcf17d13f2c037b26674a3044a888",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Storefront": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Storefront.png",
+          "sha256": "69e84f6854ddfc0e96b3d5fc18d2003f2dc1d8b7b51753f8ee99ec969f93b033",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "StreetSign": {
+          "path": "Docs/Images/AnimeRefinement/pass3/StreetSign.png",
+          "sha256": "01f4fa5642ff18c0736b15e860102b8765f1697768512afbabb25b1162305cf7",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        },
+        "Noticeboard": {
+          "path": "Docs/Images/AnimeRefinement/pass3/Noticeboard.png",
+          "sha256": "78487558e646f8992c7df957a2523abb7e8778ab231fcf0a251a856aceaf9bcb",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "permanent_copy": true,
+          "source": "Genuine Unreal PIE HighResShot"
+        }
+      }
+    }
+  },
+  "performance_scope": "PIE functionality and screenshots; no packaged FPS or GPU performance claim.",
+  "final_saved_map_sha256": "9bc5f16b8a75a7e578a0ca5968c707c36ef55eee05c667fdd5274f222c1a8505"
+}

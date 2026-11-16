@@ -1,0 +1,2463 @@
+{
+  "map": "/Game/SakuraDays/Maps/L_SakuraStreet",
+  "status": "complete",
+  "passed": true,
+  "checks": [
+    {
+      "name": "reference_camera_preserved",
+      "passed": true,
+      "position_cm": [
+        -480.0,
+        -180.0,
+        210.0
+      ],
+      "rotation_degrees": [
+        -4.0,
+        -7.000000000000002,
+        -0.0
+      ],
+      "horizontal_fov": 75.0,
+      "aspect_ratio": 1.7777777910232544
+    },
+    {
+      "name": "existing_player_possessed",
+      "passed": true,
+      "pawn_class": "/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C",
+      "world": "/Game/SakuraDays/Maps/UEDPIE_0_L_SakuraStreet.L_SakuraStreet"
+    },
+    {
+      "name": "movement_warmup",
+      "passed": true,
+      "position_cm": [
+        157.1871867792127,
+        -320.0,
+        107.15000200271606
+      ],
+      "distance_to_goal_cm": 17.18718677921271,
+      "duration_seconds": 1.360000000000582
+    },
+    {
+      "name": "cafe_approach",
+      "passed": true,
+      "position_cm": [
+        339.9522747245785,
+        -376.8733223355081,
+        107.15000200271606
+      ],
+      "distance_to_goal_cm": 10.522969943318126,
+      "duration_seconds": 3.311999999998079
+    },
+    {
+      "name": "left_near",
+      "passed": true,
+      "position_cm": [
+        989.4078111814999,
+        -330.75220482052407,
+        107.15000200271606
+      ],
+      "distance_to_goal_cm": 10.618864160482392,
+      "duration_seconds": 2.3280000000013388
+    },
+    {
+      "name": "left_middle",
+      "passed": true,
+      "position_cm": [
+        2283.674260378523,
+        -330.00937003909115,
+        107.15000200271606
+      ],
+      "distance_to_goal_cm": 16.32574231040972,
+      "duration_seconds": 2.6569999999992433
+    },
+    {
+      "name": "left_far",
+      "passed": true,
+      "position_cm": [
+        4577.760784160671,
+        -330.00008996244264,
+        107.15000200271606
+      ],
+      "distance_to_goal_cm": 22.239215839510567,
+      "duration_seconds": 4.343000000000757
+    },
+    {
+      "name": "far_crossing",
+      "passed": true,
+      "position_cm": [
+        4600.417472439803,
+        617.4578730374357,
+        107.14999708756523
+      ],
+      "distance_to_goal_cm": 17.462863861040027,
+      "duration_seconds": 2.6569999999992433
+    },
+    {
+      "name": "house03_frontage",
+      "passed": true,
+      "position_cm": [
+        3306.4705222390558,
+        600.0868656090288,
+        107.14999708756523
+      ],
+      "distance_to_goal_cm": 6.471105290454408,
+      "duration_seconds": 2.6710000000020955
+    },
+    {
+      "name": "right_middle",
+      "passed": true,
+      "position_cm": [
+        2310.031560810916,
+        600.0008657954907,
+        107.14999708756523
+      ],
+      "distance_to_goal_cm": 10.031560848278009,
+      "duration_seconds": 4.671999999998661
+    },
+    {
+      "name": "house02_frontage",
+      "passed": true,
+      "position_cm": [
+        1109.6422532406264,
+        600.0000068991748,
+        107.14999708756523
+      ],
+      "distance_to_goal_cm": 9.642253240628827,
+      "duration_seconds": 5.0
+    },
+    {
+      "name": "right_near",
+      "passed": true,
+      "position_cm": [
+        -490.31336335794106,
+        600.0000000415187,
+        107.14999708756523
+      ],
+      "distance_to_goal_cm": 9.686636642058943,
+      "duration_seconds": 5.671999999998661
+    },
+    {
+      "name": "near_road_crossing",
+      "passed": true,
+      "position_cm": [
+        -499.467258386076,
+        174.74891287312352,
+        92.15000090226249
+      ],
+      "distance_to_goal_cm": 24.754646069549555,
+      "duration_seconds": 2.0
+    },
+    {
+      "name": "road_middle",
+      "passed": true,
+      "position_cm": [
+        1994.475316869692,
+        150.05470361773487,
+        92.15000090226249
+      ],
+      "distance_to_goal_cm": 5.524953952396573,
+      "duration_seconds": 4.6560000000026776
+    },
+    {
+      "name": "road_far",
+      "passed": true,
+      "position_cm": [
+        4488.540314062014,
+        150.00025020159777,
+        92.15000090226249
+      ],
+      "distance_to_goal_cm": 11.459685940717602,
+      "duration_seconds": 4.656999999999243
+    },
+    {
+      "name": "road_return",
+      "passed": true,
+      "position_cm": [
+        -487.7069829273598,
+        150.00000061655962,
+        92.15000090226249
+      ],
+      "distance_to_goal_cm": 12.293017072640241,
+      "duration_seconds": 10.014999999999418
+    },
+    {
+      "name": "near_sidewalk_crossing",
+      "passed": true,
+      "position_cm": [
+        -500.3560088338435,
+        -343.9009194776696,
+        107.15000043589112
+      ],
+      "distance_to_goal_cm": 13.90547750400644,
+      "duration_seconds": 1.3280000000013388
+    },
+    {
+      "name": "spawn_approach",
+      "passed": true,
+      "position_cm": [
+        -139.9819189111184,
+        -318.5942644413945,
+        107.15000043589112
+      ],
+      "distance_to_goal_cm": 20.067378078407916,
+      "duration_seconds": 1.6719999999986612
+    },
+    {
+      "name": "return_spawn",
+      "passed": true,
+      "position_cm": [
+        17.18391734200278,
+        -320.17256545582234,
+        107.15000043589112
+      ],
+      "distance_to_goal_cm": 17.18478379419791,
+      "duration_seconds": 1.3909999999959837
+    },
+    {
+      "name": "jump_and_land",
+      "passed": true,
+      "jump_height_cm": 115.55545523763467,
+      "landing_error_cm": 2.3088627187917155e-07
+    },
+    {
+      "name": "normal_gameplay_camera",
+      "passed": true
+    },
+    {
+      "name": "gameplay_screenshot_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Gameplay.png"
+    },
+    {
+      "name": "reference_screenshot_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Reference.png"
+    },
+    {
+      "name": "petals_live_sample_1",
+      "passed": true,
+      "game_time_seconds": 80.40093716979027,
+      "total_live_particles": 144,
+      "downward_velocity_verified": true,
+      "errors": []
+    },
+    {
+      "name": "petals_live_sample_2",
+      "passed": true,
+      "game_time_seconds": 81.40093848109245,
+      "total_live_particles": 144,
+      "downward_velocity_verified": true,
+      "errors": []
+    },
+    {
+      "name": "petals_two_distinct_live_frames",
+      "passed": true,
+      "sample_interval_game_seconds": 1.000001311302185,
+      "sample_count": 2
+    },
+    {
+      "name": "Hana_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Hana.png"
+    },
+    {
+      "name": "Residential_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Residential.png"
+    },
+    {
+      "name": "Storefront_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Storefront.png"
+    },
+    {
+      "name": "MainStreet_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\MainStreet.png"
+    },
+    {
+      "name": "StreetSign_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\StreetSign.png"
+    },
+    {
+      "name": "Noticeboard_1920x1080",
+      "passed": true,
+      "file": "<PROJECT>\\.dream-loop\\prompt13\\before\\Noticeboard.png"
+    }
+  ],
+  "errors": [],
+  "samples": [
+    [
+      0.0,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      0.0,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      0.0,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      0.0,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      0.0,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      95.31,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      192.88,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      157.19,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      157.19,
+      -320.0,
+      107.15,
+      false
+    ],
+    [
+      248.2,
+      -348.32,
+      107.15,
+      false
+    ],
+    [
+      437.97,
+      -407.37,
+      107.15,
+      false
+    ],
+    [
+      416.96,
+      -400.84,
+      107.15,
+      false
+    ],
+    [
+      285.39,
+      -359.89,
+      107.15,
+      false
+    ],
+    [
+      303.9,
+      -365.65,
+      107.15,
+      false
+    ],
+    [
+      395.28,
+      -394.09,
+      107.15,
+      false
+    ],
+    [
+      379.13,
+      -389.07,
+      107.15,
+      false
+    ],
+    [
+      320.87,
+      -370.93,
+      107.15,
+      false
+    ],
+    [
+      339.95,
+      -376.87,
+      107.15,
+      false
+    ],
+    [
+      339.95,
+      -376.87,
+      107.15,
+      false
+    ],
+    [
+      435.03,
+      -370.12,
+      107.15,
+      false
+    ],
+    [
+      633.28,
+      -356.04,
+      107.15,
+      false
+    ],
+    [
+      832.77,
+      -341.88,
+      107.15,
+      false
+    ],
+    [
+      1032.27,
+      -327.71,
+      107.15,
+      false
+    ],
+    [
+      1086.98,
+      -323.82,
+      107.15,
+      false
+    ],
+    [
+      989.41,
+      -330.75,
+      107.15,
+      false
+    ],
+    [
+      989.41,
+      -330.75,
+      107.15,
+      false
+    ],
+    [
+      1084.9,
+      -330.7,
+      107.15,
+      false
+    ],
+    [
+      1283.67,
+      -330.58,
+      107.15,
+      false
+    ],
+    [
+      1483.67,
+      -330.47,
+      107.15,
+      false
+    ],
+    [
+      1683.67,
+      -330.35,
+      107.15,
+      false
+    ],
+    [
+      1883.67,
+      -330.24,
+      107.15,
+      false
+    ],
+    [
+      2083.67,
+      -330.12,
+      107.15,
+      false
+    ],
+    [
+      2283.67,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      2283.67,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      2379.01,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      2577.76,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      2777.76,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      2977.76,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      3177.76,
+      -330.01,
+      107.15,
+      false
+    ],
+    [
+      3377.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      3577.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      3777.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      3977.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      4177.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      4377.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      4577.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      4577.76,
+      -330.0,
+      107.15,
+      false
+    ],
+    [
+      4580.04,
+      -234.71,
+      107.15,
+      false
+    ],
+    [
+      4584.79,
+      -36.02,
+      92.15,
+      false
+    ],
+    [
+      4589.57,
+      163.92,
+      92.15,
+      false
+    ],
+    [
+      4594.35,
+      363.87,
+      92.15,
+      false
+    ],
+    [
+      4599.13,
+      563.81,
+      107.15,
+      false
+    ],
+    [
+      4601.52,
+      663.6,
+      107.15,
+      false
+    ],
+    [
+      4600.42,
+      617.46,
+      107.15,
+      false
+    ],
+    [
+      4600.42,
+      617.46,
+      107.15,
+      false
+    ],
+    [
+      4505.11,
+      616.18,
+      107.15,
+      false
+    ],
+    [
+      4306.38,
+      613.51,
+      107.15,
+      false
+    ],
+    [
+      4106.4,
+      610.83,
+      107.15,
+      false
+    ],
+    [
+      3906.42,
+      608.14,
+      107.15,
+      false
+    ],
+    [
+      3706.43,
+      605.46,
+      107.15,
+      false
+    ],
+    [
+      3506.45,
+      602.77,
+      107.15,
+      false
+    ],
+    [
+      3306.47,
+      600.09,
+      107.15,
+      false
+    ],
+    [
+      3306.47,
+      600.09,
+      107.15,
+      false
+    ],
+    [
+      3211.16,
+      600.08,
+      107.15,
+      false
+    ],
+    [
+      3012.41,
+      600.06,
+      107.15,
+      false
+    ],
+    [
+      2812.41,
+      600.04,
+      107.15,
+      false
+    ],
+    [
+      2612.41,
+      600.03,
+      107.15,
+      false
+    ],
+    [
+      2412.41,
+      600.01,
+      107.15,
+      false
+    ],
+    [
+      2212.41,
+      599.99,
+      107.15,
+      false
+    ],
+    [
+      2231.62,
+      599.99,
+      107.15,
+      false
+    ],
+    [
+      2365.28,
+      600.01,
+      107.15,
+      false
+    ],
+    [
+      2346.63,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2254.22,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2270.91,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2329.09,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2310.03,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2310.03,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2214.72,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      2015.97,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1815.97,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1615.97,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1415.96,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1215.96,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1015.96,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1032.99,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1163.27,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1145.29,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1055.56,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1072.04,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1127.96,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1109.64,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1109.64,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      1014.33,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      815.58,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      615.58,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      415.58,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      215.58,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      15.57,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -184.43,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -384.43,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -584.43,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -567.16,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -436.51,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -454.56,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -544.59,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -528.09,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -471.91,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -490.31,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -490.31,
+      600.0,
+      107.15,
+      false
+    ],
+    [
+      -492.36,
+      504.71,
+      107.15,
+      false
+    ],
+    [
+      -496.64,
+      306.01,
+      92.15,
+      false
+    ],
+    [
+      -500.95,
+      106.05,
+      92.15,
+      false
+    ],
+    [
+      -501.87,
+      63.23,
+      92.15,
+      false
+    ],
+    [
+      -499.47,
+      174.75,
+      92.15,
+      false
+    ],
+    [
+      -499.47,
+      174.75,
+      92.15,
+      false
+    ],
+    [
+      -404.16,
+      173.81,
+      92.15,
+      false
+    ],
+    [
+      -205.42,
+      171.84,
+      92.15,
+      false
+    ],
+    [
+      -5.43,
+      169.86,
+      92.15,
+      false
+    ],
+    [
+      194.56,
+      167.88,
+      92.15,
+      false
+    ],
+    [
+      394.55,
+      165.9,
+      92.15,
+      false
+    ],
+    [
+      594.54,
+      163.92,
+      92.15,
+      false
+    ],
+    [
+      794.53,
+      161.94,
+      92.15,
+      false
+    ],
+    [
+      994.52,
+      159.96,
+      92.15,
+      false
+    ],
+    [
+      1194.51,
+      157.98,
+      92.15,
+      false
+    ],
+    [
+      1394.5,
+      156.0,
+      92.15,
+      false
+    ],
+    [
+      1594.49,
+      154.02,
+      92.15,
+      false
+    ],
+    [
+      1794.49,
+      152.03,
+      92.15,
+      false
+    ],
+    [
+      1994.48,
+      150.05,
+      92.15,
+      false
+    ],
+    [
+      1994.48,
+      150.05,
+      92.15,
+      false
+    ],
+    [
+      2089.79,
+      150.05,
+      92.15,
+      false
+    ],
+    [
+      2288.54,
+      150.05,
+      92.15,
+      false
+    ],
+    [
+      2488.54,
+      150.04,
+      92.15,
+      false
+    ],
+    [
+      2688.54,
+      150.04,
+      92.15,
+      false
+    ],
+    [
+      2888.54,
+      150.04,
+      92.15,
+      false
+    ],
+    [
+      3088.54,
+      150.03,
+      92.15,
+      false
+    ],
+    [
+      3288.54,
+      150.03,
+      92.15,
+      false
+    ],
+    [
+      3488.54,
+      150.02,
+      92.15,
+      false
+    ],
+    [
+      3688.54,
+      150.02,
+      92.15,
+      false
+    ],
+    [
+      3888.54,
+      150.01,
+      92.15,
+      false
+    ],
+    [
+      4088.54,
+      150.01,
+      92.15,
+      false
+    ],
+    [
+      4288.54,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      4488.54,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      4488.54,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      4393.23,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      4194.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      3994.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      3794.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      3594.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      3394.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      3194.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      2994.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      2794.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      2594.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      2394.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      2194.48,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      1994.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      1794.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      1594.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      1394.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      1194.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      994.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      794.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      594.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      394.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      194.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -5.53,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -205.53,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -405.53,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -594.47,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -532.58,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -462.55,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -487.71,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -487.71,
+      150.0,
+      92.15,
+      false
+    ],
+    [
+      -490.15,
+      54.72,
+      92.15,
+      false
+    ],
+    [
+      -495.24,
+      -143.97,
+      106.63,
+      false
+    ],
+    [
+      -500.36,
+      -343.9,
+      107.15,
+      false
+    ],
+    [
+      -500.36,
+      -343.9,
+      107.15,
+      false
+    ],
+    [
+      -405.28,
+      -337.22,
+      107.15,
+      false
+    ],
+    [
+      -207.02,
+      -323.3,
+      107.15,
+      false
+    ],
+    [
+      -95.45,
+      -315.47,
+      107.15,
+      false
+    ],
+    [
+      -139.98,
+      -318.59,
+      107.15,
+      false
+    ],
+    [
+      -139.98,
+      -318.59,
+      107.15,
+      false
+    ],
+    [
+      -44.67,
+      -319.55,
+      107.15,
+      false
+    ],
+    [
+      52.87,
+      -320.53,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      219.37,
+      true
+    ],
+    [
+      17.18,
+      -320.17,
+      222.71,
+      true
+    ],
+    [
+      17.18,
+      -320.17,
+      117.15,
+      true
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ],
+    [
+      17.18,
+      -320.17,
+      107.15,
+      false
+    ]
+  ],
+  "distance_cm": 24847.327214999248,
+  "screenshots": {
+    "gameplay": "<PROJECT>\\.dream-loop\\prompt13\\before\\Gameplay.png",
+    "reference": "<PROJECT>\\.dream-loop\\prompt13\\before\\Reference.png",
+    "hana": "<PROJECT>\\.dream-loop\\prompt13\\before\\Hana.png",
+    "residential": "<PROJECT>\\.dream-loop\\prompt13\\before\\Residential.png",
+    "storefront": "<PROJECT>\\.dream-loop\\prompt13\\before\\Storefront.png",
+    "mainstreet": "<PROJECT>\\.dream-loop\\prompt13\\before\\MainStreet.png",
+    "streetsign": "<PROJECT>\\.dream-loop\\prompt13\\before\\StreetSign.png",
+    "noticeboard": "<PROJECT>\\.dream-loop\\prompt13\\before\\Noticeboard.png"
+  },
+  "test_scope": "Genuine PIE route traversal using movement-input calls, possession, ground contact, jump/landing and real 1080p captures. This does not test keyboard bindings or every collision approach. Frame times are editor observations, not packaged GPU benchmarks.",
+  "stage": "final",
+  "petals_runtime": {
+    "method": "Two live Niagara simulation-cache samples during PIE",
+    "minimum_game_time_interval_seconds": 1.0,
+    "samples": [
+      {
+        "passed": true,
+        "method": "Niagara one-frame live simulation cache",
+        "expected_actors": [
+          "JP_PetalDrift0",
+          "JP_PetalDrift1",
+          "JP_PetalDrift2"
+        ],
+        "actors": [
+          {
+            "actor": "JP_PetalDrift0",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.125,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 97.89434814453125,
+              "max": 521.4385681152344,
+              "mean": 307.26137685775757
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.861705780029297,
+              "max": -24.44622039794922,
+              "mean": -28.163466374079388
+            },
+            "sample_world_positions_cm": [
+              [
+                417.9756774902344,
+                -54.00419616699219,
+                116.11642456054688
+              ],
+              [
+                878.7166290283203,
+                -411.7461853027344,
+                97.89434814453125
+              ],
+              [
+                808.746955871582,
+                -566.5479431152344,
+                271.1982421875
+              ],
+              [
+                664.4959907531738,
+                -315.7584686279297,
+                103.18060302734375
+              ],
+              [
+                852.2442016601562,
+                -378.289794921875,
+                142.25167083740234
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                -1.0673980712890625,
+                10.987476348876953,
+                -26.057865142822266
+              ],
+              [
+                12.577388763427734,
+                -2.970033645629883,
+                -30.458152770996094
+              ],
+              [
+                7.6042680740356445,
+                -10.98969554901123,
+                -25.834156036376953
+              ],
+              [
+                0.034816741943359375,
+                7.382080078125,
+                -26.67206382751465
+              ],
+              [
+                1.6313819885253906,
+                0.5107240676879883,
+                -27.271156311035156
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": false,
+            "temporal_motion_note": "A second sample with retained UniqueID is required"
+          },
+          {
+            "actor": "JP_PetalDrift1",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.125,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 58.52214050292969,
+              "max": 559.1363525390625,
+              "mean": 322.16725397109985
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.95302391052246,
+              "max": -24.169658660888672,
+              "mean": -27.609415849049885
+            },
+            "sample_world_positions_cm": [
+              [
+                2773.208740234375,
+                360.3695526123047,
+                212.38328552246094
+              ],
+              [
+                2710.4234313964844,
+                85.52166748046875,
+                58.52214050292969
+              ],
+              [
+                2585.1311950683594,
+                91.57742309570312,
+                216.24566650390625
+              ],
+              [
+                2175.6105346679688,
+                498.52882385253906,
+                269.0406036376953
+              ],
+              [
+                2537.318290710449,
+                594.4114990234375,
+                225.65792846679688
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                8.145626068115234,
+                -1.9451923370361328,
+                -25.585124969482422
+              ],
+              [
+                -6.4126386642456055,
+                -10.12020206451416,
+                -31.435012817382812
+              ],
+              [
+                9.39517593383789,
+                0.6798391342163086,
+                -29.702091217041016
+              ],
+              [
+                -2.249569892883301,
+                3.9144973754882812,
+                -25.41908073425293
+              ],
+              [
+                9.754631042480469,
+                6.593502044677734,
+                -27.822853088378906
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": false,
+            "temporal_motion_note": "A second sample with retained UniqueID is required"
+          },
+          {
+            "actor": "JP_PetalDrift2",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.125,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 119.2622299194336,
+              "max": 561.45458984375,
+              "mean": 325.93213510513306
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.949344635009766,
+              "max": -24.450782775878906,
+              "mean": -28.048727591832478
+            },
+            "sample_world_positions_cm": [
+              [
+                3962.290542602539,
+                -337.6060485839844,
+                188.0179443359375
+              ],
+              [
+                4327.090759277344,
+                85.82901000976562,
+                219.65835571289062
+              ],
+              [
+                3828.1693725585938,
+                -17.8619384765625,
+                140.29222106933594
+              ],
+              [
+                4017.905319213867,
+                -61.13919448852539,
+                119.2622299194336
+              ],
+              [
+                4017.194778442383,
+                -455.8435363769531,
+                275.52166748046875
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                2.2020788192749023,
+                -10.426837921142578,
+                -29.909177780151367
+              ],
+              [
+                -3.2328405380249023,
+                -2.7241573333740234,
+                -26.560562133789062
+              ],
+              [
+                -4.554338455200195,
+                10.891204833984375,
+                -30.021617889404297
+              ],
+              [
+                -2.467479705810547,
+                9.51382827758789,
+                -30.89813804626465
+              ],
+              [
+                4.67038631439209,
+                -9.435576438903809,
+                -25.215045928955078
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": false,
+            "temporal_motion_note": "A second sample with retained UniqueID is required"
+          }
+        ],
+        "errors": [],
+        "manually_advanced_simulation": false,
+        "saved_assets": false,
+        "world": "/Game/SakuraDays/Maps/UEDPIE_0_L_SakuraStreet.L_SakuraStreet",
+        "pie_world": true,
+        "total_live_particles": 144,
+        "downward_velocity_verified": true,
+        "temporal_motion_verified": false
+      },
+      {
+        "passed": true,
+        "method": "Niagara one-frame live simulation cache",
+        "expected_actors": [
+          "JP_PetalDrift0",
+          "JP_PetalDrift1",
+          "JP_PetalDrift2"
+        ],
+        "actors": [
+          {
+            "actor": "JP_PetalDrift0",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.5,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 86.47254943847656,
+              "max": 509.6443786621094,
+              "mean": 304.2852870623271
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.861705780029297,
+              "max": -24.44622039794922,
+              "mean": -28.260045766830444
+            },
+            "sample_world_positions_cm": [
+              [
+                883.4331512451172,
+                -412.85997009277344,
+                86.47254943847656
+              ],
+              [
+                811.5985488891602,
+                -570.6690979003906,
+                261.5104522705078
+              ],
+              [
+                664.5090484619141,
+                -312.9901885986328,
+                93.17858123779297
+              ],
+              [
+                852.85595703125,
+                -378.0982666015625,
+                132.0249786376953
+              ],
+              [
+                958.4494018554688,
+                -170.85890197753906,
+                151.04843139648438
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                12.577388763427734,
+                -2.970033645629883,
+                -30.458152770996094
+              ],
+              [
+                7.6042680740356445,
+                -10.98969554901123,
+                -25.834156036376953
+              ],
+              [
+                0.034816741943359375,
+                7.382080078125,
+                -26.67206382751465
+              ],
+              [
+                1.6313819885253906,
+                0.5107240676879883,
+                -27.271156311035156
+              ],
+              [
+                -4.59504508972168,
+                -10.311152458190918,
+                -26.488981246948242
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": true,
+            "temporal_motion_note": "Compared matching live particle UniqueIDs across real game frames",
+            "matched_particles_between_samples": 47,
+            "sample_interval_seconds": 0.375,
+            "matched_world_z_delta_cm": {
+              "min": -11.94818115234375,
+              "max": -9.1673583984375,
+              "mean": -10.578107143970247
+            }
+          },
+          {
+            "actor": "JP_PetalDrift1",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.5,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 46.7340145111084,
+              "max": 547.94970703125,
+              "mean": 318.9987016916275
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.95302391052246,
+              "max": -24.169658660888672,
+              "mean": -27.61003565788269
+            },
+            "sample_world_positions_cm": [
+              [
+                2708.0187072753906,
+                81.72657775878906,
+                46.7340145111084
+              ],
+              [
+                2588.6543731689453,
+                91.83235168457031,
+                205.10736083984375
+              ],
+              [
+                2174.7669677734375,
+                499.9967803955078,
+                259.5084533691406
+              ],
+              [
+                2540.9762802124023,
+                596.8840637207031,
+                215.22434997558594
+              ],
+              [
+                2849.138702392578,
+                218.8033218383789,
+                140.70116424560547
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                -6.4126386642456055,
+                -10.12020206451416,
+                -31.435012817382812
+              ],
+              [
+                9.39517593383789,
+                0.6798391342163086,
+                -29.702091217041016
+              ],
+              [
+                -2.249569892883301,
+                3.9144973754882812,
+                -25.41908073425293
+              ],
+              [
+                9.754631042480469,
+                6.593502044677734,
+                -27.822853088378906
+              ],
+              [
+                6.17185115814209,
+                -8.5125732421875,
+                -25.33892822265625
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": true,
+            "temporal_motion_note": "Compared matching live particle UniqueIDs across real game frames",
+            "matched_particles_between_samples": 47,
+            "sample_interval_seconds": 0.375,
+            "matched_world_z_delta_cm": {
+              "min": -11.982421875,
+              "max": -9.063629150390625,
+              "mean": -10.369687547074987
+            }
+          },
+          {
+            "actor": "JP_PetalDrift2",
+            "passed": true,
+            "errors": [],
+            "system": "/Game/SakuraDays/Effects/Petals/Prompt12/NS_SakuraPetals_v2.NS_SakuraPetals_v2",
+            "active": true,
+            "paused": false,
+            "capture_success": true,
+            "frames_captured": 1,
+            "simulation_age_seconds": 30.5,
+            "emitter_names": [
+              "GentleFallingPetals"
+            ],
+            "sprite_size_cm": [
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ],
+              [
+                5.0,
+                7.0
+              ]
+            ],
+            "particle_count": 48,
+            "velocity_count": 48,
+            "world_z_cm": {
+              "min": 107.67543029785156,
+              "max": 550.6808471679688,
+              "mean": 320.77003049850464
+            },
+            "above_sidewalk_count": 48,
+            "visible_height_fraction": 1.0,
+            "simulation_velocity_z_cm_s": {
+              "min": -31.949344635009766,
+              "max": -24.450782775878906,
+              "mean": -28.066994229952495
+            },
+            "sample_world_positions_cm": [
+              [
+                4325.878463745117,
+                84.80746459960938,
+                209.69815063476562
+              ],
+              [
+                3826.461456298828,
+                -13.777725219726562,
+                129.03411865234375
+              ],
+              [
+                4016.9800186157227,
+                -57.571510314941406,
+                107.67543029785156
+              ],
+              [
+                4018.9461822509766,
+                -459.3818664550781,
+                266.0660095214844
+              ],
+              [
+                3839.1119995117188,
+                -414.9970703125,
+                145.81796264648438
+              ]
+            ],
+            "sample_simulation_velocities_cm_s": [
+              [
+                -3.2328405380249023,
+                -2.7241573333740234,
+                -26.560562133789062
+              ],
+              [
+                -4.554338455200195,
+                10.891204833984375,
+                -30.021617889404297
+              ],
+              [
+                -2.467479705810547,
+                9.51382827758789,
+                -30.89813804626465
+              ],
+              [
+                4.67038631439209,
+                -9.435576438903809,
+                -25.215045928955078
+              ],
+              [
+                -3.1925058364868164,
+                -6.823800086975098,
+                -31.750507354736328
+              ]
+            ],
+            "all_values_finite": true,
+            "actor_rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "simulation_z_matches_world_z": true,
+            "downward_velocity_verified": true,
+            "unique_id_count": 48,
+            "temporal_motion_verified": true,
+            "temporal_motion_note": "Compared matching live particle UniqueIDs across real game frames",
+            "matched_particles_between_samples": 47,
+            "sample_interval_seconds": 0.375,
+            "matched_world_z_delta_cm": {
+              "min": -11.981048583984375,
+              "max": -9.16900634765625,
+              "mean": -10.503431928918717
+            }
+          }
+        ],
+        "errors": [],
+        "manually_advanced_simulation": false,
+        "saved_assets": false,
+        "world": "/Game/SakuraDays/Maps/UEDPIE_0_L_SakuraStreet.L_SakuraStreet",
+        "pie_world": true,
+        "total_live_particles": 144,
+        "downward_velocity_verified": true,
+        "temporal_motion_verified": true
+      }
+    ],
+    "game_times_seconds": [
+      80.40093716979027,
+      81.40093848109245
+    ],
+    "complete": true,
+    "note": "Reads actual positions and velocities; does not manually advance simulation or save assets.",
+    "sample_interval_game_seconds": 1.000001311302185,
+    "passed": true,
+    "temporal_position_motion_verified": true
+  },
+  "elapsed_seconds": 138.828,
+  "reference_actor_name": "CameraActor_0",
+  "capture_pose": "PIE pawn faces +X; location reached by movement, no teleport",
+  "editor_frame_observations": {
+    "samples": 151,
+    "median_ms": 125.0,
+    "p95_ms": 125.0,
+    "note": "Slate tick interval during captures; includes editor overhead and screenshot stalls; not an RTX 4050 performance certification."
+  }
+}

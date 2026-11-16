@@ -4,8 +4,8 @@
 
 SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-inspired Japanese neighborhood in spring. The first milestone is a walkable sakura-lined street with a café, one NPC, a short conversation and falling petals.
 
-![Current playable SakuraDays street](Docs/Images/Town_MainStreet.png)
-*Actual 1920×1080 Unreal Engine Play-in-Editor capture of the Japanese town refinement.*
+![Current playable SakuraDays street](Docs/Images/AnimeRefinement/pass3/MainStreet.png)
+*Actual 1920×1080 Unreal Engine Play-in-Editor capture after three controlled anime lighting/material refinement passes.*
 
 ## Current progress
 
@@ -15,8 +15,9 @@ SakuraDays is a Blueprint-first Unreal Engine project exploring a quiet, anime-i
 - HANA and ramen storefronts with authored Japanese lettering, vending machines, bicycles, mailboxes, drainage, utility equipment and a small scenic torii.
 - Flat-roof and hip-roof house variants, lighter sakura canopies with three LODs, subtle blossom wind and a sparse Niagara petal effect.
 - Fixed-reference and gameplay-camera captures, documented art direction, import validation and a full Play-in-Editor traversal test.
+- Three Dream Loop refinement passes with warmer daylight, controlled pink/green colors, clearer paving and 32 passing PIE checks per pass. Original before-and-after Unreal captures are retained.
 
-The anime player character, NPC and dialogue, café interior, further architectural and shading polish, audio, performance profiling and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md) and [town refinement report and screenshots](Docs/TOWN_REFINEMENT.md).
+The anime player character, NPC and dialogue, café interior, further architectural and shading polish, audio, performance profiling and packaging are still ahead. See the [roadmap](Docs/ROADMAP.md), [technical plan](Docs/TECHNICAL_PLAN.md), [town refinement report](Docs/TOWN_REFINEMENT.md) and [latest anime visual comparison](Docs/ANIME_VISUAL_REFINEMENT.md).
 
 ## Getting started
 

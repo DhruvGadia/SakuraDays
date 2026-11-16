@@ -1,0 +1,439 @@
+{
+  "applied": true,
+  "changes": [
+    {
+      "actor": "Prototype_LeftSidewalk",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_1a369718ab3ebbe3.M_Anime_1a369718ab3ebbe3",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_41b9123aee7654be.M_Anime_41b9123aee7654be"
+    },
+    {
+      "actor": "Prototype_RightSidewalk",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_1a369718ab3ebbe3.M_Anime_1a369718ab3ebbe3",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_41b9123aee7654be.M_Anime_41b9123aee7654be"
+    },
+    {
+      "actor": "SD_Cafe_HANA",
+      "slot": 6,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_0ed68f087fa1092a.M_Anime_0ed68f087fa1092a",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_e60e48384cef70c1.M_Anime_e60e48384cef70c1"
+    },
+    {
+      "actor": "SD_Cafe_HANA",
+      "slot": 12,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Cafe_HANA",
+      "slot": 13,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Cafe_Apron",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_1a369718ab3ebbe3.M_Anime_1a369718ab3ebbe3",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_41b9123aee7654be.M_Anime_41b9123aee7654be"
+    },
+    {
+      "actor": "SD_PotBench00",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_PotBench00",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_PotBench01",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_PotBench01",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter00",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter00",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Planter01",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter01",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Planter02",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter02",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Planter03",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter03",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Planter04",
+      "slot": 3,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_330683b41d400f49.M_Anime_330683b41d400f49",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8.M_Anime_ba80eec1be2692f8"
+    },
+    {
+      "actor": "SD_Planter04",
+      "slot": 4,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_695ed2f9b6e3e691.M_Anime_695ed2f9b6e3e691",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3.M_Anime_15931a69b733e9c3"
+    },
+    {
+      "actor": "SD_Shrub00_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub00_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub00_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub01_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub01_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub01_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub02_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub02_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub02_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub03_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub03_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub03_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub04_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub04_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub04_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub05_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub05_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub05_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub06_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub06_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub06_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub07_0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_Shrub07_1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_Shrub07_2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_84f35f3c6e9ac6bb.M_Anime_84f35f3c6e9ac6bb",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f.M_Anime_eac62d7ecc5d5c7f"
+    },
+    {
+      "actor": "SD_EndHedge0",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge1",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge2",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge3",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge4",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge5",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge6",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge7",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge8",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge9",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "SD_EndHedge10",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_bcba0e1777c62a3b.M_Anime_bcba0e1777c62a3b",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942.M_Anime_1cc5a6a3b3a63942"
+    },
+    {
+      "actor": "JP_DistantGround",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "actor": "JP_TownGroundWest",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "actor": "JP_TownGroundEast",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "actor": "JP_TownGroundFar",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "actor": "JP_TownGroundNear",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "actor": "JP_NearNeighborPlot",
+      "slot": 0,
+      "source": "/Game/SakuraDays/Environment/AnimeRefinement/Pass2/M_Anime_f5e37227998b0aef.M_Anime_f5e37227998b0aef",
+      "after": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed.M_Anime_a56df7283a4cdeed"
+    },
+    {
+      "object": "/Game/SakuraDays/Maps/L_SakuraStreet.L_SakuraStreet:PersistentLevel.PostProcessVolume_3",
+      "property": "unbound",
+      "before": false,
+      "after": true
+    },
+    {
+      "object": "/Game/SakuraDays/Maps/L_SakuraStreet.L_SakuraStreet:PersistentLevel.PostProcessVolume_3",
+      "property": "priority",
+      "before": 0.0,
+      "after": 70.0
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "native_surface_refinements": [
+    {
+      "source": "/Game/SakuraDays/Environment/JapaneseTown/Prompt12/Materials/M_TownPaving_3757f24793f8.M_TownPaving_3757f24793f8",
+      "derived": "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_41b9123aee7654be",
+      "before": "float2 q=P.xy/45; q.x+=fmod(floor(q.y),2)*.5; float2 f=frac(q); float e=min(min(f.x,1-f.x),min(f.y,1-f.y)); return C*(.85+.15*smoothstep(.008,.02,e));",
+      "after": "float2 q=P.xy/45.0; q.x+=fmod(floor(q.y),2.0)*0.5; float2 f=frac(q); float e=min(min(f.x,1-f.x),min(f.y,1-f.y)); float aa=max(fwidth(e),0.003); float grout=smoothstep(0.012-aa,0.012+aa,e); float tile=1.0-0.025*fmod(abs(floor(q.x)+2*floor(q.y)),3.0); return C*tile*(0.60+0.40*grout);"
+    }
+  ],
+  "derived_materials": [
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_41b9123aee7654be",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_e60e48384cef70c1",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_15931a69b733e9c3",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_ba80eec1be2692f8",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_eac62d7ecc5d5c7f",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_1cc5a6a3b3a63942",
+    "/Game/SakuraDays/Environment/AnimeRefinement/Pass3/M_Anime_a56df7283a4cdeed"
+  ],
+  "post_process_readback": {
+    "auto_exposure_min_brightness": 1.0,
+    "auto_exposure_max_brightness": 1.0,
+    "auto_exposure_bias": 1.7999999523162842,
+    "bloom_intensity": 0.03999999910593033,
+    "motion_blur_amount": 0.0,
+    "vignette_intensity": 0.0,
+    "scene_fringe_intensity": 0.0,
+    "color_saturation": {
+      "x": 1.045,
+      "y": 1.045,
+      "z": 1.045,
+      "w": 1.0
+    },
+    "color_gamma_shadows": {
+      "x": 1.055,
+      "y": 1.065,
+      "z": 1.09,
+      "w": 1.0
+    },
+    "color_saturation_shadows": {
+      "x": 0.85,
+      "y": 0.85,
+      "z": 0.85,
+      "w": 1.0
+    },
+    "color_gain_highlights": {
+      "x": 1.015,
+      "y": 1.0,
+      "z": 0.985,
+      "w": 1.0
+    }
+  },
+  "preserved_actor_count": 750,
+  "intentional_mesh_substitutions": [],
+  "effects": "Existing three Niagara zones (144 petals) and vertex-weighted wind preserved",
+  "validation": "Authoring readback only; PIE and image review required separately"
+}

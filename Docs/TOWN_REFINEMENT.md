@@ -1,5 +1,7 @@
 # Japanese town refinement — Prompt 12
 
+The later [Prompt 13 anime refinement](ANIME_VISUAL_REFINEMENT.md) updates lighting and materials while preserving this pass's geometry and gameplay. The images and hashes below document the earlier Prompt 12 checkpoint.
+
 This pass layers Japanese neighborhood details over the existing `/Game/SakuraDays/Maps/L_SakuraStreet`. It keeps the compact playable street, Third Person character and input assets, original HANA café, and approved reference camera. The original Third Person map remains the project default.
 
 **Verification status, 16 November 2026:** the final saved street passed **32/32 Play-in-Editor checks**, with no reported test errors. Eight genuine 1920 × 1080 Unreal captures have been reviewed. Two live Niagara simulation samples verify 144 correctly sized petals above the sidewalks, with matched particles moving downward between samples. Geometry, identity, materials and initial lighting stages each passed 27 checks; the exposure and sign-visibility issues found during review are corrected. This report supersedes the older street assembly report for Prompt 12 work only.
